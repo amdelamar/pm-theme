@@ -18,22 +18,23 @@ A collapsed CSS that's simple to edit by anyone.
     --theme7: #996699;
 }
 ```
-Just overrite your favorite colors here, or generate a pretty palette from https://coolors.co/
+Just overwrite these colors with your favorites, or generate a pretty palette from https://coolors.co/
 
 ---
 
 ### Usage
 
-- Open a theme and copy the contents
-- Paste the contents into the custom theme in ProtonMail (Settings > Appearance > Custom Theme). This is only available for the web version and not the mobile apps.
+- Open/Download a CSS theme file and copy the contents.
+- Paste the contents into the custom theme in ProtonMail. (Settings > Appearance > Custom Theme).
 - Enjoy!
 
 ---
 
 ### Note
 
+- This is only available for the web version and not the PM mobile apps.
 - Some of these themes don't always appear the best. I apologize if they hurt your eyes.
-- Dark theme is a bit difficult to edit the Compose popup because its in an iframe. Sorry.
+- Dark theme is a bit difficult to edit the Compose popup because its in an iframe. I'm still trying to fix that.
 
 ---
 
