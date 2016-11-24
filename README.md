@@ -22,6 +22,36 @@ Just overwrite these colors with your favorites, or generate a pretty palette fr
 
 ---
 
+### PM Dark Theme
+> [Download/View CSS](/pm-dark-theme.css)
+<img src="/screenshots/pm-dark-theme.png" width="100%" />
+
+### Burnt Theme
+> [Download/View CSS](/burnt-theme.css)
+<img src="/screenshots/burnt-theme.png" width="100%" />
+
+
+### Seaweed Theme
+> [Download/View CSS](/seaweed-theme.css)
+<img src="/screenshots/seaweed-theme.png" width="100%" />
+
+
+### Gum Theme
+> [Download/View CSS](/gum-theme.css)
+<img src="/screenshots/gum-theme.png" width="100%" />
+
+
+### Grey Theme
+> [Download/View CSS](/grey-theme.css)
+<img src="/screenshots/grey-theme.png" width="100%" />
+
+
+### GM Theme
+> [Download/View CSS](/gm-theme.css) (Grey with a touch of Red.)
+<img src="/screenshots/gm-theme.png" width="100%" />
+
+---
+
 ### Usage
 
 - Open/Download a CSS theme file and copy the contents.
