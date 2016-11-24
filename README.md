@@ -1,6 +1,6 @@
 <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fcache3.asset-cache.net%2Fxt%2F171555439.jpg%3Fv%3D1%26g%3Dfs1%7C0%7CEPL%7C55%7C439%26s%3D1&f=1" align="right" />
 # Easy Themes for ProtonMail
-A collapsed CSS that's simple to edit and change by anyone.
+A collapsed CSS that's simple to edit by anyone.
 
 ### What's so special about this?
 
