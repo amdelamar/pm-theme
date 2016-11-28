@@ -22,10 +22,6 @@ Just overwrite these colors with your favorites, or generate a pretty palette fr
 
 ---
 
-### PM Dark Theme
-> [Download/View CSS](/pm-dark-theme.css)
-<img src="/screenshots/pm-dark-theme.png" width="100%" />
-
 ### Burnt Theme
 > [Download/View CSS](/burnt-theme.css)
 <img src="/screenshots/burnt-theme.png" width="100%" />
@@ -39,6 +35,16 @@ Just overwrite these colors with your favorites, or generate a pretty palette fr
 ### Gum Theme
 > [Download/View CSS](/gum-theme.css)
 <img src="/screenshots/gum-theme.png" width="100%" />
+
+
+### PM Dark Theme
+> [Download/View CSS](/pm-dark-theme.css)
+<img src="/screenshots/pm-dark-theme.png" width="100%" />
+
+
+### PM Flat Theme
+> [Download/View CSS](/pm-flat-theme.css)
+<img src="/screenshots/pm-flat-theme.png" width="100%" />
 
 
 ### Grey Theme
