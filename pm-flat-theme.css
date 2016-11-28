@@ -216,6 +216,10 @@ body section.sidebar ul.menu li a i.fa {
     color: var(--theme2)
 }
 
+body section.sidebar ul.menu li a .fa-repeat {
+    color: var(--theme6)  
+}
+
 body section.sidebar ul.menu li a .fa-repeat:hover {
     color: var(--theme1)
 }
@@ -410,6 +414,7 @@ body.mobileMode #pm_sidebar section.sidebar ul.menu li button {
 }
 
 #conversation-view .message .frame {
+    background-color: var(--theme7);
     border-top: 1px solid var(--theme4);
 }
 
