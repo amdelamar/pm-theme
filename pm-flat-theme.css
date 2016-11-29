@@ -1353,7 +1353,7 @@ body .cg-notify-message.notification-info {
 }
 
 .conversation .row .pm_labels label {
-    background: var(--theme3)
+    background: transparent;
 }
 
 .conversation .row h4 {
@@ -1370,7 +1370,7 @@ body .cg-notify-message.notification-info {
 }
 
 .conversation.read .pm_labels label {
-    box-shadow: .25rem 0 0 .25rem var(--theme3);
+    box-shadow: none;
     background: transparent;
 }
 
@@ -1389,7 +1389,7 @@ body .cg-notify-message.notification-info {
 
 .conversation.active .pm_labels label {
     background: transparent;
-    box-shadow: .25rem 0 0 .25rem var(--theme5)
+    box-shadow: none;
 }
 
 body #conversation-list-rows .conversation {
