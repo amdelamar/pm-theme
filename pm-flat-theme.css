@@ -18,19 +18,17 @@
     --green-light: #89bc70;
     --blue: #bce8f1;
     --blue-light: #93b9cc;
+    --white: #FFF;
     --black: #000;
 }
 
 
 /*!
-*  Custom Theme for ProtonMail v3.5.16
+*  Custom Theme for ProtonMail v3.6
 *  --
 *  Author: Austin Delamar - http://github.com/amdelamar
-*/
-
-
-/*!
-*  == Credit to these authors as well ==
+*
+*  == Credit to these authors as well... ==
 *
 *  Font Awesome 4.5.0 by @davegandy - http://fontawesome.io - @fontawesome
 *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -121,7 +119,10 @@ header#pm_header-desktop a.logo {
     color: var(--theme1);
     background-color: var(--theme3);
 }
-
+header#pm_header-desktop a.logo img {
+    webkit-filter: grayscale(100%) brightness(50%);
+    filter: grayscale(100%) brightness(50%);
+}
 header#pm_header-desktop ul.navigation>li:hover {
     box-shadow: 0 5px 0 0 var(--theme6) inset;
 }
@@ -217,7 +218,7 @@ body section.sidebar ul.menu li a i.fa {
 }
 
 body section.sidebar ul.menu li a .fa-repeat {
-    color: var(--theme6)  
+    color: var(--theme6)
 }
 
 body section.sidebar ul.menu li a .fa-repeat:hover {
@@ -435,7 +436,9 @@ body.mobileMode #conversation-view .message.details>div.summary .meta .contact e
 }
 
 #pm_placeholder {
-    color: var(--theme2)
+    color: var(--theme4);
+    padding-top: 40%;
+    text-transform: uppercase;
 }
 
 #nothingToSeeHere .fa {
@@ -488,6 +491,7 @@ body#reset .alert {
 
 #pm_composer .composer .fill {
     color: var(--black);
+    background: var(--theme7);
 }
 
 #pm_composer .composer {
@@ -638,6 +642,10 @@ body#reset .alert {
 
 #pm_settings .well {
     border: 1px solid var(--theme4)
+}
+
+#pm_settings .editor-container, #pm_settings .usage {
+    background: var(--theme7);
 }
 
 #pm_settings .usage .total, #pm_settings .usage .used {
@@ -957,7 +965,7 @@ body .pm_form textarea[readonly], pre {
 }
 
 .alert.alert-info {
-    background: var(--theme3)
+    background: var(--theme4)
 }
 
 .alert.alert-success {
@@ -1592,7 +1600,8 @@ body.mobileMode #body #pm_main .fa-check-square, body.mobileMode #body #pm_main 
 
 .pm_modal .modal-dialog {
     background: var(--theme3);
-    border: 5px solid var(--theme1);
+    border: 5px solid var(--theme3);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
 }
 
 .pm_modal .modal-dialog .close {
@@ -1734,7 +1743,7 @@ body.mobileMode .pm_modal .modal-dialog .close {
 }
 
 .pm_form textarea {
-    background: var(--theme3);
+    background: var(--theme7);
 }
 
 body.light .pm_panel {
