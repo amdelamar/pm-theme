@@ -226,11 +226,11 @@ body section.sidebar ul.menu li a .fa-repeat:hover {
 }
 
 body section.sidebar ul.menu li.active a {
-    color: var(--theme2);
+    color: var(--theme2)
 }
 
 body section.sidebar ul.menu li.active a:hover {
-    color: var(--theme1);
+    color: var(--theme1)
 }
 
 body section.sidebar ul.menu li.active a i.fa {
@@ -238,7 +238,8 @@ body section.sidebar ul.menu li.active a i.fa {
 }
 
 body section.sidebar div.labels ul li.active a {
-    color: var(--theme3)
+    color: var(--theme2);
+    font-weight: 700;
 }
 
 body section.sidebar div.labels ul li a:hover {
@@ -246,7 +247,7 @@ body section.sidebar div.labels ul li a:hover {
 }
 
 body section.sidebar div.footer div.link a {
-    color: var(--theme1);
+    color: var(--theme1)
 }
 
 body section.sidebar div.footer div.link a:hover {
@@ -258,7 +259,7 @@ body section.sidebar div.footer div.storage strong {
 }
 
 body section.sidebar div.footer a.upgrade {
-    color: var(--theme1);
+    color: var(--theme1)
 }
 
 body section.sidebar div.footer .bar em {
@@ -1421,11 +1422,11 @@ body #conversation-list-rows .conversation .subject h4 {
 }
 
 body #conversation-list-rows .conversation .subject .pm_labels {
-    background: var(--theme3);
+    background: transparent;
 }
 
 body #conversation-list-rows .conversation .subject .pm_labels label {
-    background: var(--theme3)
+    background: transparent;
 }
 
 body #conversation-list-rows .conversation.read, body #conversation-list-rows .conversation.read .subject .pm_labels, body #conversation-list-rows .conversation.read .subject .pm_labels label {
