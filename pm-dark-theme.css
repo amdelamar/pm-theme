@@ -1,15 +1,15 @@
 @charset "UTF-8";
 :root {
-/* Core Theme Colors */
+    /* Core Theme Colors */
     --theme1: #66669a;
-    --theme2: #2a2a33;
+    --theme2: #fefefe;
     --theme3: #222224;
-    --theme4: #5a5b63;
-    --theme5: #35373e;
-    --theme6: #36384e;
-    --theme7: #48486c;
+    --theme4: #36384e;
+    --theme5: #9397cd;
+    --theme6: #48486c;
+    --theme7: #35373e;
 
-/* Alert & Status Colors */
+    /* Alert & Status Colors */
     --red: #cc9393;
     --red-light: #ec6446;
     --yellow: #dfdf19;
@@ -18,31 +18,17 @@
     --green-light: #89bc70;
     --blue: #bce8f1;
     --blue-light: #93b9cc;
-
-/* Shades of Grey */
-    --white: #161617;
-    --light1: #555;
-    --light2: #222;
-    --light3: #333;
-    --light4: #444;
-    --medium1: #8c8c8c;
-    --medium2: #CCC;
-    --dark0: #444;
-    --dark1: #555;
-    --dark2: #888;
-    --dark3: #999;
-    --dark4: #dfdfdf;
-    --black: #cccccc;
+    --white: #FFF;
+    --black: #000;
 }
 
 
 /*!
-*  Custom Theme for ProtonMail v3.5.15
+*  Custom Theme for ProtonMail v3.6.9
 *  --
-*  Author: Austin Delamar - http://austindelamar.com
-*/
-/*!
-*  == Credit to these authors as well ==
+*  Author: Austin Delamar - http://github.com/amdelamar
+*
+*  == Credit to these authors as well... ==
 *
 *  Font Awesome 4.5.0 by @davegandy - http://fontawesome.io - @fontawesome
 *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -52,8 +38,8 @@
 */
 
 #exiting {
-    background-color: var(--white);
-    color: var(--dark2);
+    background-color: var(--theme3);
+    color: var(--theme2);
 }
 
 #exiting .spinner.large .spinner1, #exiting .spinner.large .spinner2, #exiting .spinner.large .spinner3 {
@@ -61,7 +47,7 @@
 }
 
 .spinner.large .spinner1, .spinner.large .spinner2, .spinner.large .spinner3 {
-    background-color: var(--white)
+    background-color: var(--theme3)
 }
 
 .spinner1, .spinner2, .spinner3 {
@@ -69,8 +55,8 @@
 }
 
 .proton-embedded:after {
-    background: url(/assets/img/icons/broken-img.png) 5px 50% no-repeat var(--white);
-    border-color: var(--dark1) var(--medium1) var(--medium1) var(--dark1)
+    background: url(/assets/img/icons/broken-img.png) 5px 50% no-repeat var(--theme3);
+    border-color: var(--theme2) var(--theme4) var(--theme4) var(--theme2)
 }
 
 html.protonmail body {
@@ -78,23 +64,23 @@ html.protonmail body {
 }
 
 html.protonmail body.blank, html.protonmail body.secure {
-    background: var(--white)
+    background: var(--theme3)
 }
 
 html.protonmail .visionary {
-    color: var(--white)
+    color: var(--theme3)
 }
 
 html.protonmail .plus {
-    color: var(--white)
+    color: var(--theme3)
 }
 
 html.protonmail .text-gray {
-    color: var(--dark2)
+    color: var(--theme2)
 }
 
 html.protonmail .text-light-gray {
-    color: var(--medium1)
+    color: var(--theme4)
 }
 
 html.protonmail .text-green {
@@ -122,19 +108,23 @@ header#pm_header {
 }
 
 header#pm_header .newBugReport-container, header#pm_header a {
-    color: var(--white);
+    color: var(--theme3);
 }
 
 header#pm_header-desktop {
-    background: var(--theme5);
+    background: var(--theme3);
 }
 
 header#pm_header-desktop a.logo {
-    background-color: var(--theme2);
+    color: var(--theme1);
+    background-color: var(--theme3);
 }
-
+header#pm_header-desktop a.logo img {
+    webkit-filter: grayscale(100%) brightness(50%);
+    filter: grayscale(100%) brightness(50%);
+}
 header#pm_header-desktop ul.navigation>li:hover {
-    box-shadow: 0 5px 0 0 var(--theme1) inset;
+    box-shadow: 0 5px 0 0 var(--theme6) inset;
 }
 
 header#pm_header-desktop ul.navigation>li.active {
@@ -142,12 +132,7 @@ header#pm_header-desktop ul.navigation>li.active {
 }
 
 header#pm_header-desktop ul.navigation>li>a {
-    color: var(--black);
-}
-
-header#pm_header-desktop ul.navigation>li .pm_dropdown .pm_button.primary:hover {
-    background: var(--special2) !important;
-    color: var(--white)!important
+    color: var(--theme2);
 }
 
 header#pm_header-desktop.no-auth {
@@ -155,7 +140,7 @@ header#pm_header-desktop.no-auth {
 }
 
 header#pm_header-desktop.no-auth a {
-    color: var(--white);
+    color: var(--theme3);
 }
 
 header#pm_header-tablet {
@@ -164,7 +149,7 @@ header#pm_header-tablet {
 
 header#pm_header-tablet .compose {
     background-color: var(--theme1);
-    color: var(--white);
+    color: var(--theme3);
 }
 
 header#pm_header-tablet .compose:hover {
@@ -172,15 +157,15 @@ header#pm_header-tablet .compose:hover {
 }
 
 header#pm_header-tablet .compose:active {
-    background-color: var(--theme7)
+    background-color: var(--theme5)
 }
 
 header#pm_header-tablet a.logoMobile {
-    color: var(--white)
+    color: var(--theme3)
 }
 
 header#pm_header-tablet .location {
-    color: var(--white);
+    color: var(--theme3);
 }
 
 header#pm_header-mobile {
@@ -192,19 +177,19 @@ header#pm_header-mobile a.compose, header#pm_header-mobile a.compose:hover {
 }
 
 header#pm_header-mobile a.logoMobile {
-    color: var(--white)
+    color: var(--theme3)
 }
 
 header#pm_header-mobile .searchBtn, header#pm_header-mobile a.compose {
-    color: var(--white);
+    color: var(--theme3);
 }
 
 header#pm_header-mobile .location {
-    color: var(--white);
+    color: var(--theme3);
 }
 
 #attachmentArea {
-    background: var(--white);
+    background: var(--theme3);
     border-top: 1px solid var(--theme4)
 }
 
@@ -213,19 +198,39 @@ header#pm_header-mobile .location {
 }
 
 body section.sidebar {
-    background: var(--theme2);
+    background: var(--theme3);
+}
+
+body section.sidebar ul.menu li a {
+    color: var(--theme2)
 }
 
 body section.sidebar ul.menu li a:hover {
-    color: var(--white)
+    color: var(--theme1)
+}
+
+body section.sidebar ul.menu li a em {
+    color: var(--theme5)
+}
+
+body section.sidebar ul.menu li a i.fa {
+    color: var(--theme2)
+}
+
+body section.sidebar ul.menu li a .fa-repeat {
+    color: var(--theme6)
 }
 
 body section.sidebar ul.menu li a .fa-repeat:hover {
-    color: var(--white)
+    color: var(--theme1)
 }
 
 body section.sidebar ul.menu li.active a {
-    color: var(--white);
+    color: var(--theme2)
+}
+
+body section.sidebar ul.menu li.active a:hover {
+    color: var(--theme1)
 }
 
 body section.sidebar ul.menu li.active a i.fa {
@@ -233,19 +238,20 @@ body section.sidebar ul.menu li.active a i.fa {
 }
 
 body section.sidebar div.labels ul li.active a {
-    color: var(--white)
+    color: var(--theme2);
+    font-weight: 700;
 }
 
 body section.sidebar div.labels ul li a:hover {
-    color: var(--white)
+    color: var(--theme3)
 }
 
 body section.sidebar div.footer div.link a {
-    color: var(--theme1);
+    color: var(--theme1)
 }
 
 body section.sidebar div.footer div.link a:hover {
-    color: var(--white)
+    color: var(--theme2)
 }
 
 body section.sidebar div.footer div.storage strong {
@@ -253,11 +259,19 @@ body section.sidebar div.footer div.storage strong {
 }
 
 body section.sidebar div.footer a.upgrade {
-    color: var(--theme1);
+    color: var(--theme1)
 }
 
 body section.sidebar div.footer .bar em {
     background-color: var(--theme1)
+}
+
+body section.sidebar div.footer .bar {
+    background-color: var(--theme4)
+}
+
+body section.sidebar a.compose {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
 }
 
 body section.sidebar a.version {
@@ -265,7 +279,19 @@ body section.sidebar a.version {
 }
 
 body section.sidebar a.version:hover {
-    color: var(--white)
+    color: var(--theme3)
+}
+
+body section.sidebar div.labels ul li a {
+    color: var(--theme2);
+}
+
+body section.sidebar div.labels ul li a:hover {
+    color: var(--theme1);
+}
+
+body section.sidebar div.labels ul li a em {
+    color: var(--theme2);
 }
 
 body.mobileMode #pm_sidebar section.sidebar {
@@ -273,15 +299,15 @@ body.mobileMode #pm_sidebar section.sidebar {
 }
 
 body.mobileMode #pm_sidebar section.sidebar .pm_button.round .fa {
-    color: var(--white);
+    color: var(--theme3);
 }
 
 body.mobileMode #pm_sidebar section.sidebar .userDisplay em, body.mobileMode #pm_sidebar section.sidebar .userDisplay strong {
-    color: var(--white);
+    color: var(--theme3);
 }
 
 body.mobileMode #pm_sidebar section.sidebar ul.menu li button {
-    color: var(--white);
+    color: var(--theme3);
 }
 
 .pm_toolbar {
@@ -293,11 +319,11 @@ body.mobileMode #pm_sidebar section.sidebar ul.menu li button {
 }
 
 #conversation-view header {
-    border-bottom: 1px solid var(--theme4);
+    border-bottom: 0px solid var(--theme4);
 }
 
 #conversation-view header h1 {
-    color: var(--dark0);
+    color: var(--white);
 }
 
 #conversation-view .message {
@@ -317,15 +343,15 @@ body.mobileMode #pm_sidebar section.sidebar ul.menu li button {
 }
 
 #conversation-view .message.unread>div.summary {
-    background: var(--white)
+    background: var(--theme3)
 }
 
 #conversation-view .message.unread>div.summary .labels, #conversation-view .message.unread>div.summary .status, #conversation-view .message.unread>div.summary .time, #conversation-view .message.unread>div.summary .time::after {
-    background: var(--white)!important
+    background: var(--theme3)!important
 }
 
 #conversation-view .message.unread>div.summary .labels .pm_labels label {
-    box-shadow: .25rem 0 0 .25rem var(--white)
+    box-shadow: .25rem 0 0 .25rem var(--theme3)
 }
 
 #conversation-view .message>div.summary {
@@ -343,7 +369,7 @@ body.mobileMode #pm_sidebar section.sidebar ul.menu li button {
 }
 
 #conversation-view .message>div.summary .meta .contact span {
-    color: var(--medium2)
+    color: var(--theme4)
 }
 
 #conversation-view .message>div.summary .labels .pm_labels label {
@@ -355,23 +381,23 @@ body.mobileMode #pm_sidebar section.sidebar ul.menu li button {
 }
 
 #conversation-view .message>div.details .pm_buttons a {
-    background: var(--white)
+    background: var(--theme3)
 }
 
 #conversation-view .message>div.details .recipients-details .from, #conversation-view .message>div.details .recipients-details .where {
-    color: var(--medium2)
+    color: var(--theme4)
 }
 
 #conversation-view .message>div.details .recipients-details .contact em {
-    color: var(--medium2)
+    color: var(--theme4)
 }
 
 #conversation-view .message>div.details .recipients-summary strong {
-    color: var(--medium2);
+    color: var(--theme4);
 }
 
 #conversation-view .message>div.details .recipients-summary .from {
-    color: var(--medium2)
+    color: var(--theme4)
 }
 
 #conversation-view .message .toggleDetails {
@@ -380,7 +406,7 @@ body.mobileMode #pm_sidebar section.sidebar ul.menu li button {
 
 #conversation-view .message .expiration {
     background: var(--red-light);
-    color: var(--white);
+    color: var(--theme3);
 }
 
 #conversation-view .message .showImages {
@@ -390,6 +416,8 @@ body.mobileMode #pm_sidebar section.sidebar ul.menu li button {
 }
 
 #conversation-view .message .frame {
+    color: var(--black);
+    background-color: var(--white);
     border-top: 1px solid var(--theme4);
 }
 
@@ -406,11 +434,13 @@ body#eo-unlock, body#login-unlock, body#reset {
 }
 
 body.mobileMode #conversation-view .message.details>div.summary .meta .contact em {
-    color: var(--medium2)
+    color: var(--theme4)
 }
 
 #pm_placeholder {
-    color: var(--dark4)
+    color: var(--theme4);
+    padding-top: 40%;
+    text-transform: uppercase;
 }
 
 #nothingToSeeHere .fa {
@@ -430,47 +460,48 @@ body.mobileMode #conversation-view .message.details>div.summary .meta .contact e
 }
 
 body#reset .alert {
-    color: var(--black)
+    color: var(--white)
 }
 
 #pm_footer {
-    color: var(--white);
+    color: var(--theme3);
 }
 
 #pm_footer a {
-    color: var(--white);
+    color: var(--theme3);
 }
 
 #pm_footer a:hover {
-    color: var(--light1)
+    color: var(--theme4)
 }
 
 #pm_footer.static {
-    color: var(--dark2);
+    color: var(--theme2);
 }
 
 #pm_footer.static a {
-    color: var(--dark2);
+    color: var(--theme2);
 }
 
 #pm_footer.static a:hover {
-    color: var(--black)
-}
-
-#pm_composer .composer {
-    background: var(--white);
+    color: var(--white)
 }
 
 #pm_composer .composer .meta input {
-    background: var(--white);
+    background: var(--theme3);
 }
 
 #pm_composer .composer .fill {
     color: var(--black);
+    background: var(--white);
+}
+
+#pm_composer .composer {
+    background: var(--theme3);
 }
 
 #pm_composer .composer .askEmbedding {
-    background: var(--light3);
+    background: var(--theme3);
     color: var(--theme2);
 }
 
@@ -479,16 +510,16 @@ body#reset .alert {
 }
 
 #pm_composer .composer .askEmbedding ul {
-    background: var(--white);
+    background: var(--theme3);
     border: 1px solid rgba(0, 0, 0, .2);
 }
 
 #pm_composer .composer .options {
-    background: var(--light2);
+    background: var(--theme3);
 }
 
 #pm_composer .composer .options footer {
-    background: var(--light2);
+    background: var(--theme3);
 }
 
 #pm_composer .composer .attachmentBar {
@@ -501,7 +532,7 @@ body#reset .alert {
 }
 
 #pm_composer .composer .previews .preview-close {
-    color: var(--dark2)
+    color: var(--theme2)
 }
 
 #pm_composer .composer .previews .attachment .fa.embedded {
@@ -509,7 +540,7 @@ body#reset .alert {
 }
 
 #pm_composer .composer .previews .pm_button {
-    background: var(--white)
+    background: var(--theme3)
 }
 
 #pm_composer .composer.attachmentsOpen .attachmentBar {
@@ -517,20 +548,24 @@ body#reset .alert {
 }
 
 #pm_composer .composer.attachmentsOpen .attachmentArea .pm_button {
-    color: var(--dark2);
+    color: var(--theme2);
 }
 
 #pm_composer .composer.attachmentsOpen .attachmentArea .pm_button.uploading {
-    background: var(--medium1)
+    background: var(--theme4)
 }
 
 #pm_composer .composer header {
-    background: var(--theme2);
-    color: var(--white)
+    background: var(--theme5);
+    color: var(--theme3)
 }
 
 #pm_composer .composer header .actions .pm_button {
     color: var(--theme3);
+}
+
+#pm_composer .composer header .actions .pm_button:hover {
+    color: var(--theme2);
 }
 
 #pm_composer .composer .row {
@@ -538,15 +573,15 @@ body#reset .alert {
 }
 
 #pm_composer .composer .row.placeholder div {
-    color: var(--dark4);
+    color: var(--theme2);
 }
 
 #pm_composer .composer input, #pm_composer .composer select {
-    color: var(--dark0);
+    color: var(--theme2);
 }
 
 #pm_composer .composer .meta {
-    color: var(--medium1)
+    color: var(--theme4)
 }
 
 #pm_composer .composer footer {
@@ -555,7 +590,7 @@ body#reset .alert {
 }
 
 #pm_composer .composer footer .pm_button {
-    background: var(--white)
+    background: var(--theme3)
 }
 
 #pm_composer .composer footer .pm_button.primary {
@@ -563,23 +598,23 @@ body#reset .alert {
 }
 
 #pm_composer .composer footer .pm_button.disabled {
-    background: var(--black)
+    background: var(--white)
 }
 
 #pm_composer .composer ::-webkit-input-placeholder {
-    color: var(--medium1)
+    color: var(--theme4)
 }
 
 #pm_composer .composer :-moz-placeholder {
-    color: var(--medium1)
+    color: var(--theme4)
 }
 
 #pm_composer .composer ::-moz-placeholder {
-    color: var(--medium1)
+    color: var(--theme4)
 }
 
 #pm_composer .composer :-ms-input-placeholder {
-    color: var(--medium1)
+    color: var(--theme4)
 }
 
 .squireToolbar-container {
@@ -592,32 +627,36 @@ body#reset .alert {
 }
 
 .squire-popover {
-    background: var(--white);
+    background: var(--theme3);
     border: 1px solid var(--theme4);
 }
 
 .squire-popover input {
     border: 1px solid var(--theme3);
-    color: var(--dark4);
+    color: var(--theme2);
 }
 
 .squire-popover button {
     border: 1px solid var(--theme1);
     background-color: var(--theme1);
-    color: var(--white);
+    color: var(--theme3);
 }
 
 #pm_settings .well {
     border: 1px solid var(--theme4)
 }
 
+#pm_settings .editor-container, #pm_settings .usage {
+    background: var(--theme7);
+}
+
 #pm_settings .usage .total, #pm_settings .usage .used {
-    color: var(--medium1);
-    background: var(--white);
+    color: var(--theme4);
+    background: var(--theme3);
 }
 
 #pm_settings .usage .bar {
-    background: var(--light4)
+    background: var(--theme3)
 }
 
 #pm_settings .usage .bar .amount {
@@ -625,20 +664,33 @@ body#reset .alert {
 }
 
 #pm_settings .pm_tabs {
-    background: var(--theme5);
+    background: var(--theme3);
 }
 
 #pm_settings .pm_tabs li a.pm_button {
-    background-color: var(--theme4);
+    background-color: var(--theme6);
     border-color: var(--theme5);
-    color: var(--dark3);
+    color: var(--theme3);
     border-bottom: 1px solid var(--theme5)
 }
 
+#pm_settings .pm_tabs li a.pm_button:hover {
+  background: var(--theme3);
+  color: var(--theme1);
+}
+
 #pm_settings .pm_tabs li.active a.pm_button {
-    background: var(--white);
-    color: var(--theme1);
-    border-bottom-color: var(--white)
+    background: var(--theme3);
+    color: var(--theme2);
+    border-bottom-color: var(--theme3)
+}
+
+#pm_settings .pm_tabs li.active a.pm_button:hover {
+  color: var(--theme1);
+}
+
+#pm_settings .pm_tabs li:last-child a {
+  border-right: 1px solid var(--theme5);
 }
 
 #pm_settings .settings .angular-squire-wrapper {
@@ -650,7 +702,7 @@ body#reset .alert {
 }
 
 #pm_settings .settings #keys-addressTable td .fa-check {
-    color: var(--dark2)
+    color: var(--theme2)
 }
 
 #pm_settings .settings .row .border-bottom {
@@ -663,11 +715,11 @@ body#reset .alert {
 
 #pm_settings .settings .row .setting .as-sortable-dragging {
     border: 1px solid var(--theme4);
-    background: var(--white);
+    background: var(--theme3);
 }
 
 #pm_settings .settings .row .setting .as-sortable-dragging .fa-check {
-    background: var(--white);
+    background: var(--theme3);
     color: var(--theme1);
 }
 
@@ -680,16 +732,16 @@ body.mobileMode #pm_settings .settings .pm_sort ul {
 }
 
 body.mobileMode #pm_settings .pm_tabs {
-    background: var(--white);
+    background: var(--theme3);
 }
 
 body.mobileMode #pm_settings .pm_tabs>li>a.pm_button {
-    color: var(--dark3);
+    color: var(--theme5);
     border: 1px solid var(--theme4);
 }
 
 body.mobileMode #pm_settings .pm_tabs>li>a.pm_button:hover {
-    background-color: var(--light2)
+    background-color: var(--theme3)
 }
 
 body.mobileMode #pm_settings .pm_tabs>li>a.pm_button:active, body.mobileMode #pm_settings .pm_tabs>li>a.pm_button:focus {
@@ -699,7 +751,7 @@ body.mobileMode #pm_settings .pm_tabs>li>a.pm_button:active, body.mobileMode #pm
 body.mobileMode #pm_settings .pm_tabs>li.active>a.pm_button {
     background-color: var(--theme1);
     border-color: var(--theme1);
-    color: var(--white)
+    color: var(--theme3)
 }
 
 body.mobileMode #pm_settings .pm_tabs>li.active>a.pm_button:hover {
@@ -708,8 +760,8 @@ body.mobileMode #pm_settings .pm_tabs>li.active>a.pm_button:hover {
 }
 
 body.mobileMode #pm_settings .pm_tabs>li.active>a.pm_button:active, body.mobileMode #pm_settings .pm_tabs>li.active>a.pm_button:focus {
-    background-color: var(--theme7);
-    border-color: var(--theme7);
+    background-color: var(--theme5);
+    border-color: var(--theme5);
 }
 
 body.mobileMode #pm_settings .settings table.pm_table tr {
@@ -737,15 +789,15 @@ body.mobileMode #invoicesList li p.title {
 }
 
 #login-setup #pm_footer {
-    color: var(--dark2)
+    color: var(--theme2)
 }
 
 #login-setup #pm_footer a {
-    color: var(--dark2);
+    color: var(--theme2);
 }
 
 #login-setup #pm_footer a:hover {
-    color: var(--black)
+    color: var(--white)
 }
 
 #login-setup .spinner.large .spinner1, #login-setup .spinner.large .spinner2, #login-setup .spinner.large .spinner3 {
@@ -753,11 +805,11 @@ body.mobileMode #invoicesList li p.title {
 }
 
 #login-setup .wrapper label em.num {
-    background-color: var(--light4);
+    background-color: var(--theme3);
 }
 
 #login-setup .wrapper label span {
-    color: var(--dark4);
+    color: var(--theme2);
 }
 
 #signup .spinner.large .spinner1, #signup .spinner.large .spinner2, #signup .spinner.large .spinner3 {
@@ -765,11 +817,11 @@ body.mobileMode #invoicesList li p.title {
 }
 
 #signup .titleLabel em.num {
-    background-color: var(--light4);
+    background-color: var(--theme3);
 }
 
 #signup .titleLabel span {
-    color: var(--dark4);
+    color: var(--theme2);
 }
 
 .ua-ie #pm_composer .composer {
@@ -777,7 +829,7 @@ body.mobileMode #invoicesList li p.title {
 }
 
 html.protonmail body.light {
-    background-color: var(--light4)
+    background-color: var(--theme3)
 }
 
 body#eo-message, body#eo-reply {
@@ -785,7 +837,7 @@ body#eo-message, body#eo-reply {
 }
 
 body#eo-reply ul.infos {
-    color: var(--dark1);
+    color: var(--theme2);
 }
 
 body#eo-reply ul.infos b, body#eo-reply ul.infos em {
@@ -803,11 +855,11 @@ body#eo-reply footer {
 
 .outside #expirationMessage {
     background-color: var(--red-light);
-    color: var(--white);
+    color: var(--theme3);
 }
 
 .outside #outsideMessageWrap {
-    background-color: var(--white)
+    background-color: var(--theme3)
 }
 
 .outside #attachmentArea {
@@ -815,17 +867,17 @@ body#eo-reply footer {
 }
 
 .outside .display-embedded, .outside .display-image {
-    background: var(--white);
+    background: var(--theme3);
     border: 1px solid var(--theme4);
 }
 
 .outside .display-embedded a, .outside .display-image a {
     color: var(--theme1);
-    background-color: var(--white)!important
+    background-color: var(--theme3)!important
 }
 
 .outside .display-embedded:hover, .outside .display-image:hover {
-    background: var(--white)
+    background: var(--theme3)
 }
 
 .outside .message-metadata {
@@ -833,7 +885,7 @@ body#eo-reply footer {
 }
 
 .outside .message-metadata ul.infos li strong, .outside .message-metadata ul.infos strong {
-    color: var(--dark2);
+    color: var(--theme2);
 }
 
 .outside .message-metadata ul.infos b, .outside .message-metadata ul.infos li b {
@@ -841,15 +893,15 @@ body#eo-reply footer {
 }
 
 body.mobileMode body#eo-reply #message-body iframe {
-    background: var(--white)
+    background: var(--theme3)
 }
 
 body {
-    color: var(--black);
+    color: var(--theme2);
 }
 
 code {
-    color: var(--black);
+    color: var(--white);
 }
 
 p a {
@@ -861,24 +913,24 @@ hr {
 }
 
 kbd {
-    color: var(--dark4);
-    background-color: var(--light4);
+    color: var(--theme2);
+    background-color: var(--theme3);
     -webkit-box-shadow: 0 0 0 var(--theme4), inset 0 0 0 1px var(--theme4);
     box-shadow: 0 0 0 var(--theme4), inset 0 0 0 1px var(--theme4)
 }
 
 body .pm_form textarea[readonly], pre {
-    background: var(--light4);
+    background: var(--theme3);
     border: 1px solid var(--theme4);
-    color: var(--dark0);
+    color: var(--theme2);
 }
 
 #eo-message .email img.pm_broken, #eo-reply iframe img.pm_broken, .message .frame>.email img.pm_broken {
-    background-color: var(--medium1)
+    background-color: var(--theme4)
 }
 
 #eo-message .email blockquote, #eo-reply iframe blockquote, .message .frame>.email blockquote {
-    border-left: 4px solid var(--light1)!important
+    border-left: 4px solid var(--theme4)!important
 }
 
 .tooltip.top .tooltip-arrow, .tooltip.top-left .tooltip-arrow, .tooltip.top-right .tooltip-arrow {
@@ -886,7 +938,7 @@ body .pm_form textarea[readonly], pre {
 }
 
 .tooltip-inner {
-    color: var(--white);
+    color: var(--theme3);
     background-color: var(--theme2);
 }
 
@@ -903,7 +955,7 @@ body .pm_form textarea[readonly], pre {
 }
 
 .alert {
-    background: var(--light1)
+    background: var(--theme4)
 }
 
 .alert a {
@@ -911,11 +963,11 @@ body .pm_form textarea[readonly], pre {
 }
 
 .alert.alert-danger a, .alert.alert-info a, .alert.alert-success a, .alert.alert-warning a {
-    color: var(--black);
+    color: var(--white);
 }
 
 .alert.alert-info {
-    background: var(--theme3)
+    background: var(--theme4)
 }
 
 .alert.alert-success {
@@ -931,11 +983,19 @@ body .pm_form textarea[readonly], pre {
 }
 
 .alert .pm_button {
-    background: var(--white)
+    background: var(--theme3)
 }
 
 .alert .pm_select, .alert input[type=text], .alert input[type=number], .alert input[type=password], .alert input[type=email], .alert input[type=search], .alert textarea {
-    background: var(--white)!important
+    background: var(--theme3)!important
+}
+
+.labelDropdown .scrollbox {
+  background-color: var(--theme6);
+}
+
+.labelDropdown .scrollbox::after, .labelDropdown .scrollbox::before {
+  background: transparent;
 }
 
 .labelDropdown .pm_button.link {
@@ -956,50 +1016,51 @@ body .pm_form textarea[readonly], pre {
 }
 
 form.searchForm {
-    color: var(--white);
+    color: var(--theme2);
 }
 
 form.searchForm fieldset {
-    background: var(--theme4);
-    color: var(--white);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+    background: var(--theme7);
+    color: var(--theme2);
 }
 
 form.searchForm fieldset button[type=button] {
-    color: var(--white);
+    color: var(--theme2);
 }
 
 form.searchForm fieldset button[type=button]:hover {
-    background: var(--theme5)
+    background: var(--theme7)
 }
 
 form.searchForm fieldset #closeAdvSearch, form.searchForm fieldset button[type=submit] {
-    color: var(--white);
+    color: var(--theme2);
 }
 
 form.searchForm fieldset input.query {
-    background: var(--theme4);
-    color: var(--white);
+    background: var(--theme7);
+    color: var(--theme2);
 }
 
 form.searchForm #advancedSearchDropdown label {
-    color: var(--dark2)
+    color: var(--theme2)
 }
 
 form.searchForm #advancedSearchDropdown .wrap {
-    background: var(--white);
+    background: var(--theme7);
 }
 
 body.mobileMode form.searchForm #advancedSearchDropdown .wrap {
-    border-bottom: 1px solid var(--theme4)
+    border-bottom: 1px solid var(--theme3)
 }
 
 #advancedSearchModal .date em {
-    color: var(--medium1)
+    color: var(--theme4)
 }
 
 body .is-selected .pika-button {
     background: var(--theme1);
-    color: var(--white)!important
+    color: var(--theme3)!important
 }
 
 body .is-today .pika-button {
@@ -1007,12 +1068,12 @@ body .is-today .pika-button {
 }
 
 #labelModal ul.palette li a .fa {
-    color: var(--white);
+    color: var(--theme3);
 }
 
 body .cg-notify-message {
     background: var(--theme2);
-    color: var(--white)!important;
+    color: var(--theme3)!important;
 }
 
 body .cg-notify-message.notification-success {
@@ -1032,12 +1093,12 @@ body .cg-notify-message.notification-info {
 }
 
 #pm_latest header {
-    color: var(--dark0);
-    border-bottom: 1px solid var(--theme4);
+    color: var(--theme2);
+    border-bottom: 0px solid var(--theme4);
 }
 
 #pm_latest #storageStatus .wrap span {
-    color: var(--dark2)
+    color: var(--theme2)
 }
 
 #pm_latest #storageStatus .wrap span strong {
@@ -1049,7 +1110,7 @@ body .cg-notify-message.notification-info {
 }
 
 #pm_latest .storageArea div.storage {
-    color: var(--medium1);
+    color: var(--theme4);
 }
 
 #pm_latest .storageArea div.storage strong {
@@ -1065,11 +1126,11 @@ body .cg-notify-message.notification-info {
 }
 
 .autocompleteEmails-container {
-    color: var(--dark2);
+    color: var(--theme2);
 }
 
 .autocompleteEmails-item {
-    border: 1px solid var(--medium1);
+    border: 1px solid var(--theme4);
     background-color: var(--theme3);
 }
 
@@ -1080,19 +1141,19 @@ body .cg-notify-message.notification-info {
 
 .autocompleteEmails-field .awesomplete ul {
     border: 1px solid var(--theme4);
-    background-color: var(--white);
+    background-color: var(--theme3);
 }
 
 .autocompleteEmails-field .awesomplete li[aria-selected=true], .autocompleteEmails-field .awesomplete li[aria-selected=true]:hover {
-    background-color: var(--medium1)
+    background-color: var(--theme4)
 }
 
 .autocompleteEmails-field .awesomplete li:hover {
-    background-color: var(--light4)
+    background-color: var(--theme3)
 }
 
 .autocompleteEmails-field .awesomplete li, .autocompleteEmails-field .awesomplete li:hover, .autocompleteEmails-field .awesomplete li[aria-selected=true], .autocompleteEmails-field .awesomplete li[aria-selected=true]:hover {
-    color: var(--dark2)
+    color: var(--theme2)
 }
 
 .autocompleteEmails-btn-remove:active, .autocompleteEmails-btn-remove:focus {
@@ -1104,7 +1165,7 @@ body .cg-notify-message.notification-info {
 }
 
 .monetize .modal-dialog .modal-content .upsell ul {
-    color: var(--white);
+    color: var(--theme3);
 }
 
 #pm_settings .bar em {
@@ -1112,21 +1173,21 @@ body .cg-notify-message.notification-info {
 }
 
 #pm_settings .donate .well {
-    box-shadow: inset 0 0 3rem var(--light1);
+    box-shadow: inset 0 0 3rem var(--theme4);
 }
 
 #plans .plans .plan header {
     background: var(--theme2);
-    color: var(--white);
+    color: var(--theme3);
 }
 
 #plans .plans .plan h3 {
     background: var(--theme1);
-    color: var(--white);
+    color: var(--theme3);
 }
 
 #plans .plans .plan.plus-plan footer, #plans .plans .plan.plus-plan header {
-    background: var(--white)
+    background: var(--theme3)
 }
 
 #plans .plans .plan section {
@@ -1138,7 +1199,7 @@ body .cg-notify-message.notification-info {
 }
 
 #plans .plans .plan section ul li.disabled {
-    color: var(--medium2);
+    color: var(--theme4);
 }
 
 #plans .plans .plan footer {
@@ -1147,16 +1208,16 @@ body .cg-notify-message.notification-info {
 
 #plans .plans .plan footer .cycle {
     border-bottom: 1px solid var(--theme4);
-    color: var(--medium2);
+    color: var(--theme4);
 }
 
 #plans .plans .plan footer .cycle .discount {
     border- var(--green) transparent transparent;
-    color: var(--white);
+    color: var(--theme3);
 }
 
 #plans .plans .plan footer .cycle label {
-    color: var(--dark4);
+    color: var(--theme2);
 }
 
 #plans .plans .plan footer .cycle strong {
@@ -1164,54 +1225,54 @@ body .cg-notify-message.notification-info {
 }
 
 #plans .plans .plan.plus-plan h3 span {
-    color: var(--white)
+    color: var(--theme3)
 }
 
 #plans .plans .plan.visionary-plan h3 span, #plans .plans .plan.visionary-plan header {
-    color: var(--white)
+    color: var(--theme3)
 }
 
 .intl-tel-input .selected-flag .iti-arrow {
-    border-top: 4px solid var(--dark2)
+    border-top: 4px solid var(--theme2)
 }
 
 .intl-tel-input .selected-flag .iti-arrow.up {
-    border-bottom: 4px solid var(--dark2)
+    border-bottom: 4px solid var(--theme2)
 }
 
 .intl-tel-input .country-list {
-    background-color: var(--white);
-    border: 1px solid var(--medium1);
+    background-color: var(--theme3);
+    border: 1px solid var(--theme4);
 }
 
 .intl-tel-input .country-list .divider {
-    border-bottom: 1px solid var(--medium1)
+    border-bottom: 1px solid var(--theme4)
 }
 
 .intl-tel-input .country-list .country .dial-code {
-    color: var(--medium2)
+    color: var(--theme4)
 }
 
 .iti-flag {
-    background-color: var(--medium1);
+    background-color: var(--theme4);
 }
 
 .pm_form .cardPanel {
     background: var(--theme1);
-    color: var(--white);
+    color: var(--theme3);
 }
 
 .pm_form .cardPanel.issuer-mastercard {
-    background: var(--black)
+    background: var(--white)
 }
 
 .paginator-disabled-main .paginator-dropdown, .paginator-disabled-next .paginator-btn-next, .paginator-disabled-previous .paginator-btn-previous {
-    color: var(--theme4);
-    box-shadow: inset 0 0 50rem 0 var(--light1)
+    color: var(--theme2);
+    box-shadow: inset 0 0 50rem 0 var(--theme4)
 }
 
 .popover {
-    background-color: var(--white);
+    background-color: var(--theme3);
 }
 
 .popover-title {
@@ -1224,7 +1285,7 @@ body .cg-notify-message.notification-info {
 }
 
 .popover.top>.arrow:after {
-    border-top-color: var(--white)
+    border-top-color: var(--theme3)
 }
 
 .popover.right>.arrow {
@@ -1232,7 +1293,7 @@ body .cg-notify-message.notification-info {
 }
 
 .popover.right>.arrow:after {
-    border-right-color: var(--white)
+    border-right-color: var(--theme3)
 }
 
 .popover.bottom>.arrow {
@@ -1240,7 +1301,7 @@ body .cg-notify-message.notification-info {
 }
 
 .popover.bottom>.arrow:after {
-    border-bottom-color: var(--white)
+    border-bottom-color: var(--theme3)
 }
 
 .popover.left>.arrow {
@@ -1248,7 +1309,7 @@ body .cg-notify-message.notification-info {
 }
 
 .popover.left>.arrow:after {
-    border-left-color: var(--white)
+    border-left-color: var(--theme3)
 }
 
 .composerAttachments-container {
@@ -1260,20 +1321,20 @@ body .cg-notify-message.notification-info {
 }
 
 .composerAskEmbdded-details {
-    background: var(--white);
+    background: var(--theme3);
 }
 
 .composerInputMeta-overlay {
-    background: var(--white);
-    color: var(--dark0);
+    background: var(--theme3);
+    color: var(--theme2);
 }
 
 .composerInputMeta-overlay-label {
-    color: var(--medium1)
+    color: var(--theme4)
 }
 
 .progressLoader-container.pm_button {
-    background: var(--white)
+    background: var(--theme3)
 }
 
 [class*=listAttachments-icon].embedded {
@@ -1281,8 +1342,8 @@ body .cg-notify-message.notification-info {
 }
 
 .listAttachments-list .listAttachments-att {
-    color: var(--dark2);
-    background: var(--light4);
+    color: var(--theme2);
+    background: var(--theme3);
 }
 
 .listAttachments-list .listAttachments-att:after {
@@ -1290,40 +1351,51 @@ body .cg-notify-message.notification-info {
 }
 
 .squire-dropzone {
-    background: var(--white);
+    background: var(--theme3);
+}
+
+.conversation {
+    background: var(--theme7)
 }
 
 .conversation .expiration, body #conversation-list-rows .conversation .expiration {
-    border- var(--red-light) transparent transparent
+    border- var(--red-light) transparent transparent;
 }
 
 .conversation .row .meta .fa-star-o {
-    color: var(--medium1);
+    color: var(--theme4);
 }
 
 .conversation .row .meta .fa-star {
     color: var(--yellow);
 }
 
+.conversation .row .pm_labels {
+    background: transparent;
+    box-shadow: none;
+}
+
 .conversation .row .pm_labels label {
-    background: var(--white)
+    background: transparent;
+    box-shadow: none;
+}
+
+.conversation .row h4 {
+    color: var(--white);
 }
 
 .conversation.read {
     background: var(--theme3)
 }
 
-.conversation .row h4 {
-    color: var(--black);
-}
-
 .conversation.read h4 {
-    color: var(--dark2);
+    color: var(--white);
+    font-weight: 400
 }
 
 .conversation.read .pm_labels label {
-    box-shadow: .25rem 0 0 .25rem var(--theme3);
-    background: var(--theme3)
+    box-shadow: none;
+    background: transparent;
 }
 
 .conversation.marked::before {
@@ -1331,8 +1403,8 @@ body .cg-notify-message.notification-info {
 }
 
 .conversation.active {
-    background: var(--theme5);
-    color: var(--white)
+    background: var(--theme6);
+    color: var(--theme3)
 }
 
 .conversation.active h4 {
@@ -1340,8 +1412,8 @@ body .cg-notify-message.notification-info {
 }
 
 .conversation.active .pm_labels label {
-    background: var(--theme5);
-    box-shadow: .25rem 0 0 .25rem var(--theme5)
+    background: transparent;
+    box-shadow: none;
 }
 
 body #conversation-list-rows .conversation {
@@ -1349,11 +1421,11 @@ body #conversation-list-rows .conversation {
 }
 
 body #conversation-list-rows .conversation .expiration {
-    color: var(--white);
+    color: var(--theme3);
 }
 
 body #conversation-list-rows .conversation .fa-star-o {
-    color: var(--medium1);
+    color: var(--theme4);
 }
 
 body #conversation-list-rows .conversation .fa-star {
@@ -1361,15 +1433,15 @@ body #conversation-list-rows .conversation .fa-star {
 }
 
 body #conversation-list-rows .conversation .subject h4 {
-    color: var(--black);
+    color: var(--white);
 }
 
 body #conversation-list-rows .conversation .subject .pm_labels {
-    background: var(--white);
+    background: transparent;
 }
 
 body #conversation-list-rows .conversation .subject .pm_labels label {
-    background: var(--white)
+    background: transparent;
 }
 
 body #conversation-list-rows .conversation.read, body #conversation-list-rows .conversation.read .subject .pm_labels, body #conversation-list-rows .conversation.read .subject .pm_labels label {
@@ -1377,16 +1449,16 @@ body #conversation-list-rows .conversation.read, body #conversation-list-rows .c
 }
 
 body #conversation-list-rows .conversation.read .subject h4 {
-    color: var(--dark2)
+    color: var(--theme2)
 }
 
 .pm_button {
-    color: var(--dark3);
+    color: var(--theme5);
     border: 1px solid var(--theme4);
 }
 
 .pm_button:hover {
-    background-color: var(--light2);
+    background-color: var(--theme3);
 }
 
 .pm_button:active, .pm_button:focus {
@@ -1396,7 +1468,7 @@ body #conversation-list-rows .conversation.read .subject h4 {
 .pm_button.primary {
     background-color: var(--theme1);
     border-color: var(--theme1);
-    color: var(--white)
+    color: var(--theme3)
 }
 
 .pm_button.primary:hover {
@@ -1405,8 +1477,8 @@ body #conversation-list-rows .conversation.read .subject h4 {
 }
 
 .pm_button.primary:active, .pm_button.primary:focus {
-    background-color: var(--theme7);
-    border-color: var(--theme7);
+    background-color: var(--theme5);
+    border-color: var(--theme5);
 }
 
 .pm_button.primary.disabled, .pm_button.primary[disabled] {
@@ -1426,17 +1498,17 @@ body #conversation-list-rows .conversation.read .subject h4 {
 }
 
 .pm_button.round:hover {
-    background-color: var(--light2)
+    background-color: var(--theme3)
 }
 
 .pm_button.round:active, .pm_button.round:focus {
-    background-color: var(--light4);
+    background-color: var(--theme3);
 }
 
 .pm_button.success {
     background-color: var(--green);
-    border-color: var(--green-light);
-    color: var(--white)
+    border-color: var(--green);
+    color: var(--theme3)
 }
 
 .pm_button.success:hover {
@@ -1450,8 +1522,8 @@ body #conversation-list-rows .conversation.read .subject h4 {
 
 .pm_button.error {
     background-color: var(--red);
-    border-color: var(--red-light);
-    color: var(--white)
+    border-color: var(--red);
+    color: var(--theme3)
 }
 
 .pm_button.error:hover {
@@ -1468,12 +1540,12 @@ body #conversation-list-rows .conversation.read .subject h4 {
 }
 
 .pm_buttons.disabled {
-    border: 1px solid var(--light2);
+    border: 1px solid var(--theme3);
 }
 
 .pm_buttons .disabled, .pm_buttons [disabled] {
     color: var(--theme4);
-    box-shadow: inset 0 0 50rem 0 var(--light2);
+    box-shadow: inset 0 0 50rem 0 var(--theme3);
 }
 
 .pm_buttons .pm_buttons:not(:first-of-type), .pm_buttons>* {
@@ -1481,22 +1553,22 @@ body #conversation-list-rows .conversation.read .subject h4 {
 }
 
 .pm_buttons a {
-    color: var(--dark3);
+    color: var(--theme5);
 }
 
 .pm_buttons a:hover {
-    background-color: var(--light4);
-    color: var(--dark4)
+    background-color: var(--theme3);
+    color: var(--theme2)
 }
 
 .pm_buttons a.active, .pm_buttons a:active {
-    background: var(--light1);
+    background: var(--theme4);
 }
 
 .pm_buttons.primary a {
     background-color: var(--theme1);
     border-color: var(--theme1);
-    color: var(--white)
+    color: var(--theme3)
 }
 
 .pm_buttons.primary a:hover {
@@ -1505,8 +1577,13 @@ body #conversation-list-rows .conversation.read .subject h4 {
 }
 
 .pm_buttons.primary a:active, .pm_buttons.primary a:focus {
-    background-color: var(--theme7);
-    border-color: var(--theme7);
+    background-color: var(--theme5);
+    border-color: var(--theme5);
+}
+
+.readUnread-container.disabled [class*="readUnread-btn"] {
+  box-shadow: inset 0 0 50rem 0 var(--theme3);
+  color: var(--theme6);
 }
 
 body.mobileMode #body #pm_main .fa-check-square, body.mobileMode #body #pm_main .fa-square-o {
@@ -1514,7 +1591,7 @@ body.mobileMode #body #pm_main .fa-check-square, body.mobileMode #body #pm_main 
 }
 
 .pm_dropdown {
-    background: var(--white);
+    background: var(--theme7);
     border: 1px solid var(--theme4);
 }
 
@@ -1523,15 +1600,15 @@ body.mobileMode #body #pm_main .fa-check-square, body.mobileMode #body #pm_main 
 }
 
 .pm_dropdown>a:hover, .pm_dropdown>button:hover, .pm_dropdown>ul>li:hover {
-    color: var(--dark0)!important
+    color: var(--theme2)!important
 }
 
 .pm_labels.inline label .close {
-    color: var(--dark2);
+    color: var(--theme2);
 }
 
 .pm_labels label {
-    color: var(--dark4);
+    color: var(--theme2);
 }
 
 .pm_modal .angular-squire-wrapper {
@@ -1543,17 +1620,18 @@ body.mobileMode #body #pm_main .fa-check-square, body.mobileMode #body #pm_main 
 }
 
 .pm_modal .modal-dialog {
-    background: var(--white);
-    border: 5px solid var(--theme1);
+    background: var(--theme3);
+    border: 5px solid var(--theme3);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
 }
 
 .pm_modal .modal-dialog .close {
-    color: var(--white);
+    color: var(--theme3);
     background: var(--theme1);
 }
 
 .pm_modal .modal-dialog .modal-content {
-    background: var(--white)
+    background: var(--theme3)
 }
 
 .pm_modal .modal-dialog .modal-content .modal-body {
@@ -1561,23 +1639,23 @@ body.mobileMode #body #pm_main .fa-check-square, body.mobileMode #body #pm_main 
 }
 
 .pm_modal .modal-dialog .modal-footer {
-    background-color: var(--white)
+    background-color: var(--theme3)
 }
 
 .pm_modal .modal-dialog .modal-content h1, .pm_modal .modal-dialog .modal-content h2, .pm_modal .modal-dialog .modal-content h3, .pm_modal .modal-dialog .modal-content h4 {
-    color: var(--dark4)
+    color: var(--theme2)
 }
 
 .pm_modal .modal-dialog .modal-content h1 em, .pm_modal .modal-dialog .modal-content h2 em, .pm_modal .modal-dialog .modal-content h3 em, .pm_modal .modal-dialog .modal-content h4 em {
-    color: var(--medium1)
+    color: var(--theme4)
 }
 
 body.mobileMode .pm_modal .modal-dialog {
-    background: var(--white);
+    background: var(--theme3);
 }
 
 body.mobileMode .pm_modal .modal-dialog .close {
-    color: var(--dark2)
+    color: var(--theme2)
 }
 
 .pm_form legend {
@@ -1585,7 +1663,7 @@ body.mobileMode .pm_modal .modal-dialog .close {
 }
 
 .pm_form legend .small {
-    color: var(--dark2)
+    color: var(--theme2)
 }
 
 .pm_form legend .small a {
@@ -1621,48 +1699,49 @@ body.mobileMode .pm_modal .modal-dialog .close {
 }
 
 .pm_form .pm_select .fa {
-    color: var(--dark4)
+    color: var(--theme2)
 }
 
 .pm_form select {
-    background: var(--white);
+    background: var(--theme3);
 }
 
 .pm_form .input-icon .fa {
-    color: var(--medium1);
+    color: var(--theme4);
 }
 
 .pm_form input[type=text], .pm_form input[type=number], .pm_form input[type=password], .pm_form input[type=email], .pm_form input[type=search], .pm_form input[type=tel] {
     box-shadow: inset 0 2px 5px rgba(0, 0, 0, .15);
-    background: var(--light2)
+    background: var(--theme7);
 }
 
 .pm_form select:active, .pm_form select:focus {
-    box-shadow: inset 0 0 0 1px var(--theme1)
+    box-shadow: inset 0 0 0 1px var(--theme1);
 }
 
 .pm_form input[type=text], .pm_form input[type=number], .pm_form input[type=password], .pm_form input[type=email], .pm_form input[type=search], .pm_form input[type=tel], .pm_form select, .pm_form textarea {
     border: 1px solid var(--theme4);
-    color: var(--dark4);
+    color: var(--theme2);
 }
 
 .pm_form input[type=text].ng-invalid.ng-touched, .pm_form input[type=number].ng-invalid.ng-touched, .pm_form input[type=password].ng-invalid.ng-touched, .pm_form input[type=email].ng-invalid.ng-touched, .pm_form input[type=search].ng-invalid.ng-touched, .pm_form input[type=tel].ng-invalid.ng-touched, .pm_form select.ng-invalid.ng-touched, .pm_form textarea.ng-invalid.ng-touched {
-    border-color: var(--red)
+    border-color: var(--red);
 }
 
 .pm_form input[type=text]:hover, .pm_form input[type=number]:hover, .pm_form input[type=password]:hover, .pm_form input[type=email]:hover, .pm_form input[type=search]:hover, .pm_form input[type=tel]:hover, .pm_form select:hover, .pm_form textarea:hover {
-    border-color: var(--theme4)
+    border-color: var(--theme4);
 }
 
 .pm_form input[type=text]:focus, .pm_form input[type=number]:focus, .pm_form input[type=password]:focus, .pm_form input[type=email]:focus, .pm_form input[type=search]:focus, .pm_form input[type=tel]:focus, .pm_form select:focus, .pm_form textarea:focus {
-    color: var(--black);
+    color: var(--white);
+    background: var(--theme7);
     border-color: var(--theme1);
 }
 
 .pm_form input[type=text].disabled, .pm_form input[type=text][disabled], .pm_form input[type=number].disabled, .pm_form input[type=number][disabled], .pm_form input[type=password].disabled, .pm_form input[type=password][disabled], .pm_form input[type=email].disabled, .pm_form input[type=email][disabled], .pm_form input[type=search].disabled, .pm_form input[type=search][disabled], .pm_form input[type=tel].disabled, .pm_form input[type=tel][disabled], .pm_form select.disabled, .pm_form select[disabled], .pm_form textarea.disabled, .pm_form textarea[disabled] {
-    color: var(--medium1);
-    border-color: var(--medium1);
-    background: var(--light1);
+    color: var(--theme4);
+    border-color: var(--theme4);
+    background: var(--theme4);
 }
 
 .pm_form input[type=text].success, .pm_form input[type=number].success, .pm_form input[type=password].success, .pm_form input[type=email].success, .pm_form input[type=search].success, .pm_form input[type=tel].success, .pm_form select.success, .pm_form textarea.success {
@@ -1681,16 +1760,16 @@ body.mobileMode .pm_modal .modal-dialog .close {
 }
 
 .pm_panel, .pm_panel.alt a {
-    color: var(--white)
+    color: var(--theme3)
 }
 
 .pm_form textarea {
-    background: var(--light2);
+    background: var(--theme7);
 }
 
 body.light .pm_panel {
-    background: var(--white);
-    color: var(--dark2)
+    background: var(--theme3);
+    color: var(--theme2)
 }
 
 .pm_table table thead {
@@ -1706,11 +1785,11 @@ body.light .pm_panel {
 }
 
 .pm_table table.plain th {
-    color: var(--dark2);
+    color: var(--theme2);
 }
 
 .pm_table table td .fa.fa-sort, .pm_table table th .fa.fa-sort {
-    color: var(--medium1);
+    color: var(--theme4);
 }
 
 .pm_table table th {
@@ -1729,30 +1808,30 @@ body.light .pm_panel {
 
 .pm_table table td {
     border-bottom: 1px solid var(--theme4);
-    color: var(--dark2)
+    color: var(--theme2)
 }
 
 .pm_table table tr.hasTable table {
-    background-color: var(--white)
+    background-color: var(--theme3)
 }
 
 .pm_table table tr.disabled td {
-    color: var(--medium2)
+    color: var(--theme4)
 }
 
 .pm_toggle {
-    background: var(--light4);
+    background: var(--theme3);
     box-shadow: 0 0 0 1px var(--theme4)
 }
 
 .pm_toggle span.knob {
-    background: var(--white);
+    background: var(--theme3);
     border: 1px solid var(--theme4);
 }
 
 .pm_toggle.off .off, .pm_toggle.on .on {
     background-color: var(--theme1);
-    color: var(--white)
+    color: var(--theme3)
 }
 
 .pm_tabs {
@@ -1760,18 +1839,18 @@ body.light .pm_panel {
 }
 
 .pm_tabs li a {
-    background-color: var(--light2);
+    background-color: var(--theme3);
 }
 
 .pm_tabs li.active a {
-    background-color: var(--white);
+    background-color: var(--theme3);
     border-bottom-;
     color: var(--theme1)
 }
 
 .pm_sort ul li {
     border-bottom: 1px solid var(--theme4);
-    background: var(--white);
+    background: var(--theme3);
 }
 
 .pm_sort ul li.highlight {
@@ -1779,7 +1858,7 @@ body.light .pm_panel {
 }
 
 .pm_sort ul li .fa.fa-ellipsis-v {
-    color: var(--medium1);
+    color: var(--theme4);
 }
 
 .as-sortable-dragging .fa-check, .pm_sort ul li .fa.fa-check {
@@ -1787,7 +1866,7 @@ body.light .pm_panel {
 }
 
 .pm_sort ul li .fa.fa-check {
-    background: var(--white)
+    background: var(--theme3)
 }
 
 .as-sortable-placeholder {
@@ -1796,35 +1875,35 @@ body.light .pm_panel {
 
 .as-sortable-dragging {
     border: 1px solid var(--theme4);
-    background: var(--white);
+    background: var(--theme3);
 }
 
 .image.loading:after, .loader em {
-    border-left: .5em solid var(--theme7);
+    border-left: .5em solid var(--theme5);
 }
 
 .as-sortable-dragging .fa-check {
-    background: var(--white)
+    background: var(--theme3)
 }
 
 .as-sortable-dragging .fa-ellipsis-v {
-    color: var(--medium1)
+    color: var(--theme4)
 }
 
 #pm_loader.full {
-    background: var(--white);
+    background: var(--theme3);
 }
 
 #pm_slow, #pm_slow2 {
-    color: var(--white);
+    color: var(--theme3);
 }
 
 #pm_loading {
-    background: var(--white);
+    background: var(--theme3);
 }
 
 .image.loading:after {
-    background: var(--white);
+    background: var(--theme3);
 }
 
 input[type=range].pm_range::-webkit-slider-runnable-track {
@@ -1872,19 +1951,19 @@ input[type=range].pm_range:focus::-ms-fill-upper {
 }
 
 .pm_badge, .pm_tag {
-    background: var(--medium1);
+    background: var(--theme4);
 }
 
 .pm_tag {
-    color: var(--dark4)!important
+    color: var(--theme2)!important
 }
 
 .pm_badge {
-    color: var(--white);
+    color: var(--theme3);
 }
 
 .pm_badge.default {
-    color: var(--dark2)
+    color: var(--theme2)
 }
 
 .pm_badge.primary {
