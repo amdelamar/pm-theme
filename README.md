@@ -22,19 +22,16 @@ Just overwrite these colors with your favorites, or generate a pretty palette fr
 
 ---
 
-### PM Dark Theme
-> [Copy/View CSS](/themes/pm-dark-theme.css)
+## PM Dark Theme - \[[Copy/View CSS](/themes/pm-dark-theme.css)\]
 <img src="/screenshots/pm-dark-theme.3.7.png" width="100%" />
 
 
-### PM Flat Theme
-> [Copy/View CSS](/themes/pm-flat-theme.css)
+## PM Flat Theme - \[[Copy/View CSS](/themes/pm-flat-theme.css)\]
 <img src="/screenshots/pm-flat-theme.3.7.png" width="100%" />
 
 
-### Grey Theme
-> [Copy/View CSS](/themes/gm-theme.css)
-<img src="/screenshots/grey-theme.3.7.png" width="100%" />
+### GM Theme - \[[Copy/View CSS](/themes/gm-theme.css)\]
+<img src="/screenshots/gm-theme.3.7.png" width="100%" />
 
 ---
 
