@@ -24,7 +24,7 @@
 
 
 /*!
-*  Custom Theme for ProtonMail v3.6.9
+*  Custom Theme for ProtonMail v3.7.0
 *  --
 *  Author: Austin Delamar - http://github.com/amdelamar
 *
@@ -199,6 +199,16 @@ header#pm_header-mobile .location {
 
 body section.sidebar {
     background: var(--theme3);
+}
+
+body section.sidebar a.backToInbox {
+  border: 1px solid var(--theme5);
+  color: var(--theme5);
+}
+
+body section.sidebar a.backToInbox:hover {
+  background: var(--theme5);
+  color: var(--theme7);
 }
 
 body section.sidebar ul.menu li a {
@@ -488,7 +498,7 @@ body#reset .alert {
 }
 
 #pm_composer .composer .meta input {
-    background: var(--theme3);
+    background: var(--theme7);
 }
 
 #pm_composer .composer .fill {
@@ -556,8 +566,8 @@ body#reset .alert {
 }
 
 #pm_composer .composer header {
-    background: var(--theme5);
-    color: var(--theme3)
+    background: var(--theme6);
+    color: var(--theme2);
 }
 
 #pm_composer .composer header .actions .pm_button {
@@ -569,7 +579,7 @@ body#reset .alert {
 }
 
 #pm_composer .composer .row {
-    border-bottom: 1px solid var(--theme4)
+    border-bottom: 1px solid var(--theme6);
 }
 
 #pm_composer .composer .row.placeholder div {
@@ -581,7 +591,8 @@ body#reset .alert {
 }
 
 #pm_composer .composer .meta {
-    color: var(--theme4)
+    color: var(--theme1);
+    background: var(--theme7);
 }
 
 #pm_composer .composer footer {
@@ -619,7 +630,11 @@ body#reset .alert {
 
 .squireToolbar-container {
     border: 1px solid var(--theme4);
-    background-color: var(--theme3);
+    background-color: var(--theme1);
+}
+
+.squireToolbar-container .squire-toolbar {
+    background-color: var(--theme1);
 }
 
 [class*=squireToolbar-action-]+.squireToolbar-separator {
@@ -636,7 +651,7 @@ body#reset .alert {
     color: var(--theme2);
 }
 
-.squire-popover button {
+.squire-popover button, .squireToolbar-container button {
     border: 1px solid var(--theme1);
     background-color: var(--theme1);
     color: var(--theme3);
@@ -1019,17 +1034,17 @@ form.searchForm {
     color: var(--theme2);
 }
 
-form.searchForm fieldset {
+form.searchForm fieldset, .search-form-fieldset {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
     background: var(--theme7);
     color: var(--theme2);
 }
 
-form.searchForm fieldset button[type=button] {
+form.searchForm fieldset button[type=button], .searchForm-action-button {
     color: var(--theme2);
 }
 
-form.searchForm fieldset button[type=button]:hover {
+form.searchForm fieldset button[type=button]:hover, .searchForm-action-button:hover {
     background: var(--theme7)
 }
 
@@ -1037,20 +1052,20 @@ form.searchForm fieldset #closeAdvSearch, form.searchForm fieldset button[type=s
     color: var(--theme2);
 }
 
-form.searchForm fieldset input.query {
+form.searchForm fieldset input.query, .search-form-fieldset-input {
     background: var(--theme7);
     color: var(--theme2);
 }
 
-form.searchForm #advancedSearchDropdown label {
+form.searchForm #advancedSearchDropdown label, .searchForm-advanced-wrapper label {
     color: var(--theme2)
 }
 
-form.searchForm #advancedSearchDropdown .wrap {
-    background: var(--theme7);
+form.searchForm #advancedSearchDropdown .wrap, .searchForm-advanced-wrapper {
+    background: var(--theme4);
 }
 
-body.mobileMode form.searchForm #advancedSearchDropdown .wrap {
+body.mobileMode form.searchForm #advancedSearchDropdown .wrap, .searchForm-advanced-wrapper {
     border-bottom: 1px solid var(--theme3)
 }
 
@@ -1325,12 +1340,12 @@ body .cg-notify-message.notification-info {
 }
 
 .composerInputMeta-overlay {
-    background: var(--theme3);
+    background: var(--theme7);
     color: var(--theme2);
 }
 
-.composerInputMeta-overlay-label {
-    color: var(--theme4)
+.composerInputMeta-overlay-label, .composerInputMeta-label {
+    color: var(--theme1);
 }
 
 .progressLoader-container.pm_button {
@@ -1710,18 +1725,16 @@ body.mobileMode .pm_modal .modal-dialog .close {
     color: var(--theme4);
 }
 
-.pm_form input[type=text], .pm_form input[type=number], .pm_form input[type=password], .pm_form input[type=email], .pm_form input[type=search], .pm_form input[type=tel] {
-    box-shadow: inset 0 2px 5px rgba(0, 0, 0, .15);
-    background: var(--theme7);
-}
-
-.pm_form select:active, .pm_form select:focus {
-    box-shadow: inset 0 0 0 1px var(--theme1);
+.searchForm-advanced-wrapper input[type=text], .searchForm-advanced-wrapper input[type=search], .searchForm-advanced-wrapper input[type=email], .searchForm-advanced-wrapper input[type=number] {
+    color: var(--theme2);
 }
 
 .pm_form input[type=text], .pm_form input[type=number], .pm_form input[type=password], .pm_form input[type=email], .pm_form input[type=search], .pm_form input[type=tel], .pm_form select, .pm_form textarea {
     border: 1px solid var(--theme4);
     color: var(--theme2);
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, .15);
+    box-shadow: inset 0 0 0 1px var(--theme1);
+    background: var(--theme7);
 }
 
 .pm_form input[type=text].ng-invalid.ng-touched, .pm_form input[type=number].ng-invalid.ng-touched, .pm_form input[type=password].ng-invalid.ng-touched, .pm_form input[type=email].ng-invalid.ng-touched, .pm_form input[type=search].ng-invalid.ng-touched, .pm_form input[type=tel].ng-invalid.ng-touched, .pm_form select.ng-invalid.ng-touched, .pm_form textarea.ng-invalid.ng-touched {
