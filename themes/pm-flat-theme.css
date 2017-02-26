@@ -24,7 +24,7 @@
 
 
 /*!
-*  Custom Theme for ProtonMail v3.7.0
+*  Custom Theme for ProtonMail v3.7.2
 *  --
 *  Author: Austin Delamar - http://github.com/amdelamar
 *
@@ -111,35 +111,35 @@ header#pm_header .newBugReport-container, header#pm_header a {
     color: var(--theme3);
 }
 
-header#pm_header-desktop {
+header#pm_headerDesktop {
     background: var(--theme3);
 }
 
-header#pm_header-desktop a.logo {
+header#pm_headerDesktop a.logo {
     color: var(--theme1);
     background-color: var(--theme3);
 }
-header#pm_header-desktop a.logo img {
+header#pm_headerDesktop a.logo img {
     webkit-filter: grayscale(100%) brightness(50%);
     filter: grayscale(100%) brightness(50%);
 }
-header#pm_header-desktop ul.navigation>li:hover {
+header#pm_headerDesktop ul.navigation>li:hover {
     box-shadow: 0 5px 0 0 var(--theme6) inset;
 }
 
-header#pm_header-desktop ul.navigation>li.active {
+header#pm_headerDesktop ul.navigation>li.active {
     box-shadow: 0 5px 0 0 var(--theme1) inset
 }
 
-header#pm_header-desktop ul.navigation>li>a {
+header#pm_headerDesktop ul.navigation>li>a {
     color: var(--theme2);
 }
 
-header#pm_header-desktop.no-auth {
+header#pm_headerDesktop.no-auth {
     background: var(--theme2);
 }
 
-header#pm_header-desktop.no-auth a {
+header#pm_headerDesktop.no-auth a {
     color: var(--theme3);
 }
 
@@ -201,12 +201,12 @@ body section.sidebar {
     background: var(--theme3);
 }
 
-body section.sidebar a.backToInbox {
+body section.sidebar a.sidebar-btn-back {
   border: 1px solid var(--theme5);
   color: var(--theme5);
 }
 
-body section.sidebar a.backToInbox:hover {
+body section.sidebar a.sidebar-btn-back:hover {
   background: var(--theme5);
   color: var(--theme7);
 }
@@ -325,7 +325,7 @@ body.mobileMode #pm_sidebar section.sidebar ul.menu li button {
 }
 
 #conversation-view .fa-star {
-    color: var(--yellow)
+    color: var(--yellow);
 }
 
 #conversation-view header {
@@ -341,11 +341,15 @@ body.mobileMode #pm_sidebar section.sidebar ul.menu li button {
 }
 
 #conversation-view .message .contact a.compose {
-    color: var(--theme1)
+    color: var(--theme1);
+}
+
+#conversation-view .message .details {
+    background: var(--theme3);
 }
 
 #conversation-view .message.marked .details, #conversation-view .message.marked .summary {
-    box-shadow: inset 5px 0 0 var(--theme1)
+    box-shadow: inset 5px 0 0 var(--theme1);
 }
 
 #conversation-view .message.details.open .labelz .pm_labels label {
@@ -1026,6 +1030,10 @@ form.searchForm fieldset, .search-form-fieldset {
 }
 
 form.searchForm fieldset button[type=button], .searchForm-action-button {
+    color: var(--theme2);
+}
+
+[class*="searchForm-action-button-"] {
     color: var(--theme2);
 }
 

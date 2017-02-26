@@ -37,7 +37,7 @@
 
 
 /*!
-*  Custom Theme for ProtonMail v3.7.0
+*  Custom Theme for ProtonMail v3.7.2
 *  --
 *  Author: Austin Delamar - http://austindelamar.com
 */
@@ -125,36 +125,36 @@ header#pm_header .newBugReport-container, header#pm_header a {
     color: var(--white);
 }
 
-header#pm_header-desktop {
+header#pm_headerDesktop {
     background: var(--theme5);
 }
 
-header#pm_header-desktop a.logo {
+header#pm_headerDesktop a.logo {
     background-color: var(--theme2);
 }
 
-header#pm_header-desktop ul.navigation>li:hover {
+header#pm_headerDesktop ul.navigation>li:hover {
     box-shadow: 0 5px 0 0 var(--theme1) inset;
 }
 
-header#pm_header-desktop ul.navigation>li.active {
+header#pm_headerDesktop ul.navigation>li.active {
     box-shadow: 0 5px 0 0 var(--theme1) inset
 }
 
-header#pm_header-desktop ul.navigation>li>a {
+header#pm_headerDesktop ul.navigation>li>a {
     color: var(--theme3);
 }
 
-header#pm_header-desktop ul.navigation>li .pm_dropdown .pm_button.primary:hover {
+header#pm_headerDesktop ul.navigation>li .pm_dropdown .pm_button.primary:hover {
     background: var(--special2) !important;
     color: var(--white)!important
 }
 
-header#pm_header-desktop.no-auth {
+header#pm_headerDesktop.no-auth {
     background: var(--theme2);
 }
 
-header#pm_header-desktop.no-auth a {
+header#pm_headerDesktop.no-auth a {
     color: var(--white);
 }
 
@@ -306,6 +306,10 @@ body.mobileMode #pm_sidebar section.sidebar ul.menu li button {
 
 #conversation-view .message .contact a.compose {
     color: var(--theme1)
+}
+
+#conversation-view .message .details {
+    background: var(--white);
 }
 
 #conversation-view .message.marked .details, #conversation-view .message.marked .summary {
@@ -958,12 +962,16 @@ form.searchForm {
     color: var(--white);
 }
 
-form.searchForm fieldset {
+form.searchForm fieldset, .search-form-fieldset {
     background: var(--theme4);
     color: var(--white);
 }
 
 form.searchForm fieldset button[type=button] {
+    color: var(--white);
+}
+
+[class*="searchForm-action-button-"] {
     color: var(--white);
 }
 
@@ -975,7 +983,7 @@ form.searchForm fieldset #closeAdvSearch, form.searchForm fieldset button[type=s
     color: var(--white);
 }
 
-form.searchForm fieldset input.query {
+form.searchForm fieldset input.query, .search-form-fieldset-input {
     background: var(--theme4);
     color: var(--white);
 }
