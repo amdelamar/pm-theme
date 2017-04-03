@@ -24,21 +24,37 @@ Just overwrite these colors with your favorites, or generate a pretty palette fr
 
 ## PM Dark Theme - \[[Copy/View CSS](/themes/pm-dark-theme.css)\]
 <img src="/screenshots/pm-dark-theme.3.7.png" width="100%" />
+```
+/* Copy this line into ProtonMail's custom theme box: */
+@import url("https://amdelamar.github.io/pm-theme/themes/pm-dark-theme.css");
+```
+Or [copy the CSS directly](/themes/pm-dark-theme.css).
 
 
 ## PM Flat Theme - \[[Copy/View CSS](/themes/pm-flat-theme.css)\]
 <img src="/screenshots/pm-flat-theme.3.7.png" width="100%" />
+```
+/* Copy this line into ProtonMail's custom theme box: */
+@import url("https://amdelamar.github.io/pm-theme/themes/pm-flat-theme.css");
+```
+Or [copy the CSS directly](/themes/pm-flat-theme.css).
 
 
-### GM Theme - \[[Copy/View CSS](/themes/gm-theme.css)\]
+## GM Theme
 <img src="/screenshots/gm-theme.3.7.png" width="100%" />
+```
+/* Copy this line into ProtonMail's custom theme box: */
+@import url("https://amdelamar.github.io/pm-theme/themes/gm-theme.css");
+```
+Or [copy the CSS directly](/themes/gm-theme.css).
+
 
 ---
 
 ### Usage
 
-- Open/Download a CSS file and copy the contents.
-- Paste the contents into the custom theme in ProtonMail. (Settings > Appearance > Custom Theme).
+- Copy a CSS theme.
+- Paste in ProtonMail. `Settings` > `Appearance` > `Custom Theme`.
 - Enjoy!
 
 ---
@@ -46,7 +62,7 @@ Just overwrite these colors with your favorites, or generate a pretty palette fr
 ### Notes
 
 - This is only available for the WEB version and not the MOBILE app.
-- Some of these themes aren't always the best. I apologize if some are ugly.
+- Some of these themes aren't always the best. If you have any problems you can open an [issue here](https://github.com/amdelamar/pm-theme/issues).
 - Older themes (Burnt, Gum, Seaweed) are still available [here](/themes).
 
 ---
