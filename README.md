@@ -25,7 +25,7 @@ Just overwrite these colors with your favorites, or generate a pretty palette fr
 &nbsp;
 
 ## PM Dark Theme
-<img src="/screenshots/pm-dark-theme.3.7.png" width="100%" />
+<img src="https://amdelamar.github.io/pm-theme/screenshots/pm-dark-theme.3.7.png" width="100%" />
 
 ```
 /* Copy this line into ProtonMail's custom theme box: */
@@ -36,7 +36,7 @@ Or [copy the CSS directly](/themes/pm-dark-theme.css).
 &nbsp;
 
 ## PM Flat Theme
-<img src="/screenshots/pm-flat-theme.3.7.png" width="100%" />
+<img src="https://amdelamar.github.io/pm-theme/screenshots/pm-flat-theme.3.7.png" width="100%" />
 
 ```
 /* Copy this line into ProtonMail's custom theme box: */
@@ -47,7 +47,7 @@ Or [copy the CSS directly](/themes/pm-flat-theme.css).
 &nbsp;
 
 ## GM Theme
-<img src="/screenshots/gm-theme.3.7.png" width="100%" />
+<img src="https://amdelamar.github.io/pm-theme/screenshots/gm-theme.3.7.png" width="100%" />
 
 ```
 /* Copy this line into ProtonMail's custom theme box: */
