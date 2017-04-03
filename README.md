@@ -4,7 +4,7 @@ A collapsed CSS that's simple to edit by anyone.
 
 ### What's so special about this?
 
-- This CSS is broken down into **7 "core" colors** that make it very simple to change to any colors of your choice!
+This CSS is broken down into **7 "core" colors** that make it very simple to change to any colors of your choice!
 
 ```
 :root {
@@ -22,35 +22,40 @@ Just overwrite these colors with your favorites, or generate a pretty palette fr
 
 ---
 
+&nbsp;
+
 ## PM Dark Theme
 <img src="/screenshots/pm-dark-theme.3.7.png" width="100%" />
 
 ```
-    /* Copy this line into ProtonMail's custom theme box: */
-    @import url("https://amdelamar.github.io/pm-theme/themes/pm-dark-theme.css");
+/* Copy this line into ProtonMail's custom theme box: */
+@import url("https://amdelamar.github.io/pm-theme/themes/pm-dark-theme.css");
 ```
 Or [copy the CSS directly](/themes/pm-dark-theme.css).
 
+&nbsp;
 
 ## PM Flat Theme
 <img src="/screenshots/pm-flat-theme.3.7.png" width="100%" />
 
 ```
-    /* Copy this line into ProtonMail's custom theme box: */
-    @import url("https://amdelamar.github.io/pm-theme/themes/pm-flat-theme.css");
+/* Copy this line into ProtonMail's custom theme box: */
+@import url("https://amdelamar.github.io/pm-theme/themes/pm-flat-theme.css");
 ```
 Or [copy the CSS directly](/themes/pm-flat-theme.css).
 
+&nbsp;
 
 ## GM Theme
 <img src="/screenshots/gm-theme.3.7.png" width="100%" />
 
 ```
-    /* Copy this line into ProtonMail's custom theme box: */
-    @import url("https://amdelamar.github.io/pm-theme/themes/gm-theme.css");
+/* Copy this line into ProtonMail's custom theme box: */
+@import url("https://amdelamar.github.io/pm-theme/themes/gm-theme.css");
 ```
 Or [copy the CSS directly](/themes/gm-theme.css).
 
+&nbsp;
 
 ---
 
