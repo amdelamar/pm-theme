@@ -22,29 +22,32 @@ Just overwrite these colors with your favorites, or generate a pretty palette fr
 
 ---
 
-## PM Dark Theme - \[[Copy/View CSS](/themes/pm-dark-theme.css)\]
+## PM Dark Theme
 <img src="/screenshots/pm-dark-theme.3.7.png" width="100%" />
+
 ```
-/* Copy this line into ProtonMail's custom theme box: */
-@import url("https://amdelamar.github.io/pm-theme/themes/pm-dark-theme.css");
+    /* Copy this line into ProtonMail's custom theme box: */
+    @import url("https://amdelamar.github.io/pm-theme/themes/pm-dark-theme.css");
 ```
 Or [copy the CSS directly](/themes/pm-dark-theme.css).
 
 
-## PM Flat Theme - \[[Copy/View CSS](/themes/pm-flat-theme.css)\]
+## PM Flat Theme
 <img src="/screenshots/pm-flat-theme.3.7.png" width="100%" />
+
 ```
-/* Copy this line into ProtonMail's custom theme box: */
-@import url("https://amdelamar.github.io/pm-theme/themes/pm-flat-theme.css");
+    /* Copy this line into ProtonMail's custom theme box: */
+    @import url("https://amdelamar.github.io/pm-theme/themes/pm-flat-theme.css");
 ```
 Or [copy the CSS directly](/themes/pm-flat-theme.css).
 
 
 ## GM Theme
 <img src="/screenshots/gm-theme.3.7.png" width="100%" />
+
 ```
-/* Copy this line into ProtonMail's custom theme box: */
-@import url("https://amdelamar.github.io/pm-theme/themes/gm-theme.css");
+    /* Copy this line into ProtonMail's custom theme box: */
+    @import url("https://amdelamar.github.io/pm-theme/themes/gm-theme.css");
 ```
 Or [copy the CSS directly](/themes/gm-theme.css).
 
