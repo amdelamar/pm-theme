@@ -247,7 +247,7 @@ body section.sidebar ul.menu li.active a i.fa {
     color: var(--theme6)
 }
 
-body section.sidebar div.labels ul li.active a {
+body section.sidebar div.labels ul li.active a, .menuLabel-item.active .menuLabel-title {
     color: var(--theme2);
     font-weight: 700;
 }
@@ -282,6 +282,18 @@ body section.sidebar div.footer .bar {
 
 body section.sidebar a.compose {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+.sidebarApp-container .sidebar-btn-compose {
+  background: var(--theme1);
+  border-color: var(--theme1);
+  color: var(--theme2);
+}
+
+.sidebarApp-container .sidebar-btn-compose:hover {
+  background-color: var(--theme6);
+  border-color: transparent;
+  color: var(--theme2);
 }
 
 body section.sidebar a.version {
