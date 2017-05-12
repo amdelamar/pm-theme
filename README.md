@@ -25,35 +25,35 @@ Just overwrite these colors with your favorites, or generate a pretty palette fr
 &nbsp;
 
 ## PM Dark Theme
-<img src="https://amdelamar.github.io/pm-theme/screenshots/pm-dark-theme.3.7.png" width="100%" />
+<img src="https://austindelamar.com/pm-theme/screenshots/pm-dark-theme.3.7.png" width="100%" />
 
 ```
 /* Copy this line into ProtonMail's custom theme box: */
-@import url("https://amdelamar.github.io/pm-theme/themes/pm-dark-theme.css");
+@import url("https://austindelamar.com/pm-theme/themes/pm-dark-theme.css");
 ```
-Or [copy the CSS directly](/themes/pm-dark-theme.css).
+Or [copy the CSS directly](/themes/pm-dark-theme.css) and edit the colors.
 
 &nbsp;
 
 ## PM Flat Theme
-<img src="https://amdelamar.github.io/pm-theme/screenshots/pm-flat-theme.3.7.png" width="100%" />
+<img src="https://austindelamar.com/pm-theme/screenshots/pm-flat-theme.3.7.png" width="100%" />
 
 ```
 /* Copy this line into ProtonMail's custom theme box: */
-@import url("https://amdelamar.github.io/pm-theme/themes/pm-flat-theme.css");
+@import url("https://austindelamar.com/pm-theme/themes/pm-flat-theme.css");
 ```
-Or [copy the CSS directly](/themes/pm-flat-theme.css).
+Or [copy the CSS directly](/themes/pm-flat-theme.css) and edit the colors.
 
 &nbsp;
 
 ## GM Theme
-<img src="https://amdelamar.github.io/pm-theme/screenshots/gm-theme.3.7.png" width="100%" />
+<img src="https://austindelamar.com/pm-theme/screenshots/gm-theme.3.7.png" width="100%" />
 
 ```
 /* Copy this line into ProtonMail's custom theme box: */
-@import url("https://amdelamar.github.io/pm-theme/themes/gm-theme.css");
+@import url("https://austindelamar.com/pm-theme/themes/gm-theme.css");
 ```
-Or [copy the CSS directly](/themes/gm-theme.css).
+Or [copy the CSS directly](/themes/gm-theme.css) and edit the colors.
 
 &nbsp;
 
@@ -71,7 +71,7 @@ Or [copy the CSS directly](/themes/gm-theme.css).
 
 - This is only available for the WEB version and not the MOBILE app.
 - Some of these themes aren't always the best. If you have any problems you can open an [issue here](https://github.com/amdelamar/pm-theme/issues).
-- Older themes (Burnt, Gum, Seaweed) are still available [here](/themes).
+- Older themes (Burnt, Gum, Seaweed) are still available [here](https://github.com/amdelamar/pm-theme/tree/master/themes).
 
 ---
 
