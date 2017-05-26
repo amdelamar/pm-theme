@@ -37,7 +37,7 @@
 
 
 /*!
-*  Custom Theme for ProtonMail v3.8.3
+*  Custom Theme for ProtonMail v3.8.10
 *  --
 *  Author: Austin Delamar - http://austindelamar.com
 */
@@ -499,7 +499,7 @@ body#reset .alert {
     border: 1px solid rgba(0, 0, 0, .2);
 }
 
-#pm_composer .composer .options {
+.composerOptions-container {
     background: var(--light2);
 }
 
@@ -547,6 +547,12 @@ body#reset .alert {
 
 #pm_composer .composer header .actions .pm_button {
     color: var(--theme3);
+}
+
+#pm_composer .composer header.composerEncrypt-header,
+#pm_composer .composer header.composerExpiration-header {
+    background: none;
+    color: var(--theme2); 
 }
 
 #pm_composer .composer .row {
@@ -599,7 +605,7 @@ body#reset .alert {
 }
 
 .squireToolbar-container {
-    border: 1px solid var(--theme4);
+    border-bottom: 1px solid var(--theme4);
     background-color: var(--theme3);
 }
 
