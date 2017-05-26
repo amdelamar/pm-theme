@@ -1,12 +1,13 @@
 <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fcache3.asset-cache.net%2Fxt%2F171555439.jpg%3Fv%3D1%26g%3Dfs1%7C0%7CEPL%7C55%7C439%26s%3D1&f=1" align="right" />
 # Easy Themes for ProtonMail
+
 A collapsed CSS that's simple to edit by anyone.
 
 ### What's so special about this?
 
 This CSS is broken down into **7 "core" colors** that make it very simple to change to any colors of your choice!
 
-```
+```css
 :root {
 /* Core Theme Colors */
     --theme1: #66669a;
@@ -18,7 +19,7 @@ This CSS is broken down into **7 "core" colors** that make it very simple to cha
     --theme7: #fefefe;
 }
 ```
-Just overwrite these colors with your favorites, or generate a pretty palette from https://coolors.co/
+Take one of the themes below and overwrite these colors with your own. You can generate a pretty color palette from https://coolors.co/
 
 ---
 
@@ -27,42 +28,62 @@ Just overwrite these colors with your favorites, or generate a pretty palette fr
 ## PM Dark Theme
 <img src="https://austindelamar.com/pm-theme/screenshots/pm-dark-theme.3.7.png" width="100%" />
 
-```
+```css
 /* Copy this line into ProtonMail's custom theme box: */
 @import url("https://austindelamar.com/pm-theme/themes/pm-dark-theme.css");
 ```
-Or [copy the CSS directly](/themes/pm-dark-theme.css) and edit the colors.
+Or [copy the CSS directly](/themes/pm-dark-theme.css) and [edit the colors](#customize).
 
 &nbsp;
 
 ## PM Flat Theme
 <img src="https://austindelamar.com/pm-theme/screenshots/pm-flat-theme.3.7.png" width="100%" />
 
-```
+```css
 /* Copy this line into ProtonMail's custom theme box: */
 @import url("https://austindelamar.com/pm-theme/themes/pm-flat-theme.css");
 ```
-Or [copy the CSS directly](/themes/pm-flat-theme.css) and edit the colors.
+Or [copy the CSS directly](/themes/pm-flat-theme.css) and [edit the colors](#customize).
 
 &nbsp;
 
 ## GM Theme
 <img src="https://austindelamar.com/pm-theme/screenshots/gm-theme.3.7.png" width="100%" />
 
-```
+```css
 /* Copy this line into ProtonMail's custom theme box: */
 @import url("https://austindelamar.com/pm-theme/themes/gm-theme.css");
 ```
-Or [copy the CSS directly](/themes/gm-theme.css) and edit the colors.
+Or [copy the CSS directly](/themes/gm-theme.css) and [edit the colors](#customize).
 
 &nbsp;
 
 ---
 
-### Usage
+### Customize
+
+Take any theme above and you can override the theme colors with your own.
+
+```css
+/* First line should be the theme. */
+@import url("https://austindelamar.com/pm-theme/themes/gm-theme.css");
+
+/* Now you can override any color... */
+:root {
+    /* Blue instead of GM Red */
+    --theme1: #3652d1;
+}
+```
+
+And that's it! 
+
+---
+
+### Basic Usage
 
 - Copy a CSS theme.
 - Paste in ProtonMail. `Settings` > `Appearance` > `Custom Theme`.
+- Override the colors (or leave default).
 - Enjoy!
 
 ---
