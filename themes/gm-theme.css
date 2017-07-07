@@ -37,7 +37,7 @@
 
 
 /*!
-*  Custom Theme for ProtonMail v3.8.10
+*  Custom Theme for ProtonMail v3.9.0
 *  --
 *  Author: Austin Delamar - http://austindelamar.com
 */
@@ -125,23 +125,26 @@ header#pm_header .newBugReport-container, header#pm_header a {
     color: var(--white);
 }
 
-header#pm_headerDesktop {
+header#pm_headerDesktop, header.headerDesktop-container {
     background: var(--theme5);
 }
 
-header#pm_headerDesktop a.logo {
+header#pm_headerDesktop a.logo, header .headerDesktop-logo.logo {
     background-color: var(--theme2);
 }
 
-header#pm_headerDesktop ul.navigation>li:hover {
+header#pm_headerDesktop ul.navigation>li:hover,
+header.headerDesktop-container ul.navigation>li:hover {
     box-shadow: 0 5px 0 0 var(--theme1) inset;
 }
 
-header#pm_headerDesktop ul.navigation>li.active {
+header#pm_headerDesktop ul.navigation>li.active,
+header.headerDesktop-container ul.navigation>li.active {
     box-shadow: 0 5px 0 0 var(--theme1) inset
 }
 
-header#pm_headerDesktop ul.navigation>li>a {
+header#pm_headerDesktop ul.navigation>li>a,
+header.headerDesktop-container ul.navigation>li>a {
     color: var(--theme3);
 }
 
@@ -258,6 +261,18 @@ body section.sidebar div.footer a.upgrade {
 
 body section.sidebar div.footer .bar em {
     background-color: var(--theme1)
+}
+
+body section.sidebar ul.menu li button {
+    color: var(--theme2);
+}
+
+body section.sidebar ul.menu li button:hover {
+    color: var(--theme1);
+}
+
+body section.sidebar ul.menu li button i.fa {
+    color: var(--theme2);
 }
 
 .sidebarApp-container .sidebar-btn-compose {
@@ -413,6 +428,10 @@ body.mobileMode #pm_sidebar section.sidebar ul.menu li button {
     background: var(--theme3);
 }
 
+#conversation-view .message .message-contact-sender {
+    color: var(--theme5);
+}
+
 body.mobileMode #conversation-view .message>div.summary .time {
     background: var(--theme3);
 }
@@ -552,7 +571,7 @@ body#reset .alert {
 #pm_composer .composer header.composerEncrypt-header,
 #pm_composer .composer header.composerExpiration-header {
     background: none;
-    color: var(--theme2); 
+    color: var(--theme2);
 }
 
 #pm_composer .composer .row {
@@ -663,7 +682,8 @@ body#reset .alert {
 }
 
 #pm_settings .settings .angular-squire-wrapper {
-    border: 1px solid var(--theme4)
+    border: 1px solid var(--theme4);
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, .15);
 }
 
 #pm_settings .settings #keys-addressTable td .fa-times-circle {
@@ -1010,8 +1030,21 @@ form.searchForm #advancedSearchDropdown label {
     color: var(--dark2)
 }
 
+.searchForm-advanced-main {
+    background: var(--theme3);
+}
+
 form.searchForm #advancedSearchDropdown .wrap {
     background: var(--white);
+}
+
+.customCheckbox-input:checked + .customCheckbox-mask {
+    background-color: var(--theme6);
+    border-color: var(--theme6);
+}
+.customRadio-input:checked + .customRadio-mask {
+    box-shadow: inset 0 0 0 3px #fff,inset 0 0 0 10px var(--theme6);
+    border-color: var(--theme6);
 }
 
 body.mobileMode form.searchForm #advancedSearchDropdown .wrap {
@@ -1145,9 +1178,13 @@ body .cg-notify-message.notification-info {
     color: var(--white);
 }
 
-#plans .plans .plan h3 {
-    background: var(--theme1);
+#plans .plans .plan h3, .settingsDashboard-container #plans .plan .plan-title {
+    background-color: var(--theme1);
     color: var(--white);
+}
+
+.settingsDashboard-container #plans .plan > section ul {
+    background: var(--white);
 }
 
 #plans .plans .plan.plus-plan footer, #plans .plans .plan.plus-plan header {
@@ -1407,6 +1444,11 @@ body #conversation-list-rows .conversation.read, body #conversation-list-rows .c
 
 body #conversation-list-rows .conversation.read .subject h4 {
     color: var(--dark2)
+}
+
+.unsubscribePanel-container {
+    background-color: var(--theme3);
+    color: var(--theme2);
 }
 
 .pm_button {
