@@ -24,7 +24,7 @@
 
 
 /*!
-*  Custom Theme for ProtonMail v3.9.0
+*  Custom Theme for ProtonMail v3.9.1
 *  --
 *  Author: Austin Delamar - http://github.com/amdelamar
 *
@@ -1215,19 +1215,23 @@ body .cg-notify-message.notification-info {
 }
 
 .autocompleteEmails-field .awesomplete li[aria-selected=true], .autocompleteEmails-field .awesomplete li[aria-selected=true]:hover {
-    background-color: var(--theme4)
+    background-color: var(--theme4);
+}
+
+.autocompleteEmails-field .awesomplete li[aria-selected="false"], .autocompleteEmails-field .awesomplete li[aria-selected="false"]:hover {
+    background-color: var(--theme6);
 }
 
 .autocompleteEmails-field .awesomplete li:hover {
-    background-color: var(--theme3)
+    background-color: var(--theme3);
 }
 
 .autocompleteEmails-field .awesomplete li, .autocompleteEmails-field .awesomplete li:hover, .autocompleteEmails-field .awesomplete li[aria-selected=true], .autocompleteEmails-field .awesomplete li[aria-selected=true]:hover {
-    color: var(--theme2)
+    color: var(--theme2);
 }
 
 .autocompleteEmails-btn-remove:active, .autocompleteEmails-btn-remove:focus {
-    color: var(--theme5)
+    color: var(--theme5);
 }
 
 .monetize .modal-dialog .modal-content .upsell h4 {
@@ -1683,10 +1687,11 @@ body.mobileMode #body #pm_main .fa-check-square, body.mobileMode #body #pm_main 
 
 .pm_dropdown>a, .pm_dropdown>button, .pm_dropdown>ul>li {
     border-bottom: 1px solid var(--theme4);
+    color: var(--theme5);
 }
 
 .pm_dropdown>a:hover, .pm_dropdown>button:hover, .pm_dropdown>ul>li:hover {
-    color: var(--theme2)!important
+    color: var(--theme2)!important;
 }
 
 .pm_labels.inline label .close {
@@ -2069,4 +2074,12 @@ input[type=range].pm_range:focus::-ms-fill-upper {
 
 .pm_badge.warning {
     background-color: var(--yellow-light)
+}
+
+.scrollbox-container {
+    background-color: var(--theme7);
+}
+
+.scrollbox-container::after, .scrollbox-container::before {
+    background: none;
 }
