@@ -6,7 +6,7 @@ A collapsed CSS that's simple to edit by anyone.
 
 ### What's so special about this?
 
-This CSS is broken down into **7 "core" colors** that make it very simple to change to any colors of your choice!
+The CSS is collapsed down into **7 "core" colors** that make it very simple to change to any colors of your choice.
 
 ```css
 :root {
@@ -31,7 +31,7 @@ Take one of the themes below and overwrite these colors with your own. You can g
 /* Copy this line into ProtonMail's custom theme box: */
 @import url("https://austindelamar.com/pm-theme/themes/pm-dark-theme.css");
 ```
-Or [copy the CSS directly](/themes/pm-dark-theme.css) and [edit the colors](#customize).
+Or [copy the CSS here](/themes/pm-dark-theme.css) and [edit the colors](#customize).
 
 &nbsp;
 
@@ -42,7 +42,7 @@ Or [copy the CSS directly](/themes/pm-dark-theme.css) and [edit the colors](#cus
 /* Copy this line into ProtonMail's custom theme box: */
 @import url("https://austindelamar.com/pm-theme/themes/pm-flat-theme.css");
 ```
-Or [copy the CSS directly](/themes/pm-flat-theme.css) and [edit the colors](#customize).
+Or [copy the CSS here](/themes/pm-flat-theme.css) and [edit the colors](#customize).
 
 &nbsp;
 
@@ -53,7 +53,7 @@ Or [copy the CSS directly](/themes/pm-flat-theme.css) and [edit the colors](#cus
 /* Copy this line into ProtonMail's custom theme box: */
 @import url("https://austindelamar.com/pm-theme/themes/gm-theme.css");
 ```
-Or [copy the CSS directly](/themes/gm-theme.css) and [edit the colors](#customize).
+Or [copy the CSS here](/themes/gm-theme.css) and [edit the colors](#customize).
 
 &nbsp;
 
@@ -62,17 +62,17 @@ Or [copy the CSS directly](/themes/gm-theme.css) and [edit the colors](#customiz
 Take any theme above and you can override the theme colors with your own.
 
 ```css
-/* First line should be the theme. */
+/* First load the theme. */
 @import url("https://austindelamar.com/pm-theme/themes/gm-theme.css");
 
-/* Now you can override any colors... */
+/* Now you can change the colors... */
 :root {
     /* Blue instead of default GM Red */
     --theme1: #3652d1;
 }
 ```
 
-And that's it! 
+And that's it.
 
 ## Basic Usage
 
@@ -97,8 +97,8 @@ Have a theme you want to add? Or a nice set of colors? You can open an [issue](h
 
 I'll accept pull requests to the `master` branch too.
 
-## Share with friends!
+## Share with friends
 
 - Save, copy, tweak, and share any or all of this CSS code.
-- Licensed as [MIT](/LICENSE.md)
+- Licensed as [MIT](/LICENSE.md) and free forever.
 - Have fun!

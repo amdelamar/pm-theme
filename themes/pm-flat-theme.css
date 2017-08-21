@@ -24,7 +24,7 @@
 
 
 /*!
-*  Custom Theme for ProtonMail v3.9.0
+*  Custom Theme for ProtonMail v3.11.1
 *  --
 *  Author: Austin Delamar - http://github.com/amdelamar
 *
@@ -115,11 +115,11 @@ header#pm_headerDesktop, header.headerDesktop-container {
     background: var(--theme3);
 }
 
-header#pm_headerDesktop a.logo, header .headerDesktop-logo.logo {
+header#pm_headerDesktop a.logo, header .headerDesktop-logo.logo, .headerSecuredDesktop-logo {
     color: var(--theme1);
     background-color: var(--theme3);
 }
-header#pm_headerDesktop a.logo img, header .headerDesktop-logo.logo img {
+header#pm_headerDesktop a.logo img, header .headerDesktop-logo.logo img, .headerSecuredDesktop-logo::before {
     webkit-filter: grayscale(100%) brightness(50%);
     filter: grayscale(100%) brightness(50%);
 }
@@ -1241,6 +1241,18 @@ body .cg-notify-message.notification-info {
     color: var(--theme3);
 }
 
+.settingsDashboard-plans, .settingsDashboard-plans::after, .settingsDashboard-plans::before {
+    background: transparent;
+}
+
+.overviewSection-tbody-billing, .subscriptionSection-tbody-billing, .subscriptionSection-tbody-billing > tr:first-of-type {
+    background: var(--theme7) !important;
+}
+
+.overviewSection-couponCode {
+    color: var(--black);
+}
+
 .settingsDashboard-container #plans .plan > section ul {
     background: var(--theme7);
 }
@@ -1774,6 +1786,7 @@ body.mobileMode .pm_modal .modal-dialog .close {
 
 .pm_form select {
     background: var(--theme3);
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, .15);
 }
 
 .pm_form .input-icon .fa {
