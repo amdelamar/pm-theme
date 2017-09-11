@@ -2,47 +2,29 @@
 
 # Easy Themes for ProtonMail
 
-A collapsed CSS that's simple to edit by anyone.
-
-### What's so special about this?
-
-The CSS is collapsed down into **7 "core" colors** that make it very simple to change to any colors of your choice.
-
-```css
-:root {
-/* Core Theme Colors */
-    --theme1: #66669a;
-    --theme2: #5f5f60;
-    --theme3: #f0f0f0;
-    --theme4: #bcbdbf;
-    --theme5: #797a7c;
-    --theme6: #9397cd;
-    --theme7: #fefefe;
-}
-```
-Take one of the themes below and overwrite these colors with your own. You can generate a pretty color palette from https://coolors.co/
+A collapsed CSS that's simple to edit and share.
 
 &nbsp;
 
-## PM Dark Theme
+## Dark Theme
 <img src="https://austindelamar.com/pm-theme/screenshots/pm-dark-theme.3.7.png" width="100%" />
 
 ```css
 /* Copy this line into ProtonMail's custom theme box: */
-@import url("https://austindelamar.com/pm-theme/themes/pm-dark-theme.css");
+@import url("https://austindelamar.com/pm-theme/themes/pm-dark-theme.min.css");
 ```
-Or [copy the CSS here](/themes/pm-dark-theme.css) and [edit the colors](#customize).
+Or [copy the CSS here](/themes/pm-dark-theme.min.css) and [edit the colors](#customize).
 
 &nbsp;
 
-## PM Flat Theme
+## Flat Theme
 <img src="https://austindelamar.com/pm-theme/screenshots/pm-flat-theme.3.7.png" width="100%" />
 
 ```css
 /* Copy this line into ProtonMail's custom theme box: */
-@import url("https://austindelamar.com/pm-theme/themes/pm-flat-theme.css");
+@import url("https://austindelamar.com/pm-theme/themes/pm-flat-theme.min.css");
 ```
-Or [copy the CSS here](/themes/pm-flat-theme.css) and [edit the colors](#customize).
+Or [copy the CSS here](/themes/pm-flat-theme.min.css) and [edit the colors](#customize).
 
 &nbsp;
 
@@ -51,9 +33,9 @@ Or [copy the CSS here](/themes/pm-flat-theme.css) and [edit the colors](#customi
 
 ```css
 /* Copy this line into ProtonMail's custom theme box: */
-@import url("https://austindelamar.com/pm-theme/themes/gm-theme.css");
+@import url("https://austindelamar.com/pm-theme/themes/gm-theme.min.css");
 ```
-Or [copy the CSS here](/themes/gm-theme.css) and [edit the colors](#customize).
+Or [copy the CSS here](/themes/gm-theme.min.css) and [edit the colors](#customize).
 
 &nbsp;
 
@@ -67,14 +49,26 @@ Take any theme above and you can override the theme colors with your own.
 
 /* Now you can change the colors... */
 :root {
-    /* Blue instead of default GM Red */
-    --theme1: #3652d1;
+    --theme1: #3652d1; /* Blue instead of Red */
 }
 ```
 
 And that's it.
 
-## Basic Usage
+CSS `variables` make it easy to override colors. The `root` keyword just means it to set the variables globally. This CSS-only theme has been condensed down into **7 "core" colors** that make it very simple to use any colors of your choice. So take one of the themes above and overwrite these colors with your own. You can generate a pretty [color palette here](https://coolors.co/).
+
+```css
+:root {
+/* Core Theme Colors */
+    --theme1: #66669a; /* Purple */
+    --theme2: #5f5f60; /* Dark Grey */
+    --theme3: #f0f0f0; /* Light Grey */
+    --theme4: #bcbdbf; /* Grey */
+    --theme5: #797a7c; /* Medium Grey */
+    --theme6: #9397cd; /* Light Purple */
+    --theme7: #fefefe; /* White */
+}
+```
 
 1. Copy a CSS theme.
 1. Paste in ProtonMail. `Settings` > `Appearance` > `Custom Theme`.
@@ -85,11 +79,10 @@ And that's it.
 
 - This is only available for the WEB version and not the MOBILE app.
 - Some of these themes aren't always the best. **If you have any problems** you can open an [issue here](https://github.com/amdelamar/pm-theme/issues).
-- Older themes (Burnt, Gum, Seaweed) are still available [here](https://github.com/amdelamar/pm-theme/tree/master/themes).
 
 ## Privacy and Performance
 
-The above code used a CSS `import` statement for ease of use and quickly trying out a theme. However, the CSS `import` statement causes files to load sequentially instead of parallel, thus slowing down your pages load performance. Also, if your privacy is of the utmost importance, then I wouldn't use the CSS3 import statment from above. It potentially could reveal behavior about you, identifying when and where you login to ProtonMail using a specific theme. To prevent these things from happening, please copy & paste the entire contents of the CSS file rather than use the `import` statement.
+The above code used a CSS `import` statement for ease of use and quickly trying out a theme. However, the CSS `import` statement causes files to load sequentially instead of parallel, thus slowing down your pages load performance. Also, if your privacy is of the utmost importance, then I wouldn't use the CSS `import` statment from above. It potentially could reveal behavior about you, identifying when and where you login to ProtonMail using a specific theme. To prevent these things from happening, please copy & paste the entire contents of the CSS file rather than use the `import` statement.
 
 ## Contribute
 
