@@ -2,7 +2,7 @@
 
 # Easy Themes for ProtonMail
 
-A collapsed CSS that's simple to edit and share.
+A collapsed CSS that's simple to edit colors and share.
 
 &nbsp;
 
@@ -45,7 +45,7 @@ Take any theme above and you can override the theme colors with your own.
 
 ```css
 /* First load the theme. */
-@import url("https://austindelamar.com/pm-theme/themes/gm-theme.css");
+@import url("https://austindelamar.com/pm-theme/themes/gm-theme.min.css");
 
 /* Now you can change the colors... */
 :root {
@@ -82,16 +82,15 @@ CSS `variables` make it easy to override colors. The `root` keyword just means i
 
 ## Privacy and Performance
 
-The above code used a CSS `import` statement for ease of use and quickly trying out a theme. However, the CSS `import` statement causes files to load sequentially instead of parallel, thus slowing down your pages load performance. Also, if your privacy is of the utmost importance, then I wouldn't use the CSS `import` statment from above. It potentially could reveal behavior about you, identifying when and where you login to ProtonMail using a specific theme. To prevent these things from happening, please copy & paste the entire contents of the CSS file rather than use the `import` statement.
+The above code used a CSS `import` statement for ease of use and quickly trying out a theme. However, the CSS `import` statement causes files to load sequentially instead of parallel, thus slowing down your pages load performance. Also, if your privacy is of the utmost importance, then I wouldn't use the CSS `import` statment from above. It potentially could reveal your behavior e.g. identifying *when* you load up ProtonMail using *which* specific theme. To avoid this, please copy & paste the entire contents of the CSS file, rather than use the `import` statement.
 
 ## Contribute
 
 Have a theme you want to add? Or a nice set of colors? You can open an [issue](https://github.com/amdelamar/pm-theme/issues) and paste it. Or if you found a bug and want to report it you can do that too.
 
-I'll accept pull requests to the `master` branch too.
+I'll accept pull requests to the `master` branch too. Please make sure to minify the CSS as well.
 
 ## Share with friends
 
-- Save, copy, tweak, and share any or all of this CSS code.
+- Save, copy, tweak, and share any of this CSS theme.
 - Licensed as [MIT](/LICENSE.md) and free forever.
-- Have fun!
