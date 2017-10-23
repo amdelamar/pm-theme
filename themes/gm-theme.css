@@ -1,6 +1,6 @@
 @charset "UTF-8";
 :root {
-/* Core Theme Colors */
+    /* Core Theme Colors */
     --theme1: #d14836;
     --theme2: #5f5f60;
     --theme3: #f0f0f0;
@@ -9,7 +9,7 @@
     --theme6: #b1b1b1;
     --theme7: #88888b;
 
-/* Alert & Status Colors */
+    /* Alert & Status Colors */
     --red: #cc9393;
     --red-light: #ec6446;
     --yellow: #dfdf19;
@@ -19,7 +19,7 @@
     --blue: #bce8f1;
     --blue-light: #93b9cc;
 
-/* Shades of Grey */
+    /* Shades of Grey */
     --white: #FFF;
     --light1: #e5e5e5;
     --light2: #fafafa;
@@ -37,7 +37,7 @@
 
 
 /*!
-* Custom Theme for ProtonMail v3.11.2
+* Custom Theme for ProtonMail v3.11.7
 * http://austindelamar.com/pm-theme/
 * - - -
 * Font Awesome http://fontawesome.io
@@ -210,6 +210,16 @@ header#pm_header-mobile .location {
 
 body section.sidebar {
     background: var(--theme2);
+}
+
+.sidebarApp-container .sidebar-btn-back {
+  border: 1px solid var(--theme1);
+  color: var(--theme4);
+}
+
+.sidebarApp-container .sidebar-btn-back:hover {
+  background: var(--theme1);
+  color: var(--theme3);
 }
 
 body section.sidebar ul.menu li a:hover {
@@ -1550,6 +1560,15 @@ body #conversation-list-rows .conversation.read .subject h4 {
     background: var(--theme3);
 }
 
+.pm_buttons .pm_buttons-child {
+    background: var(--theme3);
+}
+
+.pm_buttons .pm_buttons-child.disabled {
+    box-shadow: none;
+    background: var(--theme3);
+}
+
 .pm_buttons .disabled, .pm_buttons [disabled] {
     color: var(--theme4);
     box-shadow: inset 0 0 50rem 0 var(--theme3);
@@ -1560,17 +1579,17 @@ body #conversation-list-rows .conversation.read .subject h4 {
     border-left: 1px solid var(--theme4)
 }
 
-.pm_buttons a, #conversation-view .message .details .pm_buttons a {
+.pm_buttons a, #conversation-view .message .details .pm_buttons a, .pm_buttons .pm_buttons-child {
     color: var(--theme5);
     background: var(--theme3);
 }
 
-.pm_buttons a:hover {
+.pm_buttons a:hover, #conversation-view .message .details .pm_buttons a:hover, .pm_buttons .pm_buttons-child:hover {
     background-color: var(--light4);
     color: var(--dark4)
 }
 
-.pm_buttons a.active, .pm_buttons a:active {
+.pm_buttons a.active, .pm_buttons a:active, .pm_buttons .pm_buttons-child:active {
     background: var(--light1);
 }
 
