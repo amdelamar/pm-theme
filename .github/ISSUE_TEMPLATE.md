@@ -1,14 +1,9 @@
+## Your Environment
+<!--- Include as many relevant details about the environment -->
+ * Theme used: 
+ * Browser name and version: 
+ * OS/Device version: 
+
 ## What is the Problem?
 
-<!-- Include the error and/or stack trace or screenshot -->
-
-## What will reproduce the problem?
-
-
-## What was the expected result?
-
-
-## Do you know what would fix it?
-
-
-## Any other relevant information  
+<!-- Describe the problem or screenshot -->
