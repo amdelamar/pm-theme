@@ -214,7 +214,7 @@ body section.sidebar {
 
 .sidebarApp-container .sidebar-btn-back {
   border: 1px solid var(--theme1);
-  color: var(--theme4);
+  color: var(--theme1);
 }
 
 .sidebarApp-container .sidebar-btn-back:hover {
@@ -999,8 +999,12 @@ body .pm_form textarea[readonly], pre {
     border-bottom: 1px solid var(--theme4);
 }
 
-form.searchForm {
-    color: var(--white);
+.searchForm-advanced-container, .searchForm-advanced-main, .searchForm-advanced-wrapper {
+    background-color: var(--theme3);
+}
+
+form.searchForm, .searchForm-container, .searchForm-advanced-container label {
+    color: var(--theme5);
 }
 
 form.searchForm fieldset, .search-form-fieldset {

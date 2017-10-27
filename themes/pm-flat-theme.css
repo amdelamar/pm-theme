@@ -204,8 +204,8 @@ body section.sidebar {
 }
 
 .sidebarApp-container .sidebar-btn-back:hover {
-  background: var(--theme5);
-  color: var(--theme7);
+  background: var(--theme1);
+  color: var(--theme3);
 }
 
 body section.sidebar ul.menu li button {
@@ -1060,7 +1060,11 @@ body .pm_form textarea[readonly], pre {
     border-bottom: 1px solid var(--theme4);
 }
 
-form.searchForm, .searchForm-container {
+.searchForm-advanced-container, .searchForm-advanced-main, .searchForm-advanced-wrapper {
+    background-color: var(--theme7);
+}
+
+form.searchForm, .searchForm-container, .searchForm-advanced-container label {
     color: var(--theme2);
 }
 
