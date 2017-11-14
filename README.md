@@ -79,6 +79,11 @@ CSS `variables` make it easy to override colors. The `root` keyword just means i
 
 - This is only available for the WEB version and not the MOBILE app.
 - Some of these themes aren't always the best. **If you have any problems** you can open an [issue here](https://github.com/amdelamar/pm-theme/issues).
+- Some browsers cache CSS pages for a long time. If you aren't seeing the latest version, try adding a `?v=1" to the end, like this: 
+  ```css
+  /* Force browser to grab fresh copy of CSS */
+  @import url("https://austindelamar.com/pm-theme/themes/gm-theme.min.css?v=1");
+  ```
 
 ## Privacy and Performance
 
