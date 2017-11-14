@@ -7,7 +7,7 @@ A collapsed CSS that's simple to edit colors and share.
 &nbsp;
 
 ## Dark Theme
-<img src="https://austindelamar.com/pm-theme/screenshots/pm-dark-theme.3.7.png" width="100%" />
+<img src="https://austindelamar.com/pm-theme/screenshots/dark-screenshot-3.12.png" width="100%" />
 
 ```css
 /* Copy this line into ProtonMail's custom theme box: */
@@ -18,7 +18,7 @@ Or [copy the CSS here](/themes/pm-dark-theme.min.css) and [edit the colors](#cus
 &nbsp;
 
 ## Flat Theme
-<img src="https://austindelamar.com/pm-theme/screenshots/pm-flat-theme.3.7.png" width="100%" />
+<img src="https://austindelamar.com/pm-theme/screenshots/flat-screenshot-3.12.png" width="100%" />
 
 ```css
 /* Copy this line into ProtonMail's custom theme box: */
@@ -29,7 +29,7 @@ Or [copy the CSS here](/themes/pm-flat-theme.min.css) and [edit the colors](#cus
 &nbsp;
 
 ## GM Theme
-<img src="https://austindelamar.com/pm-theme/screenshots/gm-theme.3.7.png" width="100%" />
+<img src="https://austindelamar.com/pm-theme/screenshots/gm-screenshot-3.12.png" width="100%" />
 
 ```css
 /* Copy this line into ProtonMail's custom theme box: */
@@ -53,7 +53,7 @@ Take any theme above and you can override the theme colors with your own.
 }
 ```
 
-And that's it.
+And that's it!
 
 CSS `variables` make it easy to override colors. The `root` keyword just means it to set the variables globally. This CSS-only theme has been condensed down into **7 "core" colors** that make it very simple to use any colors of your choice. So take one of the themes above and overwrite these colors with your own. You can generate a pretty [color palette here](https://coolors.co/).
 
@@ -86,11 +86,11 @@ The above code used a CSS `import` statement for ease of use and quickly trying 
 
 ## Contribute
 
-Have a theme you want to add? Or a nice set of colors? You can open an [issue](https://github.com/amdelamar/pm-theme/issues) and paste it. Or if you found a bug and want to report it you can do that too.
+Spot a problem or bug? You can open an [issue here](https://github.com/amdelamar/pm-theme/issues).
 
 I'll accept pull requests to the `master` branch too. Please make sure to minify the CSS as well.
 
 ## Share with friends
 
 - Save, copy, tweak, and share any of this CSS theme.
-- Licensed as [MIT](/LICENSE.md) and free forever.
+- Licensed as [MIT](/LICENSE.md) and *free forever*.
