@@ -24,11 +24,8 @@
 
 
 /*!
-* Custom Theme for ProtonMail v3.11.7
+* Custom Theme for ProtonMail v3.12.13
 * http://austindelamar.com/pm-theme/
-* - - -
-* Font Awesome http://fontawesome.io
-* Pikaday http://dbushell.com
 */
 
 #exiting {
@@ -1661,7 +1658,8 @@ body #conversation-list-rows .conversation.read .subject h4 {
     background: var(--theme3);
 }
 
-.pm_buttons a:hover, #conversation-view .message .details .pm_buttons a:hover, .pm_buttons .pm_buttons-child:hover {
+.pm_buttons a:hover, #conversation-view .message .details .pm_buttons a:hover, .pm_buttons .pm_buttons-child:hover,
+.chooseLayoutBtns-container-rows .chooseLayoutBtns-btn-rows, .chooseLayoutBtns-container:not(.chooseLayoutBtns-container-rows) .chooseLayoutBtns-btn-column {
     background-color: var(--theme7);
     color: var(--theme2)
 }
@@ -1822,7 +1820,8 @@ body.mobileMode .pm_modal .modal-dialog .close {
     color: var(--theme2);
 }
 
-.pm_form input[type=text], .pm_form input[type=number], .pm_form input[type=password], .pm_form input[type=email], .pm_form input[type=search], .pm_form input[type=tel], .pm_form select, .pm_form textarea {
+.pm_form input[type=text], .pm_form input[type=number], .pm_form input[type=password], .pm_form input[type=email], .pm_form input[type=search], .pm_form input[type=tel], .pm_form select, .pm_form textarea,
+.contactItem-inputs input, .contactItem-inputs textarea {
     border: 1px solid var(--theme4);
     color: var(--theme2);
     box-shadow: inset 0 2px 5px rgba(0, 0, 0, .15);
@@ -1876,6 +1875,14 @@ body.mobileMode .pm_modal .modal-dialog .close {
 body.light .pm_panel {
     background: var(--theme3);
     color: var(--theme2)
+}
+
+.contactList-table {
+    background: transparent;
+}
+
+.contactList-item-activeContact td {
+    background-color: var(--theme1);
 }
 
 .pm_table table thead {
