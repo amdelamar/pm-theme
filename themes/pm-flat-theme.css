@@ -24,7 +24,7 @@
 
 
 /*!
-* Custom Theme for ProtonMail v3.12.13
+* Custom Theme for ProtonMail v3.12.20
 * http://austindelamar.com/pm-theme/
 */
 
@@ -657,8 +657,18 @@ body#reset .alert {
     color: var(--theme4)
 }
 
+.colorList-btn-choose {
+    color: inherit !important;
+    background-color: inherit !important;
+    border: unset !important;
+}
+
 .squireToolbar-container {
     border-bottom: 1px solid var(--theme4);
+    background-color: var(--theme3);
+}
+
+.squireToolbar-container .squire-toolbar,[class*="squireToolbar-row"] {
     background-color: var(--theme3);
 }
 
