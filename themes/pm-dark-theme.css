@@ -128,6 +128,9 @@ header#pm_headerDesktop ul.navigation>li>a,
 header.headerDesktop-container ul.navigation>li>a {
 	color: var(--theme2);
 }
+header#pm_headerDesktop .navigation .navigationUser-dropdown {
+	color: var(--theme2);
+}
 
 header#pm_headerDesktop.no-auth {
 	background: var(--theme2);
@@ -536,15 +539,22 @@ body#reset .alert {
 	background: var(--theme3);
 }
 
-#pm_composer .addLinkPopover-field .addLinkPopover-label,
-#pm_composer .addFilePopover-field .addFilePopover-label {
-	color: var(--white) !important;
+.addFilePopover-panel, .addLinkPopover-panel,
+.addLinkPopover-footer, .addFilePopover-footer {
+	background: var(--theme7) !important;
 }
 
-#pm_composer .addLinkPopover-field .addLinkPopover-input,
-#pm_composer .addFilePopover-field .addFilePopover-input-url {
-	color: var(--white) !important;
+.addLinkPopover-field .addLinkPopover-label,
+.addFilePopover-field .addFilePopover-label {
+	color: var(--theme2) !important;
+}
+
+.addLinkPopover-field .addLinkPopover-input,
+.addFilePopover-field .addFilePopover-input-url {
+	border: 1px solid var(--theme4) !important;
+	color: var(--theme2) !important;
 	background: var(--theme7) !important;
+	box-shadow: inset 0 0 0 1px var(--theme1) !important;
 }
 
 .composerTime-container {
@@ -723,7 +733,18 @@ body#reset .alert {
 }
 
 .squire-popover button, .squireToolbar-container button {
-	border: 1px solid var(--theme1) !important;
+	background-color: var(--theme1) !important;
+	color: var(--theme3) !important;
+}
+
+.squireToolbar-select .squireToolbar-select-view {
+	background-color: var(--theme1) !important;
+	color: var(--theme3) !important;
+	border: 1px solid var(--theme4) !important;
+}
+
+.squireToolbar-select .squireToolbar-select-view .squireDropdown-item-label {
+	border: none !important;
 	background-color: var(--theme1) !important;
 	color: var(--theme3) !important;
 }
@@ -780,6 +801,7 @@ body#reset .alert {
 }
 
 #pm_settings .settings .angular-squire-wrapper {
+	background: var(--white);
 	border: 1px solid var(--theme4);
 	box-shadow: inset 0 2px 5px rgba(0, 0, 0, .15);
 }
