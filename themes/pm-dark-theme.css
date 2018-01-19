@@ -536,6 +536,21 @@ body#reset .alert {
 	background: var(--theme3);
 }
 
+#pm_composer .addLinkPopover-field .addLinkPopover-label,
+#pm_composer .addFilePopover-field .addFilePopover-label {
+	color: var(--white) !important;
+}
+
+#pm_composer .addLinkPopover-field .addLinkPopover-input,
+#pm_composer .addFilePopover-field .addFilePopover-input-url {
+	color: var(--white) !important;
+	background: var(--theme7) !important;
+}
+
+.composerTime-container {
+	color: var(--theme5) !important;
+}
+
 #pm_composer .composer .askEmbedding {
 	background: var(--theme3);
 	color: var(--theme2);
@@ -603,11 +618,16 @@ body#reset .alert {
 }
 
 #pm_composer .composer header .actions .pm_button {
-	color: var(--theme3);
+	color: var(--theme3) !important;
+	border: none !important;
 }
 
 #pm_composer .composer header .actions .pm_button:hover {
-	color: var(--theme2);
+	color: var(--theme2) !important;
+}
+
+#pm_composer .composer .pm_button.link {
+	border: none !important;
 }
 
 #pm_composer .composer .row {
@@ -632,7 +652,7 @@ body#reset .alert {
 }
 
 #pm_composer .composer footer {
-	background: var(--theme3) !important;
+	background: var(--theme7) !important;
 	border-top: 1px solid var(--theme4) !important;
 }
 
@@ -640,8 +660,18 @@ body#reset .alert {
 	background: var(--theme3) !important;
 }
 
+#pm_composer .composer footer .pm_button:hover {
+	background-color: var(--theme7) !important;
+	color: var(--theme2) !important;
+}
+
 #pm_composer .composer footer .pm_button.primary {
 	background: var(--theme1) !important;
+}
+
+#pm_composer .composer footer .pm_button.primary:hover {
+	background-color: var(--theme6) !important;
+	color: var(--theme2) !important;
 }
 
 #pm_composer .composer footer .pm_button.disabled {
@@ -664,7 +694,7 @@ body#reset .alert {
 	color: var(--theme4);
 }
 
-.colorList-btn-choose {
+.colorPopover-container .colorPopover-panel .colorPopover-select .colorList-list .colorList-btn-choose {
 	color: inherit !important;
 	background-color: inherit !important;
 	border: unset !important;
@@ -675,7 +705,7 @@ body#reset .alert {
 }
 
 .squireToolbar-container .squire-toolbar, [class*="squireToolbar-row"] {
-	background-color: var(--theme3) !important;
+	background-color: var(--theme7) !important;
 }
 
 [class*=squireToolbar-action-]+.squireToolbar-separator {

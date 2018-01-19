@@ -504,6 +504,15 @@ body#reset .alert {
 	background: var(--white);
 }
 
+#pm_composer .addLinkPopover-field .addLinkPopover-label {
+	color: var(--black) !important;
+}
+
+#pm_composer .addLinkPopover-field .addLinkPopover-input {
+	color: var(--black) !important;
+	background: var(--white) !important;
+}
+
 #pm_composer .composer .askEmbedding {
 	background: var(--light3);
 	color: var(--theme2);
@@ -565,7 +574,16 @@ body#reset .alert {
 }
 
 #pm_composer .composer header .actions .pm_button {
-	color: var(--theme3);
+	color: var(--theme3) !important;
+	border: none !important;
+}
+
+#pm_composer .composer header .actions .pm_button:hover {
+	color: var(--theme2) !important;
+}
+
+#pm_composer .composer .pm_button.link {
+	border: none !important;
 }
 
 #pm_composer .composer header.composerEncrypt-header,
@@ -595,12 +613,13 @@ body#reset .alert {
 	border-top: 1px solid var(--theme4) !important;
 }
 
-#pm_composer .composer footer .pm_button {
-	background: var(--white) !important;
-}
-
 #pm_composer .composer footer .pm_button.primary {
 	background: var(--theme1) !important;
+}
+
+#pm_composer .composer footer .pm_button.primary:hover {
+	background-color: var(--theme6) !important;
+	color: var(--theme2) !important;
 }
 
 #pm_composer .composer footer .pm_button.disabled {
@@ -623,7 +642,7 @@ body#reset .alert {
 	color: var(--medium1);
 }
 
-.colorList-btn-choose {
+.colorPopover-container .colorPopover-panel .colorPopover-select .colorList-list .colorList-btn-choose {
 	color: inherit !important;
 	background-color: inherit !important;
 	border: unset !important;
