@@ -495,7 +495,7 @@ body.mobileMode #conversation-view .message.details>div.summary .meta .contact e
 }
 
 #pm_conversations .meta .fa-star-o, #pm_conversations .meta .singleStar, #pm_conversations article>header .fa-lock, #pm_conversations article>header .fa-paperclip, #pm_conversations header .loc, #pm_rows .meta .fa-star-o, #pm_rows .meta .singleStar, #pm_rows article>header .fa-lock, #pm_rows article>header .fa-paperclip, #pm_rows header .loc {
-	color: var(--theme4);
+	color: var(--white);
 }
 
 body#reset .alert {
@@ -1525,7 +1525,7 @@ body .cg-notify-message.notification-info {
 }
 
 .conversation .row .meta .fa-star-o {
-	color: var(--theme4) !important;
+	color: var(--white) !important;
 }
 
 .conversation .row .meta .fa-star {
@@ -1589,7 +1589,7 @@ body #conversation-list-rows .conversation .expiration {
 }
 
 body #conversation-list-rows .conversation .fa-star-o {
-	color: var(--theme4) !important;
+	color: var(--white) !important;
 }
 
 body #conversation-list-rows .conversation .fa-star {
