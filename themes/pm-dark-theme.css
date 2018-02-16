@@ -24,7 +24,7 @@
 
 
 /*!
-* Custom Theme for ProtonMail v3.12.23
+* Custom Theme for ProtonMail v3.12.31
 * http://austindelamar.com/pm-theme/
 */
 
@@ -1746,7 +1746,7 @@ body #conversation-list-rows .conversation.read .subject h4 {
 }
 
 .pm_buttons .pm_buttons:not(:first-of-type), .pm_buttons > * {
-	border-left: 1px solid var(--theme4) !important;
+	border-color: var(--theme4) !important;
 }
 
 .pm_buttons a, #conversation-view .message .details .pm_buttons a, .pm_buttons .pm_buttons-child {
