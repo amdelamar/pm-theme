@@ -7,7 +7,7 @@ A collapsed CSS that's simple to edit colors and share.
 &nbsp;
 
 ## Dark Theme
-<img src="https://austindelamar.com/pm-theme/screenshots/dark-screenshot-3.12.png" width="100%" />
+<img src="https://austindelamar.com/pm-theme/screenshots/dark-screenshot-3.12.41.png" width="100%" />
 
 ```css
 /* Copy this line into ProtonMail's custom theme box: */
@@ -18,7 +18,7 @@ Or [copy the CSS here](/themes/pm-dark-theme.min.css) and [edit the colors](#cus
 &nbsp;
 
 ## Flat Theme
-<img src="https://austindelamar.com/pm-theme/screenshots/flat-screenshot-3.12.png" width="100%" />
+<img src="https://austindelamar.com/pm-theme/screenshots/flat-screenshot-3.12.41.png" width="100%" />
 
 ```css
 /* Copy this line into ProtonMail's custom theme box: */
@@ -28,8 +28,19 @@ Or [copy the CSS here](/themes/pm-flat-theme.min.css) and [edit the colors](#cus
 
 &nbsp;
 
+## Background Image Theme
+<img src="https://austindelamar.com/pm-theme/screenshots/bg-image-screenshot-3.12.41.png" width="100%" />
+
+```css
+/* Copy this line into ProtonMail's custom theme box: */
+@import url("https://austindelamar.com/pm-theme/themes/bg-image-theme.min.css");
+```
+Or [copy the CSS here](/themes/bg-image-theme.min.css) and [edit the image](#customize) variable `--image` to your own image you'd like.
+
+&nbsp;
+
 ## GM Theme
-<img src="https://austindelamar.com/pm-theme/screenshots/gm-screenshot-3.12.png" width="100%" />
+<img src="https://austindelamar.com/pm-theme/screenshots/gm-screenshot-3.12.41.png" width="100%" />
 
 ```css
 /* Copy this line into ProtonMail's custom theme box: */
@@ -79,7 +90,7 @@ CSS `variables` make it easy to override colors. The `root` keyword just means i
 
 - This is only available for the WEB version and not the MOBILE app.
 - Some of these themes aren't always the best. **If you have any problems** you can open an [issue here](https://github.com/amdelamar/pm-theme/issues).
-- Some browsers cache CSS pages for a long time. If you aren't seeing the latest version, try adding a `?v=1" to the end, like this: 
+- Some browsers cache CSS pages for a long time. If you aren't seeing the latest version, try adding a `?v=1" to the end, like this:
   ```css
   /* Force browser to grab fresh copy of CSS */
   @import url("https://austindelamar.com/pm-theme/themes/gm-theme.min.css?v=1");
