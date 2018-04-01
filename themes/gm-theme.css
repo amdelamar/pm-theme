@@ -973,30 +973,31 @@ body .pm_form textarea[readonly], pre {
 }
 
 .alert {
+  color: var(--black) !important;
 	background: var(--light1) !important;
 }
 
-.alert a {
+.alert a, .alert.alert-danger a, .alert.alert-info a, .alert.alert-success a, .alert.alert-warning a {
 	color: var(--theme1) !important;
 }
 
-.alert.alert-danger a, .alert.alert-info a, .alert.alert-success a, .alert.alert-warning a {
-	color: var(--black) !important;
-}
-
 .alert.alert-info {
-	background: var(--theme3) !important;
+  color: var(--black) !important;
+	background: var(--light1) !important;
 }
 
 .alert.alert-success {
+  color: var(--black) !important;
 	background: var(--green) !important;
 }
 
 .alert.alert-danger {
+  color: var(--black) !important;
 	background: var(--red-light) !important;
 }
 
 .alert.alert-warning {
+  color: var(--black) !important;
 	background: var(--yellow-light) !important;
 }
 
