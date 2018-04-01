@@ -24,7 +24,7 @@
 
 
 /*!
-* Custom Theme for ProtonMail v3.12.31
+* Custom Theme for ProtonMail v3.13.0
 * http://austindelamar.com/pm-theme/
 */
 
@@ -116,12 +116,12 @@ header#pm_headerDesktop a.logo img, header .headerDesktop-logo.logo img, .header
 }
 header#pm_headerDesktop ul.navigation>li:hover,
 header.headerDesktop-container ul.navigation>li:hover {
-	box-shadow: 0 5px 0 0 var(--theme6) inset;
+	border-color: var(--theme1) !important;
 }
 
 header#pm_headerDesktop ul.navigation>li.active,
 header.headerDesktop-container ul.navigation>li.active {
-	box-shadow: 0 5px 0 0 var(--theme1) inset
+	border-color: var(--theme1) !important;
 }
 
 header#pm_headerDesktop ul.navigation>li>a,

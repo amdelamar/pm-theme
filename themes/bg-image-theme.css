@@ -21,13 +21,13 @@
 	--white: #FFF;
 	--black: #000;
 
-  /* Just change this image to your own. */
+  /* Change this image to your own. */
   --image: url(https://mail.protonmail.com/assets/img/login.jpg);
 }
 
 
 /*!
-* Custom Theme for ProtonMail v3.12.41
+* Custom Theme for ProtonMail v3.13.0
 * http://austindelamar.com/pm-theme/
 */
 
@@ -97,8 +97,7 @@ body, body #body, body header, body header a.logo, body section.sidebar, #ptSide
 }
 
 .pm_button.link {
-  background-color: rgba(0,0,0,0.1);
-  color: var(--black);
+  color: var(--black) !important;
 }
 
 body section.sidebar a.compose {
@@ -115,4 +114,8 @@ body section.sidebar a.compose {
   background-color: var(--theme6) !important;
   border-color: transparent !important;
   color: var(--theme7) !important;
+}
+
+.composerHeader-container {
+  color: var(--black) !important;
 }
