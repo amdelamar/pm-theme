@@ -636,12 +636,13 @@ body#reset .alert {
 }
 
 #pm_composer .composer select option {
-	color: var(--theme3) !important;
+	color: var(--theme2) !important;
+  background-color: var(--theme3) !important;
 }
 
 #pm_composer .composer .meta {
 	color: var(--theme2) !important;
-	background: var(--theme3);
+	background: var(--theme3) !important;
 }
 
 #pm_composer .composer footer {
@@ -651,6 +652,11 @@ body#reset .alert {
 
 #pm_composer .composer footer .pm_button {
 	background: var(--theme3) !important;
+}
+
+#pm_composer .composer footer .pm_button:hover {
+	background-color: var(--theme7) !important;
+	color: var(--theme2) !important;
 }
 
 #pm_composer .composer footer .pm_button.primary {
