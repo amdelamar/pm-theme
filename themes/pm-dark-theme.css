@@ -385,7 +385,7 @@ body.mobileMode #pm_sidebar section.sidebar ul.menu li button {
 	background: var(--theme3) !important;
 }
 
-#conversation-view .message.unread>div.summary .labels, #conversation-view .message.unread>div.summary .status, #conversation-view .message.unread>div.summary .time, #conversation-view .message.unread>div.summary .time::after {
+#conversation-view .message.unread:not(.open) .summary .labels, #conversation-view .message.unread:not(.open) .summary .status, #conversation-view .message.unread:not(.open) .summary .time {
 	background: var(--theme3)!important;
 }
 
