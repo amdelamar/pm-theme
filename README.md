@@ -2,7 +2,7 @@
 
 # Easy Themes for ProtonMail
 
-A collapsed CSS that's simple to edit colors and share.
+A collection of CSS themes that's simple to edit the colors and more.
 
 &nbsp;
 
