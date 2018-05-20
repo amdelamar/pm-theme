@@ -1,0 +1,27 @@
+{
+  "name": "pm-theme",
+  "version": "3.13.0",
+  "description": "Easy CSS Themes for ProtonMail.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amdelamar/pm-theme.git"
+  },
+  "homepage": "https://austindelamar.com/pm-theme/",
+  "author": "Austin Delamar <amdelamar@protonmail.com> (https://austindelamar.com)",
+  "main": "themes/pm-dark-theme.min.css",
+  "style": "themes/pm-dark-theme.min.css",
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "css3",
+    "protonmail",
+    "custom",
+    "themes"
+  ],
+  "bugs": {
+    "url": "https://github.com/amdelamar/pm-theme/issues"
+  },
+  "ignore": [
+    "screenshots/*"
+  ]
+}
