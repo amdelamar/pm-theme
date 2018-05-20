@@ -12,8 +12,10 @@ A collection of CSS themes that's simple to edit the colors and more.
 ```css
 /* Copy this line into ProtonMail's custom theme box: */
 @import url("https://austindelamar.com/pm-theme/themes/pm-dark-theme.min.css");
+/* Or this line: */
+@import url("https://unpkg.com/pm-theme/themes/pm-dark-theme.min.css");
 ```
-Or [copy the CSS here](/themes/pm-dark-theme.min.css) and [edit the colors](#customize).
+Or [copy the CSS directly](/themes/pm-dark-theme.min.css) and [edit the colors](#customize).
 
 &nbsp;
 
@@ -23,8 +25,10 @@ Or [copy the CSS here](/themes/pm-dark-theme.min.css) and [edit the colors](#cus
 ```css
 /* Copy this line into ProtonMail's custom theme box: */
 @import url("https://austindelamar.com/pm-theme/themes/pm-flat-theme.min.css");
+/* Or this line: */
+@import url("https://unpkg.com/pm-theme/themes/pm-flat-theme.min.css");
 ```
-Or [copy the CSS here](/themes/pm-flat-theme.min.css) and [edit the colors](#customize).
+Or [copy the CSS directly](/themes/pm-flat-theme.min.css) and [edit the colors](#customize).
 
 &nbsp;
 
@@ -34,8 +38,10 @@ Or [copy the CSS here](/themes/pm-flat-theme.min.css) and [edit the colors](#cus
 ```css
 /* Copy this line into ProtonMail's custom theme box: */
 @import url("https://austindelamar.com/pm-theme/themes/bg-image-theme.min.css");
+/* Or this line: */
+@import url("https://unpkg.com/pm-theme/themes/bg-image-theme.min.css");
 ```
-Or [copy the CSS here](/themes/bg-image-theme.min.css) and [edit the image](#customize) variable `--image` to your own image you'd like.
+Or [copy the CSS directly](/themes/bg-image-theme.min.css) and [edit the image](#customize) variable `--image` to your own image.
 
 &nbsp;
 
@@ -45,8 +51,10 @@ Or [copy the CSS here](/themes/bg-image-theme.min.css) and [edit the image](#cus
 ```css
 /* Copy this line into ProtonMail's custom theme box: */
 @import url("https://austindelamar.com/pm-theme/themes/gm-theme.min.css");
+/* Or this line: */
+@import url("https://unpkg.com/pm-theme/themes/gm-theme.min.css");
 ```
-Or [copy the CSS here](/themes/gm-theme.min.css) and [edit the colors](#customize).
+Or [copy the CSS directly](/themes/gm-theme.min.css) and [edit the colors](#customize).
 
 &nbsp;
 
@@ -56,7 +64,7 @@ Take any theme above and you can override the theme colors with your own.
 
 ```css
 /* First load the theme. */
-@import url("https://austindelamar.com/pm-theme/themes/gm-theme.min.css");
+@import url("https://unpkg.com/pm-theme/themes/gm-theme.min.css");
 
 /* Now you can change the colors... */
 :root {
@@ -95,6 +103,7 @@ CSS `variables` make it easy to override colors. The `root` keyword just means i
   /* Force browser to grab fresh copy of CSS */
   @import url("https://austindelamar.com/pm-theme/themes/gm-theme.min.css?v=1");
   ```
+  If you're using the "unpkg.com" link, it always grabs the latest version from [npm](https://www.npmjs.com/package/pm-theme). So this isn't needed.
 
 ## Privacy and Performance
 
