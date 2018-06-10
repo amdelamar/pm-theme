@@ -7,11 +7,11 @@ A collection of CSS themes that's simple to edit the colors and more.
 &nbsp;
 
 ## Dark Theme
-<img src="https://austindelamar.com/pm-theme/screenshots/dark-screenshot-3.12.41.png" width="100%" />
+<img src="https://amdelamar.com/pm-theme/screenshots/dark-screenshot-3.12.41.png" width="100%" />
 
 ```css
 /* Copy this line into ProtonMail's custom theme box: */
-@import url("https://austindelamar.com/pm-theme/themes/pm-dark-theme.min.css");
+@import url("https://amdelamar.com/pm-theme/themes/pm-dark-theme.min.css");
 /* Or this line: */
 @import url("https://unpkg.com/pm-theme/themes/pm-dark-theme.min.css");
 ```
@@ -20,11 +20,11 @@ Or [copy the CSS directly](/themes/pm-dark-theme.min.css) and [edit the colors](
 &nbsp;
 
 ## Flat Theme
-<img src="https://austindelamar.com/pm-theme/screenshots/flat-screenshot-3.12.41.png" width="100%" />
+<img src="https://amdelamar.com/pm-theme/screenshots/flat-screenshot-3.12.41.png" width="100%" />
 
 ```css
 /* Copy this line into ProtonMail's custom theme box: */
-@import url("https://austindelamar.com/pm-theme/themes/pm-flat-theme.min.css");
+@import url("https://amdelamar.com/pm-theme/themes/pm-flat-theme.min.css");
 /* Or this line: */
 @import url("https://unpkg.com/pm-theme/themes/pm-flat-theme.min.css");
 ```
@@ -33,11 +33,11 @@ Or [copy the CSS directly](/themes/pm-flat-theme.min.css) and [edit the colors](
 &nbsp;
 
 ## Background Image Theme
-<img src="https://austindelamar.com/pm-theme/screenshots/bg-image-screenshot-3.12.41.png" width="100%" />
+<img src="https://amdelamar.com/pm-theme/screenshots/bg-image-screenshot-3.12.41.png" width="100%" />
 
 ```css
 /* Copy this line into ProtonMail's custom theme box: */
-@import url("https://austindelamar.com/pm-theme/themes/bg-image-theme.min.css");
+@import url("https://amdelamar.com/pm-theme/themes/bg-image-theme.min.css");
 /* Or this line: */
 @import url("https://unpkg.com/pm-theme/themes/bg-image-theme.min.css");
 ```
@@ -46,11 +46,11 @@ Or [copy the CSS directly](/themes/bg-image-theme.min.css) and [edit the image](
 &nbsp;
 
 ## GM Theme
-<img src="https://austindelamar.com/pm-theme/screenshots/gm-screenshot-3.12.41.png" width="100%" />
+<img src="https://amdelamar.com/pm-theme/screenshots/gm-screenshot-3.12.41.png" width="100%" />
 
 ```css
 /* Copy this line into ProtonMail's custom theme box: */
-@import url("https://austindelamar.com/pm-theme/themes/gm-theme.min.css");
+@import url("https://amdelamar.com/pm-theme/themes/gm-theme.min.css");
 /* Or this line: */
 @import url("https://unpkg.com/pm-theme/themes/gm-theme.min.css");
 ```
@@ -101,7 +101,7 @@ CSS `variables` make it easy to override colors. The `root` keyword just means i
 - Some browsers cache CSS pages for a long time. If you aren't seeing the latest version, try adding a `?v=1" to the end, like this:
   ```css
   /* Force browser to grab fresh copy of CSS */
-  @import url("https://austindelamar.com/pm-theme/themes/gm-theme.min.css?v=1");
+  @import url("https://amdelamar.com/pm-theme/themes/gm-theme.min.css?v=1");
   ```
   If you're using the "unpkg.com" link, it always grabs the latest version from [npm](https://www.npmjs.com/package/pm-theme). So this isn't needed.
 
