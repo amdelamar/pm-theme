@@ -14,6 +14,8 @@ A collection of CSS themes that's simple to edit the colors and more.
 @import url("https://amdelamar.com/pm-theme/themes/pm-dark-theme.min.css");
 /* Or this line: */
 @import url("https://unpkg.com/pm-theme/themes/pm-dark-theme.min.css");
+/* Or this one: */
+@import url("https://cdn.jsdelivr.net/npm/pm-theme/themes/pm-dark-theme.min.css");
 ```
 Or [copy the CSS directly](/themes/pm-dark-theme.min.css) and [edit the colors](#customize).
 
@@ -27,6 +29,8 @@ Or [copy the CSS directly](/themes/pm-dark-theme.min.css) and [edit the colors](
 @import url("https://amdelamar.com/pm-theme/themes/pm-flat-theme.min.css");
 /* Or this line: */
 @import url("https://unpkg.com/pm-theme/themes/pm-flat-theme.min.css");
+/* Or this one: */
+@import url("https://cdn.jsdelivr.net/npm/pm-theme/themes/pm-flat-theme.min.css");
 ```
 Or [copy the CSS directly](/themes/pm-flat-theme.min.css) and [edit the colors](#customize).
 
@@ -40,8 +44,11 @@ Or [copy the CSS directly](/themes/pm-flat-theme.min.css) and [edit the colors](
 @import url("https://amdelamar.com/pm-theme/themes/bg-image-theme.min.css");
 /* Or this line: */
 @import url("https://unpkg.com/pm-theme/themes/bg-image-theme.min.css");
+/* Or this one: */
+@import url("https://cdn.jsdelivr.net/npm/pm-theme/themes/bg-image-theme.min.css");
 ```
 Or [copy the CSS directly](/themes/bg-image-theme.min.css) and [edit the image](#customize) variable `--image` to your own image.
+Take a look at [coolbackgrounds.io](https://coolbackgrounds.io/) for awesome backgrounds.
 
 &nbsp;
 
@@ -53,6 +60,8 @@ Or [copy the CSS directly](/themes/bg-image-theme.min.css) and [edit the image](
 @import url("https://amdelamar.com/pm-theme/themes/gm-theme.min.css");
 /* Or this line: */
 @import url("https://unpkg.com/pm-theme/themes/gm-theme.min.css");
+/* Or this one: */
+@import url("https://cdn.jsdelivr.net/npm/pm-theme/themes/gm-theme.min.css");
 ```
 Or [copy the CSS directly](/themes/gm-theme.min.css) and [edit the colors](#customize).
 
