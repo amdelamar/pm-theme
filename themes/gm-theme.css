@@ -1508,6 +1508,16 @@ body #conversation-list-rows .conversation.read .subject h4 {
   border: 1px solid var(--theme6) !important;
 }
 
+.eventsAttachments-container {
+  background: var(--theme3) !important;
+  color: var(--theme2) !important;
+}
+
+.eventsAttachments-summary {
+  background: var(--theme1) !important;
+  color: var(--theme3) !important;
+}
+
 .pm_button {
 	color: var(--dark3);
 	border: 1px solid var(--theme4) !important;
