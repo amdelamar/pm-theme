@@ -1781,6 +1781,11 @@ body.mobileMode .pm_modal .modal-dialog .close {
 	box-shadow: inset 0 2px 5px rgba(0, 0, 0, .15) !important;
 }
 
+.pm_form optgroup {
+  color: var(--theme2) !important;
+  background: var(--theme3) !important;
+}
+
 .pm_form .input-icon .fa {
 	color: var(--medium1) !important;
 }
