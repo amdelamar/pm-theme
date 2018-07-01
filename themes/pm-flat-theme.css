@@ -1506,7 +1506,7 @@ body .cg-notify-message.notification-info {
 }
 
 .conversation .expiration, body #conversation-list-rows .conversation .expiration {
-	border-color: var(--red-light) transparent !important;
+	border-color: transparent var(--red-light) transparent transparent !important;
 }
 
 .conversation .row .meta .fa-star-o {
