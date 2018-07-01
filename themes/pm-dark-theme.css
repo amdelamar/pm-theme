@@ -2230,3 +2230,11 @@ input[type=range].pm_range:focus::-ms-fill-upper {
 .commandPalette-container {
   background-color: var(--theme7) !important;
 }
+
+.autocompleteCommand-container .autocompleteEmails-autocomplete [aria-selected="true"] {
+  background-color: var(--theme1) !important;
+}
+
+.currencySelector-container .currencySelector-button.active {
+    background: var(--theme4);
+}

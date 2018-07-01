@@ -2083,3 +2083,15 @@ input[type=range].pm_range:focus::-ms-fill-upper {
 .scrollbox-container::after, .scrollbox-container::before {
 	background: none !important;
 }
+
+.commandPalette-container {
+  background-color: var(--white) !important;
+}
+
+.autocompleteCommand-container .autocompleteEmails-autocomplete [aria-selected="true"] {
+  background-color: var(--theme1) !important;
+}
+
+.currencySelector-container .currencySelector-button.active {
+    background: var(--theme4);
+}
