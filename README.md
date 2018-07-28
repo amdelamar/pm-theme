@@ -83,7 +83,7 @@ Take any theme above and you can override the theme colors with your own.
 
 And that's it!
 
-CSS `variables` make it easy to override colors. The `root` keyword just means it to set the variables globally. This CSS-only theme has been condensed down into **7 "core" colors** that make it very simple to use any colors of your choice. So take one of the themes above and overwrite these colors with your own. You can generate a pretty [color palette here](https://coolors.co/).
+CSS `variables` make it easy to override colors. The `root` keyword just means it will set the variables globally. These themes have been simplified down into **7 "core" colors** that make it easy to overwrite any colors of your choice. So take one of the themes above and set the colors with your own. You can also generate a pretty [color palette here](https://coolors.co/).
 
 ```css
 :root {
@@ -107,12 +107,12 @@ CSS `variables` make it easy to override colors. The `root` keyword just means i
 
 - This is only available for the WEB version and not the MOBILE app.
 - Some of these themes aren't always the best. **If you have any problems** you can open an [issue here](https://github.com/amdelamar/pm-theme/issues).
-- Some browsers cache CSS pages for a long time. If you aren't seeing the latest version, try adding a `?v=1" to the end, like this:
+- Some browsers cache CSS pages for a long time. If you aren't seeing the latest version, try adding a `?v=1` to the end, like this:
   ```css
   /* Force browser to grab fresh copy of CSS */
   @import url("https://amdelamar.com/pm-theme/themes/gm-theme.min.css?v=1");
   ```
-  If you're using the "unpkg.com" link, it always grabs the latest version from [npm](https://www.npmjs.com/package/pm-theme). So this isn't needed.
+  If you're using the "unpkg" or "jsdelivr" link, it always grabs the latest version from [npm](https://www.npmjs.com/package/pm-theme). So this isn't needed.
 
 ## Privacy and Performance
 
