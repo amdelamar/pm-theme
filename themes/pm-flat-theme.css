@@ -394,6 +394,10 @@ body.mobileMode #pm_sidebar section.sidebar ul.menu li button {
 	background: var(--theme3) !important;
 }
 
+#conversation-view .message>div.summary .summary-right {
+  background: transparent !important;
+}
+
 #conversation-view .message>div.summary .labels, #conversation-view .message>div.summary .status, #conversation-view .message>div.summary .time {
 	background: var(--theme3) !important;
 }
