@@ -24,7 +24,7 @@
 
 
 /*!
-* Custom Theme for ProtonMail v3.14.0
+* Custom Theme for ProtonMail v3.14.1
 * http://amdelamar.com/pm-theme/
 */
 
@@ -789,6 +789,12 @@ body#reset .alert {
 
 #pm_settings .settings #keys-addressTable td .fa-check {
 	color: var(--theme2);
+}
+
+.addressKeysView-container .addressKeysView-toggle .pm_button,
+.addressKeysView-container table tr td .pm_buttons,
+.addressKeysView-container table tr td .pm_button {
+  border: none !important;
 }
 
 #pm_settings .settings .row .border-bottom {
