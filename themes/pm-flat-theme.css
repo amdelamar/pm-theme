@@ -205,6 +205,26 @@ body section.sidebar {
   color: var(--theme3) !important;
 }
 
+.sidebarApp-container .sidebar-btn-compose {
+  background: var(--theme1) !important;
+  border-color: var(--theme1) !important;
+  color: var(--theme7) !important;
+}
+
+.sidebarApp-container .sidebar-btn-compose:hover {
+  background-color: var(--theme6) !important;
+  border-color: transparent !important;
+  color: var(--theme7) !important;
+}
+
+.sidebarApp-item .navigationItem-item, .sidebarApp-item .sidebarApp-link, .sidebarApp-menu .menuLabel-link {
+  color: var(--theme3);
+}
+
+.sidebarApp-item .navigationItem-icon, .sidebarApp-item .sidebarApp-icon, .sidebarApp-menu .menuLabel-icon, .sidebarApp-icon .donateBtn-icon {
+  color: var(--theme4);
+}
+
 body section.sidebar ul.menu li button {
 	color: var(--theme2);
 }
@@ -288,18 +308,6 @@ body section.sidebar div.footer .bar {
 
 body section.sidebar a.compose {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
-}
-
-.sidebarApp-container .sidebar-btn-compose {
-  background: var(--theme1) !important;
-  border-color: var(--theme1) !important;
-  color: var(--theme7) !important;
-}
-
-.sidebarApp-container .sidebar-btn-compose:hover {
-  background-color: var(--theme6) !important;
-  border-color: transparent !important;
-  color: var(--theme7) !important;
 }
 
 body section.sidebar a.version {

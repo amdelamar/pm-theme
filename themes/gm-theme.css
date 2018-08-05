@@ -219,6 +219,26 @@ body section.sidebar {
   color: var(--theme3);
 }
 
+.sidebarApp-container .sidebar-btn-compose {
+  background: var(--theme1) !important;
+  border-color: var(--theme1) !important;
+  color: var(--white) !important;
+}
+
+.sidebarApp-container .sidebar-btn-compose:hover {
+  background-color: var(--theme6) !important;
+  border-color: transparent !important;
+  color: var(--white) !important;
+}
+
+.sidebarApp-item .navigationItem-item, .sidebarApp-item .sidebarApp-link, .sidebarApp-menu .menuLabel-link, .sidebarApp-link .donateBtn-container {
+  color: var(--theme3);
+}
+
+.sidebarApp-item .navigationItem-icon, .sidebarApp-item .sidebarApp-icon, .sidebarApp-menu .menuLabel-icon, .sidebarApp-icon .donateBtn-icon {
+  color: var(--theme4);
+}
+
 body section.sidebar ul.menu li a:hover {
 	color: var(--white);
 }
@@ -264,27 +284,15 @@ body section.sidebar div.footer .bar em {
 }
 
 body section.sidebar ul.menu li button {
-	color: var(--theme2);
+	color: var(--theme3);
 }
 
 body section.sidebar ul.menu li button:hover {
-	color: var(--theme1);
+	color: var(--white);
 }
 
 body section.sidebar ul.menu li button i.fa {
-	color: var(--theme2);
-}
-
-.sidebarApp-container .sidebar-btn-compose {
-  background: var(--theme1) !important;
-  border-color: var(--theme1) !important;
-  color: var(--white) !important;
-}
-
-.sidebarApp-container .sidebar-btn-compose:hover {
-  background-color: var(--theme6) !important;
-  border-color: transparent !important;
-  color: var(--white) !important;
+	color: var(--theme4);
 }
 
 body section.sidebar a.version {
