@@ -1866,7 +1866,7 @@ body.mobileMode #body #pm_main .fa-check-square, body.mobileMode #body #pm_main 
 
 .pm_modal .modal-dialog {
 	background: var(--theme3) !important;
-	border: 5px solid var(--theme3) !important;
+	border: 5px solid var(--theme1) !important;
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
 }
 
