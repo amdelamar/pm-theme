@@ -8,7 +8,7 @@ A collection of CSS themes that's simple to edit the colors and more.
 
 ## Dark Theme
 <img src="https://amdelamar.com/pm-theme/screenshots/dark-screenshot-3.12.41.png" width="100%" />
-
+<!--
 ```css
 /* Copy this line into ProtonMail's custom theme box: */
 @import url("https://amdelamar.com/pm-theme/themes/pm-dark-theme.min.css");
@@ -17,13 +17,15 @@ A collection of CSS themes that's simple to edit the colors and more.
 /* Or this one: */
 @import url("https://cdn.jsdelivr.net/npm/pm-theme/themes/pm-dark-theme.min.css");
 ```
-Or [copy the CSS directly](/themes/pm-dark-theme.min.css) and [edit the colors](#customize).
+-->
+
+[Copy the CSS directly](/themes/pm-dark-theme.min.css) and [edit the colors](#customize).
 
 &nbsp;
 
 ## Flat Theme
 <img src="https://amdelamar.com/pm-theme/screenshots/flat-screenshot-3.12.41.png" width="100%" />
-
+<!--
 ```css
 /* Copy this line into ProtonMail's custom theme box: */
 @import url("https://amdelamar.com/pm-theme/themes/pm-flat-theme.min.css");
@@ -32,7 +34,9 @@ Or [copy the CSS directly](/themes/pm-dark-theme.min.css) and [edit the colors](
 /* Or this one: */
 @import url("https://cdn.jsdelivr.net/npm/pm-theme/themes/pm-flat-theme.min.css");
 ```
-Or [copy the CSS directly](/themes/pm-flat-theme.min.css) and [edit the colors](#customize).
+-->
+
+[Copy the CSS directly](/themes/pm-flat-theme.min.css) and [edit the colors](#customize).
 
 &nbsp;
 
@@ -47,14 +51,14 @@ Or [copy the CSS directly](/themes/pm-flat-theme.min.css) and [edit the colors](
 /* Or this one: */
 @import url("https://cdn.jsdelivr.net/npm/pm-theme/themes/bg-image-theme.min.css");
 ```
-Or [copy the CSS directly](/themes/bg-image-theme.min.css) and [edit the image](#customize) variable `--image` to your own image.
+[Copy the CSS directly](/themes/bg-image-theme.min.css) and [edit the image](#customize) variable `--image` to your own image.
 Take a look at [coolbackgrounds.io](https://coolbackgrounds.io/) for awesome backgrounds.
 
 &nbsp;
 
 ## GM Theme
 <img src="https://amdelamar.com/pm-theme/screenshots/gm-screenshot-3.12.41.png" width="100%" />
-
+<!--
 ```css
 /* Copy this line into ProtonMail's custom theme box: */
 @import url("https://amdelamar.com/pm-theme/themes/gm-theme.min.css");
@@ -63,7 +67,9 @@ Take a look at [coolbackgrounds.io](https://coolbackgrounds.io/) for awesome bac
 /* Or this one: */
 @import url("https://cdn.jsdelivr.net/npm/pm-theme/themes/gm-theme.min.css");
 ```
-Or [copy the CSS directly](/themes/gm-theme.min.css) and [edit the colors](#customize).
+-->
+
+[Copy the CSS directly](/themes/gm-theme.min.css) and [edit the colors](#customize).
 
 &nbsp;
 
@@ -72,8 +78,7 @@ Or [copy the CSS directly](/themes/gm-theme.min.css) and [edit the colors](#cust
 Take any theme above and you can override the theme colors with your own.
 
 ```css
-/* First load the theme. */
-@import url("https://unpkg.com/pm-theme/themes/gm-theme.min.css");
+/* First paste the CSS theme. */
 
 /* Now you can change the colors... */
 :root {
@@ -107,16 +112,11 @@ CSS `variables` make it easy to override colors. The `root` keyword just means i
 
 - This is only available for the WEB version and not the MOBILE app.
 - Some of these themes aren't always the best. **If you have any problems** you can open an [issue here](https://github.com/amdelamar/pm-theme/issues).
-- Some browsers cache CSS pages for a long time. If you aren't seeing the latest version, try adding a `?v=1` to the end, like this:
-  ```css
-  /* Force browser to grab fresh copy of CSS */
-  @import url("https://amdelamar.com/pm-theme/themes/gm-theme.min.css?v=1");
-  ```
-  If you're using the "unpkg" or "jsdelivr" link, it always grabs the latest version from [npm](https://www.npmjs.com/package/pm-theme). So this isn't needed.
+- If you're trying to use `@import`, the Content-Security-Policy (CSP) header blocks `@import` statements from loading remote content. To get around this, please copy and paste the entire contents of the CSS theme rather than the `@import` line.
 
 ## Privacy and Performance
 
-The above code used a CSS `import` statement for ease of use and quickly trying out a theme. However, the CSS `import` statement causes files to load sequentially instead of parallel, thus slowing down your pages load performance. Also, if your privacy is of the utmost importance, then I wouldn't use the CSS `import` statment from above. It potentially could reveal your behavior e.g. identifying *when* you load up ProtonMail using *which* specific theme. To avoid this, please copy & paste the entire contents of the CSS file, rather than use the `import` statement.
+~~The above code used a CSS `import` statement for ease of use and quickly trying out a theme. However, the CSS `import` statement causes files to load sequentially instead of parallel, thus slowing down your pages load performance. Also, if your privacy is of the utmost importance, then I wouldn't use the CSS `import` statment from above. It potentially could reveal your behavior e.g. identifying *when* you load up ProtonMail using *which* specific theme. To avoid this, please copy & paste the entire contents of the CSS file, rather than use the `import` statement.~~ This is no longer a concern, now that the Content-Security-Policy (CSP) Header blocks `@import` statements from loading remote content.
 
 ## Contribute
 
