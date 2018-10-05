@@ -42,7 +42,7 @@ A collection of CSS themes that's simple to edit the colors and more.
 
 ## Background Image Theme
 <img src="https://amdelamar.com/pm-theme/screenshots/bg-image-screenshot-3.12.41.png" width="100%" />
-
+<!--
 ```css
 /* Copy this line into ProtonMail's custom theme box: */
 @import url("https://amdelamar.com/pm-theme/themes/bg-image-theme.min.css");
@@ -51,6 +51,8 @@ A collection of CSS themes that's simple to edit the colors and more.
 /* Or this one: */
 @import url("https://cdn.jsdelivr.net/npm/pm-theme/themes/bg-image-theme.min.css");
 ```
+-->
+
 [Copy the CSS directly](/themes/bg-image-theme.min.css) and [edit the image](#customize) variable `--image` to your own image.
 Take a look at [coolbackgrounds.io](https://coolbackgrounds.io/) for awesome backgrounds.
 
