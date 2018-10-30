@@ -2050,10 +2050,6 @@ body.light .pm_panel {
 	color: var(--theme4) !important;
 }
 
-.pm_toggle {
-	background: var(--theme3) !important;
-}
-
 .pm_toggle span.knob {
 	background: var(--theme3) !important;
 	border: 1px solid var(--theme4) !important;
@@ -2236,4 +2232,16 @@ input[type=range].pm_range:focus::-ms-fill-upper {
 
 .currencySelector-container .currencySelector-button.active {
     background: var(--theme4);
+}
+
+.pm_sort-container, .pm_sort-item-content {
+  border-color: var(--theme4) !important;
+}
+
+.emailBlockList-list {
+  border-color: var(--theme4) !important;
+}
+
+.emailBlockList-row {
+  color: var(--theme5) !important;
 }
