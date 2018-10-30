@@ -1948,7 +1948,6 @@ body.light .pm_panel {
 
 .pm_toggle {
 	background: var(--light4) !important;
-	box-shadow: 0 0 0 1px var(--theme4) !important;
 }
 
 .pm_toggle span.knob {
