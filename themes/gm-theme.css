@@ -1566,6 +1566,7 @@ body #conversation-list-rows .conversation.read .subject h4 {
 }
 
 .pm_button.link {
+  border: none !important;
 	color: var(--theme1) !important;
 }
 
