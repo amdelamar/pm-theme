@@ -1793,11 +1793,6 @@ body.mobileMode #body #pm_main .fa-check-square, body.mobileMode #body #pm_main 
 	color: var(--theme5) !important;
 }
 
-#pm_main, #wrapper, #conversation-list-columns, #conversation-list-rows {
-  background: var(--theme3) !important;
-  color: var(--theme5) !important;
-}
-
 .pm_dropdown {
 	background: var(--theme7) !important;
 	border: 1px solid var(--theme4) !important;
@@ -2178,7 +2173,6 @@ input[type=range].pm_range:focus::-ms-fill-upper {
 
 #pm_main, #wrapper, #conversation-list-columns, #conversation-list-rows {
   background: var(--theme3) !important;
-  color: var(--theme5) !important;
 }
 
 .pm_badge, .pm_tag {

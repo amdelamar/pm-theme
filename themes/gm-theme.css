@@ -1755,7 +1755,6 @@ body.mobileMode #body #pm_main .fa-check-square, body.mobileMode #body #pm_main 
 
 #pm_main, #wrapper, #conversation-list-columns, #conversation-list-rows {
   background: var(--theme3) !important;
-  color: var(--theme5) !important;
 }
 
 body.mobileMode .pm_modal .modal-dialog {
