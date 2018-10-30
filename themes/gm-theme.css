@@ -1939,7 +1939,7 @@ body.light .pm_panel {
 }
 
 .pm_table table tr.hasTable table {
-	background-color: var(--white) !important;
+	background-color: var(--theme3) !important;
 }
 
 .pm_table table tr.disabled td {
