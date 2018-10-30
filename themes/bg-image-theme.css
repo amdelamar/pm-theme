@@ -1,4 +1,8 @@
 @charset "UTF-8";
+/*!
+* Custom Theme for ProtonMail v3.14.28
+* http://amdelamar.com/pm-theme/
+*/
 :root {
 	/* Core Theme Colors */
 	--theme1: #667cbd;
@@ -24,12 +28,6 @@
   /* Change this image to your own. */
   --image: url(https://mail.protonmail.com/assets/img/login.jpg);
 }
-
-
-/*!
-* Custom Theme for ProtonMail v3.14.1
-* http://amdelamar.com/pm-theme/
-*/
 
 html {
   background: var(--image) no-repeat center center fixed var(--theme1);

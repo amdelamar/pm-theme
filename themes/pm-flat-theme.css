@@ -1,4 +1,8 @@
 @charset "UTF-8";
+/*!
+* Custom Theme for ProtonMail v3.14.28
+* http://amdelamar.com/pm-theme/
+*/
 :root {
 	/* Core Theme Colors */
 	--theme1: #66669a;
@@ -21,12 +25,6 @@
 	--white: #FFF;
 	--black: #000;
 }
-
-
-/*!
-* Custom Theme for ProtonMail v3.14.1
-* http://amdelamar.com/pm-theme/
-*/
 
 #exiting {
 	background-color: var(--theme3);
@@ -1576,10 +1574,8 @@ body .cg-notify-message.notification-info {
 }
 
 body #conversation-list-rows .conversation {
-	box-shadow: inset 0 -1px 0 var(--theme4) !important;
 	color: var(--theme2) !important;
 	background: var(--theme7) !important;
-	box-shadow: inset 0 -1px 0 var(--theme4) !important;
 }
 
 body #conversation-list-rows .conversation .expiration {

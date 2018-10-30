@@ -1,4 +1,8 @@
 @charset "UTF-8";
+/*!
+* Custom Theme for ProtonMail v3.14.28
+* http://amdelamar.com/pm-theme/
+*/
 :root {
 	/* Core Theme Colors */
 	--theme1: #d14836;
@@ -34,12 +38,6 @@
 	--dark4: #222;
 	--black: #000;
 }
-
-
-/*!
-* Custom Theme for ProtonMail v3.14.1
-* http://amdelamar.com/pm-theme/
-*/
 
 #exiting {
 	background-color: var(--white);
@@ -1472,10 +1470,8 @@ body .cg-notify-message.notification-info {
 }
 
 body #conversation-list-rows .conversation {
-	box-shadow: inset 0 -1px 0 var(--theme4) !important;
 	color: var(--theme2) !important;
-	background: var(--theme7) !important;
-	box-shadow: inset 0 -1px 0 var(--theme4) !important;
+	background: var(--white) !important;
 }
 
 body #conversation-list-rows .conversation .expiration {
@@ -1495,11 +1491,11 @@ body #conversation-list-rows .conversation .subject h4 {
 }
 
 body #conversation-list-rows .conversation .subject .pm_labels {
-	background: var(--white) !important;
+	background: transparent !important;
 }
 
 body #conversation-list-rows .conversation .subject .pm_labels label {
-	background: var(--white) !important;
+	background: transparent !important;
 }
 
 body #conversation-list-rows .conversation.read, body #conversation-list-rows .conversation.read .subject .pm_labels, body #conversation-list-rows .conversation.read .subject .pm_labels label {
