@@ -1,23 +1,11 @@
-<img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fcache3.asset-cache.net%2Fxt%2F171555439.jpg%3Fv%3D1%26g%3Dfs1%7C0%7CEPL%7C55%7C439%26s%3D1&f=1" align="right" />
-
 # Easy Themes for ProtonMail
 
-A collection of CSS themes that's simple to edit the colors and more.
+This is a collection of simple color themes for the [ProtonMail](https://protonmail.com/) web app. 🎨
 
 &nbsp;
 
 ## Dark Theme
 <img src="https://amdelamar.com/pm-theme/screenshots/dark-screenshot-3.12.41.png" width="100%" />
-<!--
-```css
-/* Copy this line into ProtonMail's custom theme box: */
-@import url("https://amdelamar.com/pm-theme/themes/pm-dark-theme.min.css");
-/* Or this line: */
-@import url("https://unpkg.com/pm-theme/themes/pm-dark-theme.min.css");
-/* Or this one: */
-@import url("https://cdn.jsdelivr.net/npm/pm-theme/themes/pm-dark-theme.min.css");
-```
--->
 
 [Copy the CSS directly](/themes/pm-dark-theme.min.css) and [edit the colors](#customize).
 
@@ -25,16 +13,6 @@ A collection of CSS themes that's simple to edit the colors and more.
 
 ## Flat Theme
 <img src="https://amdelamar.com/pm-theme/screenshots/flat-screenshot-3.12.41.png" width="100%" />
-<!--
-```css
-/* Copy this line into ProtonMail's custom theme box: */
-@import url("https://amdelamar.com/pm-theme/themes/pm-flat-theme.min.css");
-/* Or this line: */
-@import url("https://unpkg.com/pm-theme/themes/pm-flat-theme.min.css");
-/* Or this one: */
-@import url("https://cdn.jsdelivr.net/npm/pm-theme/themes/pm-flat-theme.min.css");
-```
--->
 
 [Copy the CSS directly](/themes/pm-flat-theme.min.css) and [edit the colors](#customize).
 
@@ -42,16 +20,6 @@ A collection of CSS themes that's simple to edit the colors and more.
 
 ## Background Image Theme
 <img src="https://amdelamar.com/pm-theme/screenshots/bg-image-screenshot-3.12.41.png" width="100%" />
-<!--
-```css
-/* Copy this line into ProtonMail's custom theme box: */
-@import url("https://amdelamar.com/pm-theme/themes/bg-image-theme.min.css");
-/* Or this line: */
-@import url("https://unpkg.com/pm-theme/themes/bg-image-theme.min.css");
-/* Or this one: */
-@import url("https://cdn.jsdelivr.net/npm/pm-theme/themes/bg-image-theme.min.css");
-```
--->
 
 [Copy the CSS directly](/themes/bg-image-theme.min.css) and [edit the image](#customize) variable `--image` to your own image.
 Take a look at [coolbackgrounds.io](https://coolbackgrounds.io/) for awesome backgrounds.
@@ -60,16 +28,6 @@ Take a look at [coolbackgrounds.io](https://coolbackgrounds.io/) for awesome bac
 
 ## GM Theme
 <img src="https://amdelamar.com/pm-theme/screenshots/gm-screenshot-3.12.41.png" width="100%" />
-<!--
-```css
-/* Copy this line into ProtonMail's custom theme box: */
-@import url("https://amdelamar.com/pm-theme/themes/gm-theme.min.css");
-/* Or this line: */
-@import url("https://unpkg.com/pm-theme/themes/gm-theme.min.css");
-/* Or this one: */
-@import url("https://cdn.jsdelivr.net/npm/pm-theme/themes/gm-theme.min.css");
-```
--->
 
 [Copy the CSS directly](/themes/gm-theme.min.css) and [edit the colors](#customize).
 
@@ -128,5 +86,5 @@ I'll accept pull requests to the `master` branch too. Please make sure to minify
 
 ## Share with friends
 
-- Save, copy, tweak, and share any of this CSS theme.
+- Copy, edit, and share any of these themes.
 - Licensed as [MIT](/LICENSE.md) and *free forever*.
