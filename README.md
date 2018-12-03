@@ -7,21 +7,21 @@ This is a collection of simple color themes for the [ProtonMail](https://protonm
 ## Dark Theme
 <img src="https://amdelamar.com/pm-theme/screenshots/dark-screenshot-3.12.41.png" width="100%" />
 
-[Copy the CSS directly](/themes/pm-dark-theme.min.css) and [edit the colors](#customize).
+[Copy the CSS directly](https://amdelamar.com/pm-theme/themes/pm-dark-theme.min.css) and [edit the colors](#customize).
 
 &nbsp;
 
 ## Flat Theme
 <img src="https://amdelamar.com/pm-theme/screenshots/flat-screenshot-3.12.41.png" width="100%" />
 
-[Copy the CSS directly](/themes/pm-flat-theme.min.css) and [edit the colors](#customize).
+[Copy the CSS directly](https://amdelamar.com/pm-theme/themes/pm-flat-theme.min.css) and [edit the colors](#customize).
 
 &nbsp;
 
 ## Background Image Theme
 <img src="https://amdelamar.com/pm-theme/screenshots/bg-image-screenshot-3.12.41.png" width="100%" />
 
-[Copy the CSS directly](/themes/bg-image-theme.min.css) and [edit the image](#customize) variable `--image` to your own image.
+[Copy the CSS directly](https://amdelamar.com/pm-theme/themes/bg-image-theme.min.css) and [edit the image](#customize) variable `--image` to your own image.
 Take a look at [coolbackgrounds.io](https://coolbackgrounds.io/) for awesome backgrounds.
 
 &nbsp;
@@ -29,7 +29,7 @@ Take a look at [coolbackgrounds.io](https://coolbackgrounds.io/) for awesome bac
 ## GM Theme
 <img src="https://amdelamar.com/pm-theme/screenshots/gm-screenshot-3.12.41.png" width="100%" />
 
-[Copy the CSS directly](/themes/gm-theme.min.css) and [edit the colors](#customize).
+[Copy the CSS directly](https://amdelamar.com/pm-theme/themes/gm-theme.min.css) and [edit the colors](#customize).
 
 &nbsp;
 
