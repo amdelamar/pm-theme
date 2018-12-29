@@ -2104,7 +2104,7 @@ input[type=range].pm_range:focus::-ms-fill-upper {
 }
 
 .scrollbox-container {
-	background-color: var(--theme7) !important;
+	background-color: var(--white) !important;
 	background-image: unset !important;
 }
 
