@@ -2140,3 +2140,7 @@ input[type=range].pm_range:focus::-ms-fill-upper {
 .emailBlockList-row {
   color: var(--theme5) !important;
 }
+
+.manageContactGroupLink-container, .manageContactGroupLink-label, .manageContactGroupLink-icon {
+  color: var(--theme3) !important;
+}
