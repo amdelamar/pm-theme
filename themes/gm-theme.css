@@ -262,15 +262,15 @@ body section.sidebar div.labels ul li a:hover {
 }
 
 body section.sidebar div.footer div.link a {
-	color: var(--theme1);
+	color: var(--theme4);
 }
 
 body section.sidebar div.footer div.link a:hover {
 	color: var(--white);
 }
 
-body section.sidebar div.footer div.storage strong {
-	color: var(--theme1);
+.sidebarApp-container .footer div.storage strong {
+	color: var(--theme4);
 }
 
 body section.sidebar div.footer a.upgrade {
@@ -293,12 +293,20 @@ body section.sidebar ul.menu li button i.fa {
 	color: var(--theme4);
 }
 
-body section.sidebar a.version {
-	color: var(--theme5) !important;
+.sidebarApp-container .version {
+	color: var(--theme4) !important;
 }
 
-body section.sidebar a.version:hover {
+.sidebarApp-container .version:hover {
 	color: var(--white) !important;
+}
+
+.sidebarApp-container .footer .storageBar {
+  background-color: var(--theme5) !important;
+}
+
+.storageBar .storageBar-progress {
+  background-color: var(--theme4) !important;
 }
 
 body.mobileMode #pm_sidebar section.sidebar {

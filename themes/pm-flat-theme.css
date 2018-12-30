@@ -285,10 +285,10 @@ body section.sidebar div.footer div.link a {
 }
 
 body section.sidebar div.footer div.link a:hover {
-	color: var(--theme2);
+	color: var(--theme6);
 }
 
-body section.sidebar div.footer div.storage strong {
+.sidebarApp-container .footer div.storage strong {
 	color: var(--theme1);
 }
 
@@ -304,16 +304,20 @@ body section.sidebar div.footer .bar {
 	background-color: var(--theme4);
 }
 
-body section.sidebar a.compose {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+.sidebarApp-container .version {
+	color: var(--theme1) !important;
 }
 
-body section.sidebar a.version {
-	color: var(--theme5) !important;
+.sidebarApp-container .version:hover {
+	color: var(--theme6) !important;
 }
 
-body section.sidebar a.version:hover {
-	color: var(--theme3) !important;
+.sidebarApp-container .footer .storageBar {
+  background-color: var(--theme4) !important;
+}
+
+.storageBar .storageBar-progress {
+  background-color: var(--theme1) !important;
 }
 
 body section.sidebar div.labels ul li a {
