@@ -1909,17 +1909,18 @@ body.mobileMode .pm_modal .modal-dialog .close {
 	color: var(--theme4);
 }
 
+.pm_form .pm_select select {
+  /* border: 1px solid var(--theme6) !important; */
+  /* no background otherwise carrot is hidden */
+}
+
 .pm_form .pm_select {
-	box-shadow: inset 0 0 0 1px var(--theme4), 0 1px 2px rgba(0, 0, 0, .1) !important;
+  border-radius: 4px;
+	box-shadow: inset 0 2px 5px rgba(0, 0, 0, .15) !important;
 }
 
 .pm_form .pm_select .fa {
 	color: var(--theme2) !important;
-}
-
-.pm_form select {
-	background: var(--theme7) !important;
-	box-shadow: inset 0 2px 5px rgba(0, 0, 0, .15) !important;
 }
 
 .pm_form optgroup {
@@ -1931,6 +1932,11 @@ body.mobileMode .pm_modal .modal-dialog .close {
 	color: var(--theme4) !important;
 }
 
+.searchForm-advanced-wrapper input[type=text], .searchForm-advanced-wrapper input[type=search], .searchForm-advanced-wrapper input[type=email], .searchForm-advanced-wrapper input[type=number] {
+	box-shadow: inset 0 2px 5px rgba(0, 0, 0, .15) !important;
+	color: var(--theme2) !important;
+}
+
 .pm_form input[type=text], .pm_form input[type=number], .pm_form input[type=password], .pm_form input[type=email], .pm_form input[type=search], .pm_form input[type=tel] {
 	box-shadow: inset 0 2px 5px rgba(0, 0, 0, .15) !important;
 	background: var(--theme7) !important;
@@ -1940,7 +1946,7 @@ body.mobileMode .pm_modal .modal-dialog .close {
 	box-shadow: inset 0 0 0 1px var(--theme1) !important;
 }
 
-.pm_form input[type=text], .pm_form input[type=number], .pm_form input[type=password], .pm_form input[type=email], .pm_form input[type=search], .pm_form input[type=tel], .pm_form select, .pm_form textarea,
+.pm_form input[type=text], .pm_form input[type=number], .pm_form input[type=password], .pm_form input[type=email], .pm_form input[type=search], .pm_form input[type=tel], .pm_select, .pm_form textarea,
 .contactItem-inputs input, .contactItem-inputs textarea {
 	border: 1px solid var(--theme4) !important;
 	color: var(--theme2) !important;
@@ -1950,11 +1956,11 @@ body.mobileMode .pm_modal .modal-dialog .close {
 	border-color: var(--red) !important;
 }
 
-.pm_form input[type=text]:hover, .pm_form input[type=number]:hover, .pm_form input[type=password]:hover, .pm_form input[type=email]:hover, .pm_form input[type=search]:hover, .pm_form input[type=tel]:hover, .pm_form select:hover, .pm_form textarea:hover {
+.pm_form input[type=text]:hover, .pm_form input[type=number]:hover, .pm_form input[type=password]:hover, .pm_form input[type=email]:hover, .pm_form input[type=search]:hover, .pm_form input[type=tel]:hover, .pm_select:hover, .pm_form textarea:hover {
 	border-color: var(--theme4) !important;
 }
 
-.pm_form input[type=text]:focus, .pm_form input[type=number]:focus, .pm_form input[type=password]:focus, .pm_form input[type=email]:focus, .pm_form input[type=search]:focus, .pm_form input[type=tel]:focus, .pm_form select:focus, .pm_form textarea:focus {
+.pm_form input[type=text]:focus, .pm_form input[type=number]:focus, .pm_form input[type=password]:focus, .pm_form input[type=email]:focus, .pm_form input[type=search]:focus, .pm_form input[type=tel]:focus, .pm_select:focus, .pm_form textarea:focus {
 	color: var(--black) !important;
 	background: var(--theme7) !important;
 	border-color: var(--theme1) !important;
