@@ -21,8 +21,7 @@ This is a collection of simple color themes for the [ProtonMail](https://protonm
 ## Background Image Theme
 <img src="https://amdelamar.com/pm-theme/screenshots/bg-image-screenshot-3.12.41.png" width="100%" />
 
-[Copy the CSS directly](https://amdelamar.com/pm-theme/themes/bg-image-theme.min.css) and [edit the image](#customize) variable `--image` to your own image.
-Take a look at [coolbackgrounds.io](https://coolbackgrounds.io/) for awesome backgrounds.
+[Copy the CSS directly](https://amdelamar.com/pm-theme/themes/bg-image-theme.min.css) and [customize](#customize) the variable `--image` to your own image url. (Might not work with Content-Security-Policy blocking remote content anymore.)
 
 &nbsp;
 
@@ -35,20 +34,23 @@ Take a look at [coolbackgrounds.io](https://coolbackgrounds.io/) for awesome bac
 
 ## Customize
 
-Take any theme above and you can override the theme colors with your own.
+1. Copy a CSS theme above.
+1. Paste in ProtonMail under `Settings` > `Appearance` > `Custom Theme`.
+1. Customize the colors (or leave default).
+1. Enjoy!
+
+You can customize the theme colors to your liking:
 
 ```css
-/* First paste the CSS theme. */
+/* First paste any CSS theme. */
 
-/* Now you can change the colors... */
+/* Now you can set your colors. */
 :root {
     --theme1: #3652d1; /* Blue instead of Red */
 }
 ```
 
-And that's it!
-
-CSS `variables` make it easy to override colors. The `root` keyword just means it will set the variables globally. These themes have been simplified down into **7 "core" colors** that make it easy to overwrite any colors of your choice. So take one of the themes above and set the colors with your own. You can also generate a pretty [color palette here](https://coolors.co/).
+The `#xxx` value is [hexidecimal color](https://www.color-hex.com/) value. And the `root` keyword is a CSS variable, that just sets the color values globally. These themes have been simplified to **7 "core" colors** so you can easily make a custom color palette of your choice. You can also generate a pretty [color palette from this site](https://coolors.co/).
 
 ```css
 :root {
@@ -63,10 +65,7 @@ CSS `variables` make it easy to override colors. The `root` keyword just means i
 }
 ```
 
-1. Copy a CSS theme.
-1. Paste in ProtonMail. `Settings` > `Appearance` > `Custom Theme`.
-1. Customize the colors (or leave default).
-1. Enjoy!
+Enjoy!
 
 ## Notes
 
