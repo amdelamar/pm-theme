@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
-* Custom Theme for ProtonMail v3.15.0
+* Custom Theme for ProtonMail v3.15.1
 * http://amdelamar.com/pm-theme/
 */
 :root {
@@ -192,6 +192,10 @@ header#pm_header-mobile .searchBtn, header#pm_header-mobile a.compose {
 
 header#pm_header-mobile .location {
 	color: var(--white);
+}
+
+.headerBlock-container {
+	border-bottom: 1px solid var(--theme4);
 }
 
 #attachmentArea {
@@ -1421,6 +1425,11 @@ body .cg-notify-message.notification-info {
 	background: var(--white) !important;
 }
 
+.conversation {
+	background: var(--white) !important;
+	border-bottom-color: var(--theme4) !important;
+}
+
 .conversation .expiration, body #conversation-list-rows .conversation .expiration {
 	border- var(--red-light) transparent !important;
 }
@@ -1443,6 +1452,7 @@ body .cg-notify-message.notification-info {
 
 .conversation.read {
 	background: var(--theme3) !important;
+	border-bottom-color: var(--theme4) !important;
 }
 
 .conversation.read h4 {
@@ -1462,6 +1472,7 @@ body .cg-notify-message.notification-info {
 .conversation.active {
 	background: var(--theme5) !important;
 	color: var(--white) !important;
+	border-bottom-color: var(--theme4) !important;
 }
 
 .conversation.active h4 {
