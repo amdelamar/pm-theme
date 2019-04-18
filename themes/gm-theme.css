@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
-* Custom Theme for ProtonMail v3.15.2
+* Custom Theme for ProtonMail v3.15.27
 * http://amdelamar.com/pm-theme/
 */
 :root {
@@ -2162,4 +2162,10 @@ input[type=range].pm_range:focus::-ms-fill-upper {
 
 .totalRows-label-right {
   background: none !important;
+}
+
+.sidebarApp-menu .ico-protonvpn {
+	opacity: .5;
+	-webkit-filter: brightness(100);
+	filter: brightness(100);
 }
