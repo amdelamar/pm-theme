@@ -4,7 +4,7 @@
   "description": "Easy CSS Themes for ProtonMail.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amdelamar/pm-theme.git"
+    "url": "https://github.com/amdelamar/pm-theme"
   },
   "homepage": "https://amdelamar.com/pm-theme/",
   "author": "Austin Delamar <amdelamar@protonmail.com> (https://amdelamar.com)",
@@ -18,9 +18,7 @@
     "custom",
     "themes"
   ],
-  "bugs": {
-    "url": "https://github.com/amdelamar/pm-theme/issues"
-  },
+  "bugs": "https://github.com/amdelamar/pm-theme/issues",
   "ignore": [
     "screenshots/*"
   ]
