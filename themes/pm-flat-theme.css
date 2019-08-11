@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
-* Custom Theme for ProtonMail v3.15.27
+* Custom Theme for ProtonMail v3.16.0
 * http://amdelamar.com/pm-theme/
 * SPDX-License-Identifier: MIT
 */
@@ -2274,4 +2274,12 @@ input[type=range].pm_range:focus::-ms-fill-upper {
 	opacity: .5;
 	-webkit-filter: brightness(0);
 	filter: brightness(0);
+}
+
+.dropdown-label-scrollbox-label-text-ellipsis {
+  color: var(--theme2) !important;
+}
+
+.dropdown-folder-scrollbox-group-item-button {
+  color: var(--theme2) !important;
 }
