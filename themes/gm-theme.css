@@ -2178,3 +2178,7 @@ input[type=range].pm_range:focus::-ms-fill-upper {
 .dropdown-folder-scrollbox-group-item-button {
   color: var(--theme2) !important;
 }
+
+.contactItem-inputs input:not([type="checkbox"]), .contactItem-inputs textarea {
+  background: var(--white);
+}

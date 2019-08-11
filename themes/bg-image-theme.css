@@ -126,3 +126,7 @@ body section.sidebar a.compose {
 .dropdown-folder-scrollbox-group-item-button {
   color: var(--black) !important;
 }
+
+.contacts-panels {
+  background: var(--white);
+}
