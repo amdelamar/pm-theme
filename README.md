@@ -1,4 +1,4 @@
-# Easy Themes for ProtonMail
+# Custom Themes for ProtonMail
 
 This is a collection of simple color themes for the [ProtonMail](https://protonmail.com/) web app. 🎨
 

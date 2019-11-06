@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/*!
+* Custom Theme for ProtonMail v4.0.0
+* http://amdelamar.com/pm-theme/
+* SPDX-License-Identifier: MIT
+*/
+:root {
+	--theme2: #f6f7fa;
+	--theme1: #262a33;
+	--theme3: #3c414e;
+	--theme4: #657ee4;
+}
+
+.bg-white {
+	background: var(--theme2);
+}
+.bg-black {
+	background: var(--theme1);
+}
+.bg-global-light, kbd {
+	background: var(--theme2);
+}
+.bg-global-grey {
+	background: var(--theme3);
+}
+.fill-global-light, .fill-global-grey, .fill-global-altgrey {
+	fill: var(--theme1);
+}
+
+.header, .content, .sidebar, .main {
+	background: var(--theme2);
+	color: var(--theme1);
+}
+.main-area, .main-area--noHeader, .main-area--withToolbar, .main-area--withToolbar--noHeader {
+	background: var(--theme2);
+	color: var(--theme1);
+}
+.pm-modal, .pm-modalContentInner, .pm-modalContentInner::after, .pm-modalContentInner::before {
+	background: var(--theme2);
+	color: var(--theme1);
+}
+.toolbar, .dropDown-content, .dropDown-contentInner, .dropDown-contentInner::after, .dropDown-contentInner::before, .dropdown-folder-container {
+	background: var(--theme3);
+	color: var(--theme1);
+}
+.dropDown-contentInner {
+	background: none;
+}
+.dropDown-item span {
+  color: var(--theme1);
+}
+
+.selectBoxElement-container {
+	color: var(--theme1);
+}
+.items-column-list {
+	border-right: 1px solid var(--theme3);
+}
+.conversation {
+	background: transparent;
+	border-bottom: 1px solid var(--theme3);
+}
+.conversation:not(.read) {
+	background: var(--theme3);
+}
+.item-container.active, .item-is-selected {
+	background: var(--theme4);
+}
+.item-container.active .senders-name, .item-container.active .senders {
+	color: var(--theme2);
+}
+.senders, .senders-name {
+	color: var(--theme4);
+}
+
+.message-container, .message-container.draft {
+	border: 1px solid var(--theme3);
+}
+.message-header {
+	background: var(--theme3);
+	color: var(--theme1);
+}
+
+#pm_composer .composer {
+	background: var(--theme3);
+	color: var(--theme1);
+}
+.editor-container .fill-global-light, .editor-container .fill-global-grey, .editor-container .fill-global-altgrey {
+	fill: var(--theme2);
+}
+
+.pm-button, .pm-button--info, .pm-button--redborder {
+	border-color: var(--theme3);
+	background: var(--theme2);
+	color: var(--theme1);
+}
+select.pm-field, select.pm-field-icon-container {
+	background: transparent;
+}
+.pm-field, .pm-field-icon-container, .composerInputMeta-autocomplete {
+	border-color: var(--theme3);
+	background: var(--theme2);
+	color: var(--theme1);
+}
+.composerOptions-container {
+	background: var(--theme2);
+	color: var(--theme1);
+}
+.composerInputMeta-overlay {
+	background: transparent;
+}
+.composerInputMeta-overlay-fakefield {
+  background: var(--theme2);
+}
+.focus.pm-field-icon-container, .pm-field-icon-container:focus, .pm-field-icon-container:focus-within, .pm-field.focus, .pm-field:focus, .pm-field:focus-within {
+	background: var(--theme2);
+	color: var(--theme1);
+}
+[class*="block-info"] {
+	background: transparent;
+	color: var(--theme1);
+}
