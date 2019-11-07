@@ -9,6 +9,17 @@
 	--theme2: #262a33;
 	--theme3: #3c414e;
 	--theme4: #657ee4;
+	--theme5: #dde6ec;
+	--theme6: #eeeff1;
+
+  --main-bg-color: #262a33;
+	--bgcolor-aside-link: #3c414e;
+	--color-standard-text: #fff;
+  --color-nav-active: #657ee4;
+	--color-nav-link: #ffffff;
+	--fillcolor-icons: #6d7178;
+	--bgcolor-searchbox-field: var(--theme3);
+	--bgcolor-spacebar: #505560;
 }
 
 .bg-white {
@@ -25,6 +36,26 @@
 }
 .fill-global-light, .fill-global-grey, .fill-global-altgrey {
 	fill: var(--theme1);
+}
+.fill-white {
+	fill: var(--theme5);
+}
+
+.logo {
+	webkit-filter: grayscale(0%) brightness(100%);
+	filter: grayscale(0%) brightness(100%);
+}
+.navigationUser-button {
+	color: var(--theme1);
+}
+.sidebarApp-menu .menuLabel-link {
+	color: var(--theme1);
+}
+.sidebarApp-item .navigationItem-item:hover, .sidebarApp-item .sidebarApp-link:hover, .sidebarApp-menu .menuLabel-link:hover {
+	color: var(--theme1);
+}
+.navigation__link:focus, .navigation__link:hover {
+	background: var(--theme3);
 }
 
 .header, .content, .sidebar, .main {

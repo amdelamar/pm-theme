@@ -5,85 +5,116 @@
 * SPDX-License-Identifier: MIT
 */
 :root {
-	--theme2: #f6f7fa;
-	--theme1: #262a33;
+	--theme1: #f6f7fa;
+	--theme2: #262a33;
 	--theme3: #3c414e;
 	--theme4: #657ee4;
+	--theme5: #dde6ec;
+	--theme6: #eeeff1;
+
+  --main-bg-color: #eeeff1;
+	--bgcolor-aside-link: #dde6ec;
+	--color-standard-text: #fff;
+  --color-nav-active: #657ee4;
+	--color-nav-link: #262a33;
+	--fillcolor-icons: #6d7178;
+	--bgcolor-searchbox-field: var(--theme1);
+	--bgcolor-spacebar: #dde6ec;
 }
 
 .bg-white {
-	background: var(--theme2);
-}
-.bg-black {
 	background: var(--theme1);
 }
-.bg-global-light, kbd {
+.bg-black {
 	background: var(--theme2);
 }
-.bg-global-grey {
-	background: var(--theme3);
+.bg-global-light, kbd {
+	background: var(--theme1);
 }
-.fill-global-light, .fill-global-grey, .fill-global-altgrey {
-	fill: var(--theme1);
+.bg-global-grey {
+	background: var(--theme5);
+}
+.fill-global-light {
+	fill: var(--theme3);
+}
+.fill-white {
+	fill: var(--theme2);
+}
+
+.logo {
+	webkit-filter: grayscale(100%) brightness(50%);
+	filter: grayscale(100%) brightness(50%);
+}
+.navigationUser-button {
+	color: var(--theme2);
+}
+.sidebarApp-menu .menuLabel-link {
+	color: var(--theme2);
+}
+.sidebarApp-item .navigationItem-item:hover, .sidebarApp-item .sidebarApp-link:hover, .sidebarApp-menu .menuLabel-link:hover {
+	color: var(--theme2);
+}
+.navigation__link:focus, .navigation__link:hover {
+	background: var(--theme6);
 }
 
 .header, .content, .sidebar, .main {
-	background: var(--theme2);
-	color: var(--theme1);
+	background: var(--theme1);
+	color: var(--theme2);
 }
 .main-area, .main-area--noHeader, .main-area--withToolbar, .main-area--withToolbar--noHeader {
-	background: var(--theme2);
-	color: var(--theme1);
+	background: var(--theme1);
+	color: var(--theme2);
 }
 .pm-modal, .pm-modalContentInner, .pm-modalContentInner::after, .pm-modalContentInner::before {
-	background: var(--theme2);
-	color: var(--theme1);
+	background: var(--theme1);
+	color: var(--theme2);
 }
 .toolbar, .dropDown-content, .dropDown-contentInner, .dropDown-contentInner::after, .dropDown-contentInner::before, .dropdown-folder-container {
-	background: var(--theme3);
-	color: var(--theme1);
+	background: var(--theme6);
+	color: var(--theme2);
 }
 .dropDown-contentInner {
 	background: none;
 }
 .dropDown-item span {
-  color: var(--theme1);
+  color: var(--theme2);
 }
 
 .selectBoxElement-container {
-	color: var(--theme1);
+	color: var(--theme2);
 }
 .items-column-list {
 	border-right: 1px solid var(--theme3);
 }
 .conversation {
 	background: transparent;
-	border-bottom: 1px solid var(--theme3);
+	border-bottom: 1px solid var(--theme6);
 }
 .conversation:not(.read) {
-	background: var(--theme3);
+	background: var(--theme5);
 }
 .item-container.active, .item-is-selected {
 	background: var(--theme4);
 }
 .item-container.active .senders-name, .item-container.active .senders {
-	color: var(--theme2);
+	color: var(--theme1);
 }
 .senders, .senders-name {
 	color: var(--theme4);
 }
 
 .message-container, .message-container.draft {
-	border: 1px solid var(--theme3);
+	border: 1px solid var(--theme5);
 }
 .message-header {
-	background: var(--theme3);
-	color: var(--theme1);
+	background: var(--theme5);
+	color: var(--theme2);
 }
 
 #pm_composer .composer {
-	background: var(--theme3);
-	color: var(--theme1);
+	background: var(--theme1);
+	color: var(--theme2);
 }
 .editor-container .fill-global-light, .editor-container .fill-global-grey, .editor-container .fill-global-altgrey {
 	fill: var(--theme2);
@@ -91,32 +122,32 @@
 
 .pm-button, .pm-button--info, .pm-button--redborder {
 	border-color: var(--theme3);
-	background: var(--theme2);
-	color: var(--theme1);
+	background: var(--theme1);
+	color: var(--theme2);
 }
 select.pm-field, select.pm-field-icon-container {
 	background: transparent;
 }
-.pm-field, .pm-field-icon-container, .composerInputMeta-autocomplete {
-	border-color: var(--theme3);
-	background: var(--theme2);
-	color: var(--theme1);
+.pm-field, .pm-field-icon-container, .composerInputMeta-autocomplete, .pm-select-all .pm-checkbox-fakecheck, .pm-select-all .pm-radio-fakeradio {
+	border-color: var(--theme5);
+	background: var(--theme1);
+	color: var(--theme2);
 }
 .composerOptions-container {
-	background: var(--theme2);
-	color: var(--theme1);
+	background: var(--theme1);
+	color: var(--theme2);
 }
 .composerInputMeta-overlay {
 	background: transparent;
 }
 .composerInputMeta-overlay-fakefield {
-  background: var(--theme2);
+  background: var(--theme1);
 }
 .focus.pm-field-icon-container, .pm-field-icon-container:focus, .pm-field-icon-container:focus-within, .pm-field.focus, .pm-field:focus, .pm-field:focus-within {
-	background: var(--theme2);
-	color: var(--theme1);
+	background: var(--theme1);
+	color: var(--theme2);
 }
 [class*="block-info"] {
 	background: transparent;
-	color: var(--theme1);
+	color: var(--theme2);
 }
