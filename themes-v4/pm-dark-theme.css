@@ -12,14 +12,18 @@
 	--theme5: #dde6ec;
 	--theme6: #eeeff1;
 
-  --main-bg-color: #262a33;
-	--bgcolor-aside-link: #3c414e;
-	--color-standard-text: #fff;
-  --color-nav-active: #657ee4;
-	--color-nav-link: #ffffff;
-	--fillcolor-icons: #6d7178;
-	--bgcolor-searchbox-field: var(--theme3);
+  --main-bg-color: var(--theme2);
+  --secondary-bg-color: #ffffff;
+  --bgcolor-searchbox-field: var(--theme3);
 	--bgcolor-spacebar: #505560;
+	--bgcolor-aside-link: var(--theme3);
+	--bgcolor-toolbar: #f6f7fa;
+	--fillcolor-logo: #657ee4;
+  --fillcolor-icons: #6d7178;
+	--color-nav-link: #ffffff;
+  --color-nav-active: var(--theme4);
+	--color-standard-text: #ffffff;
+  --boxshadow-main: 0 0 15px 0 rgba(0, 0, 0, 0.1);
 }
 
 .bg-white {
@@ -91,7 +95,7 @@
 	background: transparent;
 	border-bottom: 1px solid var(--theme3);
 }
-.conversation:not(.read) {
+.conversation:not(.read):not(.active) {
 	background: var(--theme3);
 }
 .item-container.active, .item-is-selected {
