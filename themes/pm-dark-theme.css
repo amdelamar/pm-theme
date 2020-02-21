@@ -1036,7 +1036,7 @@ body {
 }
 
 code {
-	color: var(--white);
+	color: inherit;
 }
 
 p a {

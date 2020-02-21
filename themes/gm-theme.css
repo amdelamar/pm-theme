@@ -948,7 +948,7 @@ body {
 }
 
 code {
-	color: var(--black);
+	color: inherit;
 }
 
 p a {
