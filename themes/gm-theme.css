@@ -2184,5 +2184,5 @@ input[type=range].pm_range:focus::-ms-fill-upper {
 }
 
 .pm_toggle-checkbox:checked+.pm_toggle-label {
-  background-color:var(--theme1)!important
+  background-color:var(--theme1) !important;
 }

@@ -2333,3 +2333,7 @@ input[type=range].pm_range:focus::-ms-fill-upper {
 .contactItem-inputs input:not([type="checkbox"]), .contactItem-inputs textarea {
   background: var(--theme7);
 }
+
+.pm_toggle-checkbox:checked+.pm_toggle-label {
+  background-color:var(--theme1) !important;
+}
