@@ -6,21 +6,21 @@
 */
 :root {
 	/* Core Theme Colors */
-	--theme1: #5E81AC;
-	--theme2: #ECEFF4;
+	--theme1: #5e81ac;
+	--theme2: #eceff4;
 	--theme3: #222224;
-	--theme4: #434C5E;
-	--theme5: #81A1C1;
-	--theme6: #4C566A;
-	--theme7: #3B4252;
+	--theme4: #434c5e;
+	--theme5: #81a1c1;
+	--theme6: #4c566a;
+	--theme7: #3b4252;
 
 	/* Alert & Status Colors */
 	--red: #cc9393;
-	--red-light: #ec6446;
+	--red-light: #bf616a;
 	--yellow: #dfdf19;
 	--yellow-light: #e7d360;
 	--green: #a6cc93;
-	--green-light: #89bc70;
+	--green-light: #a3be8c;
 	--blue: #bce8f1;
 	--blue-light: #93b9cc;
 	--white: #FFF;
