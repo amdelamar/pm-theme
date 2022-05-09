@@ -1,6 +1,8 @@
 # Custom Themes for ProtonMail
 
-This is a collection of simple color themes for the [ProtonMail](https://protonmail.com/) web app. 🎨
+**NOTE: THIS REPO IS ARCHIVED AND NO LONGER MAINTAINED.** It will remain up for historical reference however.
+
+This is a collection of simple color themes for the [ProtonMail](https://protonmail.com/) v3.16.x web app. 🎨
 
 &nbsp;
 
